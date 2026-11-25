@@ -1,0 +1,522 @@
+﻿text,topic,language,item_id,source,split
+What medical expenses are covered if I get sick or injured abroad?,medical,english,MED-01,question,train
+Anong gastos sa pagpapagamot ang sagot ng insurance kapag nagkasakit o nasaktan ako sa ibang bansa?,medical,tagalog,MED-01,question,train
+Ano yung mga medical expenses na covered pag nagkasakit or na-injure ako abroad?,medical,taglish,MED-01,question,train
+covered ba ang hospital bills ko sa Japan,medical,,MED-01,paraphrase,train
+magkano sagot sa ospital abroad,medical,,MED-01,paraphrase,train
+doctor fees abroad covered?,medical,,MED-01,paraphrase,train
+na-confine ako sa Singapore sagot ba,medical,,MED-01,paraphrase,train
+What should I do first if I am hospitalized during my trip?,medical,english,MED-02,question,test
+Ano ang dapat kong unang gawin kung ma-ospital ako habang nasa biyahe?,medical,tagalog,MED-02,question,test
+Ano unang gagawin ko pag na-hospital ako habang nasa trip?,medical,taglish,MED-02,question,test
+emergency sa abroad sino tatawagan,medical,,MED-02,paraphrase,test
+na-admit ako ano gagawin,medical,,MED-02,paraphrase,test
+first step pag na-ospital,medical,,MED-02,paraphrase,test
+Is the medical coverage cashless?,medical,english,MED-03,question,train
+Cashless ba ang medical coverage?,medical,tagalog,MED-03,question,train
+Cashless ba yung medical coverage o kailangan ko munang magbayad?,medical,taglish,MED-03,question,train
+reimbursement ba o direct bayad sa hospital,medical,,MED-03,paraphrase,train
+need ko ba mag-abono sa ospital,medical,,MED-03,paraphrase,train
+accredited hospital cashless,medical,,MED-03,paraphrase,train
+Can I claim follow-up treatment after I return to the Philippines?,medical,english,MED-04,question,train
+Pwede ko bang i-claim ang follow-up na gamutan pagbalik ko sa Pilipinas?,medical,tagalog,MED-04,question,train
+Covered pa ba yung follow-up check-up pag nakauwi na ako ng Pinas?,medical,taglish,MED-04,question,train
+pagdating ko ng manila nagpacheck up ako covered pa ba,medical,,MED-04,paraphrase,train
+follow up treatment sa Pilipinas,medical,,MED-04,paraphrase,train
+after trip medical,medical,,MED-04,paraphrase,train
+What happens if the hospital finds out my illness is pre-existing after I was admitted?,medical,english,MED-05,question,train
+Ano ang mangyayari kung matuklasan ng ospital na pre-existing ang sakit ko matapos akong ma-admit?,medical,tagalog,MED-05,question,train
+"Paano kung after ma-admit, lumabas na pre-existing pala yung sakit ko?",medical,taglish,MED-05,question,train
+pre-existing pala sakit ko sino magbabayad,medical,,MED-05,paraphrase,train
+lumabas na dati ko nang sakit,medical,,MED-05,paraphrase,train
+Are prescribed medicines covered?,medical,english,MED-06,question,train
+Sagot ba ang mga gamot na nireseta ng doktor?,medical,tagalog,MED-06,question,train
+Covered ba yung mga gamot na nireseta sa akin abroad?,medical,taglish,MED-06,question,train
+gamot binili ko sa pharmacy abroad,medical,,MED-06,paraphrase,train
+reimburse ba ang medicines,medical,,MED-06,paraphrase,train
+maintenance meds,medical,,MED-06,paraphrase,train
+Is COVID-19 covered by Travel Shield?,covid,english,COV-01,question,train
+Sagot ba ng Travel Shield ang COVID-19?,covid,tagalog,COV-01,question,train
+Covered ba ang COVID-19 sa Travel Shield?,covid,taglish,COV-01,question,train
+nagka covid ako sa abroad,covid,,COV-01,paraphrase,train
+positive ako sa covid habang nasa trip,covid,,COV-01,paraphrase,train
+covid hospitalization covered ba,covid,,COV-01,paraphrase,train
+Can I claim trip cancellation if I get COVID-19 before my trip?,covid,english,COV-02,question,train
+Pwede ba akong mag-claim ng trip cancellation kung magka-COVID ako bago ang biyahe?,covid,tagalog,COV-02,question,train
+Pwede ba mag-claim ng trip cancellation kung nag-positive ako sa COVID bago umalis?,covid,taglish,COV-02,question,train
+covid cancel trip refund,covid,,COV-02,paraphrase,train
+di natuloy flight dahil covid,covid,,COV-02,paraphrase,train
+Are quarantine expenses covered?,covid,english,COV-03,question,train
+Sagot ba ang gastos sa quarantine?,covid,tagalog,COV-03,question,train
+Covered ba yung quarantine hotel expenses?,covid,taglish,COV-03,question,train
+quarantine fee reimbursement,covid,,COV-03,paraphrase,train
+isolation hotel covid sagot ba,covid,,COV-03,paraphrase,train
+How many days is COVID-19 covered on my trip?,covid,english,COV-04,question,train
+Ilang araw sagot ang COVID-19 sa aking biyahe?,covid,tagalog,COV-04,question,train
+Ilang days covered ang COVID sa trip ko?,covid,taglish,COV-04,question,train
+OFW covid coverage days,covid,,COV-04,paraphrase,train
+one way trip covid ilang oras,covid,,COV-04,paraphrase,train
+Is an RT-PCR test covered?,covid,english,COV-05,question,train
+Sagot ba ang RT-PCR test?,covid,tagalog,COV-05,question,train
+Covered ba yung RT-PCR test ko?,covid,taglish,COV-05,question,train
+swab test sagot ba,covid,,COV-05,paraphrase,train
+pcr test requirement sa airport,covid,,COV-05,paraphrase,train
+Will they evacuate or repatriate me if I have active COVID-19?,covid,english,COV-06,question,train
+Ie-evacuate o pauuwiin ba ako kung may aktibong COVID-19 ako?,covid,tagalog,COV-06,question,train
+Ire-repatriate ba nila ako kung may active COVID ako?,covid,taglish,COV-06,question,train
+stranded dahil covid rebooking,covid,,COV-06,paraphrase,train
+covid repatriation,covid,,COV-06,paraphrase,train
+Does the COVID rider cover other pandemics or epidemics?,covid,english,COV-07,question,test
+Sagot ba ng COVID rider ang ibang pandemya o epidemya?,covid,tagalog,COV-07,question,test
+Kasama ba sa COVID rider yung ibang pandemic o epidemic?,covid,taglish,COV-07,question,test
+bird flu outbreak covered,covid,,COV-07,paraphrase,test
+mpox covered ba,covid,,COV-07,paraphrase,test
+Is emergency dental treatment covered?,dental,english,DEN-01,question,train
+Sagot ba ang emergency na pagpapagamot ng ngipin?,dental,tagalog,DEN-01,question,train
+"Covered ba ang emergency dental, like sumakit ngipin ko abroad?",dental,taglish,DEN-01,question,train
+toothache abroad,dental,,DEN-01,paraphrase,train
+nabungi ako sa aksidente,dental,,DEN-01,paraphrase,train
+dentist sa ibang bansa,dental,,DEN-01,paraphrase,train
+"Are crowns, bridges or dentures covered?",dental,english,DEN-02,question,train
+"Sagot ba ang crown, bridge o pustiso?",dental,tagalog,DEN-02,question,train
+Covered ba kung nasira yung pustiso o crown ko?,dental,taglish,DEN-02,question,train
+veneers covered,dental,,DEN-02,paraphrase,train
+nabasag pustiso,dental,,DEN-02,paraphrase,train
+Who decides if I need to be evacuated or sent home for treatment?,evacuation,english,EVA-01,question,test
+Sino ang magpapasya kung kailangan akong ilipat o pauwiin para magpagamot?,evacuation,tagalog,EVA-01,question,test
+Sino magdedecide kung kailangan ako i-evacuate or pauwiin?,evacuation,taglish,EVA-01,question,test
+air ambulance covered,evacuation,,EVA-01,paraphrase,test
+medical evacuation sino magbabayad,evacuation,,EVA-01,paraphrase,test
+ilipat ng ospital,evacuation,,EVA-01,paraphrase,test
+"If the insured dies abroad, are the costs of bringing the body home covered?",evacuation,english,EVA-02,question,train
+"Kung mamatay ang insured sa ibang bansa, sagot ba ang pag-uwi ng labi?",evacuation,tagalog,EVA-02,question,train
+"Pag namatay yung insured abroad, covered ba ang pag-uwi ng body?",evacuation,taglish,EVA-02,question,train
+repatriation of remains,evacuation,,EVA-02,paraphrase,train
+iuwi ang bangkay,evacuation,,EVA-02,paraphrase,train
+namatay sa abroad,evacuation,,EVA-02,paraphrase,train
+Are search and rescue costs covered?,evacuation,english,EVA-03,question,train
+Sagot ba ang gastos sa search and rescue?,evacuation,tagalog,EVA-03,question,train
+"Covered ba ang search and rescue fees, like naligaw sa bundok?",evacuation,taglish,EVA-03,question,train
+rescue helicopter fee,evacuation,,EVA-03,paraphrase,train
+nawala sa hiking rescue,evacuation,,EVA-03,paraphrase,train
+Is there a daily cash allowance if I am confined in a hospital abroad?,hospital_family,english,HOS-01,question,train
+May araw-araw bang allowance kung ma-confine ako sa ospital sa ibang bansa?,hospital_family,tagalog,HOS-01,question,train
+May daily allowance ba pag na-confine ako sa hospital abroad?,hospital_family,taglish,HOS-01,question,train
+hospital cash benefit per day,hospital_family,,HOS-01,paraphrase,train
+daily allowance confinement,hospital_family,,HOS-01,paraphrase,train
+Can a family member fly to be with me if I am hospitalized abroad?,hospital_family,english,HOS-02,question,train
+Pwede bang lumipad ang isang kapamilya para samahan ako kung ma-ospital ako sa ibang bansa?,hospital_family,tagalog,HOS-02,question,train
+Pwede bang papuntahin ang isang family member pag na-hospital ako abroad?,hospital_family,taglish,HOS-02,question,train
+compassionate visit,hospital_family,,HOS-02,paraphrase,train
+papuntahin si mama sa ospital abroad,hospital_family,,HOS-02,paraphrase,train
+Who will take care of my young child if I am hospitalized during the trip?,hospital_family,english,HOS-03,question,train
+Sino ang mag-aalaga sa aking batang anak kung ma-ospital ako habang nasa biyahe?,hospital_family,tagalog,HOS-03,question,train
+Paano yung anak ko na bata kung na-hospital ako during the trip?,hospital_family,taglish,HOS-03,question,train
+return of minor children,hospital_family,,HOS-03,paraphrase,train
+batang kasama ko sino mag-uuwi,hospital_family,,HOS-03,paraphrase,train
+What if I have to stay longer abroad because I am sick and my policy is about to expire?,hospital_family,english,HOS-04,question,test
+Paano kung kailangan kong manatili nang mas matagal sa ibang bansa dahil may sakit ako at mag-e-expire na ang policy ko?,hospital_family,tagalog,HOS-04,question,test
+Paano kung ma-extend stay ko abroad dahil nagkasakit ako at mag-e-expire na policy ko?,hospital_family,taglish,HOS-04,question,test
+automatic extension 10 days,hospital_family,,HOS-04,paraphrase,test
+lagpas na sa travel dates dahil naospital,hospital_family,,HOS-04,paraphrase,test
+What does the Personal Accident benefit pay?,personal_accident,english,PA-01,question,train
+Ano ang binabayaran ng Personal Accident benefit?,personal_accident,tagalog,PA-01,question,train
+Ano yung sakop ng Personal Accident benefit?,personal_accident,taglish,PA-01,question,train
+accidental death benefit,personal_accident,,PA-01,paraphrase,train
+naaksidente ako permanent disability,personal_accident,,PA-01,paraphrase,train
+personal accident magkano,personal_accident,,PA-01,paraphrase,train
+How much is paid for losing a hand in an accident?,personal_accident,english,PA-02,question,train
+Magkano ang ibabayad kung mawalan ng kamay dahil sa aksidente?,personal_accident,tagalog,PA-02,question,train
+Magkano ang bayad kung naputulan ng kamay sa accident?,personal_accident,taglish,PA-02,question,train
+naputol daliri magkano,personal_accident,,PA-02,paraphrase,train
+injury table percentage,personal_accident,,PA-02,paraphrase,train
+Can children get Accidental Death coverage?,personal_accident,english,PA-03,question,train
+Pwede bang magkaroon ng Accidental Death coverage ang mga bata?,personal_accident,tagalog,PA-03,question,train
+Pwede ba ang kids sa Accidental Death coverage?,personal_accident,taglish,PA-03,question,train
+anak ko 10 years old accidental death,personal_accident,,PA-03,paraphrase,train
+minors personal accident,personal_accident,,PA-03,paraphrase,train
+Are burial expenses covered?,personal_accident,english,PA-04,question,train
+Sagot ba ang gastos sa libing?,personal_accident,tagalog,PA-04,question,train
+Covered ba yung burial expenses?,personal_accident,taglish,PA-04,question,train
+libing benefit,personal_accident,,PA-04,paraphrase,train
+burial assistance,personal_accident,,PA-04,paraphrase,train
+Am I covered if I have an accident while drunk?,personal_accident,english,PA-05,question,test
+Sagot ba ako kung maaksidente ako habang lasing?,personal_accident,tagalog,PA-05,question,test
+Covered ba kung naaksidente ako habang lasing?,personal_accident,taglish,PA-05,question,test
+nakainom ako nadisgrasya,personal_accident,,PA-05,paraphrase,test
+drunk driving accident claim,personal_accident,,PA-05,paraphrase,test
+Am I covered if I ride a motorbike or scooter abroad?,personal_accident,english,PA-06,question,train
+Sagot ba ako kung sumakay ako ng motorsiklo o scooter sa ibang bansa?,personal_accident,tagalog,PA-06,question,train
+Covered ba kung nag-motor o scooter ako abroad?,personal_accident,taglish,PA-06,question,train
+nagrent ng motor sa Bali,personal_accident,,PA-06,paraphrase,train
+scooter accident Vietnam covered,personal_accident,,PA-06,paraphrase,train
+What reasons for cancelling my trip are covered?,trip_cancellation,english,CAN-01,question,train
+Anong mga dahilan ng pagkansela ng biyahe ang sagot ng insurance?,trip_cancellation,tagalog,CAN-01,question,train
+Anong reasons ng pag-cancel ng trip ang covered?,trip_cancellation,taglish,CAN-01,question,train
+cancel trip refund,trip_cancellation,,CAN-01,paraphrase,train
+di na ako tutuloy sa trip,trip_cancellation,,CAN-01,paraphrase,train
+kinansela ko flight dahil namatay lola ko,trip_cancellation,,CAN-01,paraphrase,train
+How early must I buy the insurance for trip cancellation to be valid?,trip_cancellation,english,CAN-02,question,train
+Gaano kaaga ko dapat bilhin ang insurance para maging balido ang trip cancellation?,trip_cancellation,tagalog,CAN-02,question,train
+Gaano kaaga dapat bumili ng insurance para valid ang trip cancellation?,trip_cancellation,taglish,CAN-02,question,train
+bumili ako insurance kahapon lang flight ko bukas,trip_cancellation,,CAN-02,paraphrase,train
+3 days before departure,trip_cancellation,,CAN-02,paraphrase,train
+Can I claim if I simply change my mind and don't want to travel anymore?,trip_cancellation,english,CAN-03,question,train
+Pwede ba akong mag-claim kung nagbago lang ang isip ko at ayaw ko nang bumiyahe?,trip_cancellation,tagalog,CAN-03,question,train
+Pwede ba mag-claim kung nagbago lang isip ko at ayoko na tumuloy?,trip_cancellation,taglish,CAN-03,question,train
+ayoko na pumunta refund,trip_cancellation,,CAN-03,paraphrase,train
+tinamad ako mag travel,trip_cancellation,,CAN-03,paraphrase,train
+Is a denied visa covered under trip cancellation?,trip_cancellation,english,CAN-04,question,train
+Sagot ba kung na-deny ang visa ko?,trip_cancellation,tagalog,CAN-04,question,train
+Covered ba kung na-deny yung visa ko kaya di ako nakaalis?,trip_cancellation,taglish,CAN-04,question,train
+visa denied refund,trip_cancellation,,CAN-04,paraphrase,train
+di nakakuha ng visa,trip_cancellation,,CAN-04,paraphrase,train
+"If I can't get leave from work, can I claim trip cancellation?",trip_cancellation,english,CAN-05,question,train
+"Kung hindi ako pinayagang mag-leave sa trabaho, pwede ba akong mag-claim?",trip_cancellation,tagalog,CAN-05,question,train
+"Kung hindi na-approve leave ko sa work, pwede ba mag-claim ng cancellation?",trip_cancellation,taglish,CAN-05,question,train
+boss ko ayaw ako payagan,trip_cancellation,,CAN-05,paraphrase,train
+na-retrench ako bago trip,trip_cancellation,,CAN-05,paraphrase,train
+I booked my flight with airline miles. What do I get if I cancel for a covered reason?,trip_cancellation,english,CAN-06,question,test
+Ginamit ko ang airline miles sa pag-book. Ano ang makukuha ko kung magkansela ako dahil sa covered na dahilan?,trip_cancellation,tagalog,CAN-06,question,test
+Naka-miles yung booking ko. Ano makukuha ko kung nag-cancel ako for a covered reason?,trip_cancellation,taglish,CAN-06,question,test
+frequent flyer points refund,trip_cancellation,,CAN-06,paraphrase,test
+mabuhay miles cancel,trip_cancellation,,CAN-06,paraphrase,test
+Can I claim if I have to cut my trip short and fly home early?,trip_curtailment,english,CUR-01,question,train
+Pwede ba akong mag-claim kung kailangan kong paikliin ang biyahe at umuwi nang maaga?,trip_curtailment,tagalog,CUR-01,question,train
+Pwede ba mag-claim kung kailangan kong umuwi ng maaga at i-cut short ang trip?,trip_curtailment,taglish,CUR-01,question,train
+umuwi ng maaga dahil namatay tatay ko,trip_curtailment,,CUR-01,paraphrase,train
+trip curtailment,trip_curtailment,,CUR-01,paraphrase,train
+cut short vacation,trip_curtailment,,CUR-01,paraphrase,train
+What documents do I need for a trip curtailment claim?,trip_curtailment,english,CUR-02,question,test
+Anong mga dokumento ang kailangan ko para sa trip curtailment claim?,trip_curtailment,tagalog,CUR-02,question,test
+Anong documents ang need ko for trip curtailment claim?,trip_curtailment,taglish,CUR-02,question,test
+requirements curtailment,trip_curtailment,,CUR-02,paraphrase,test
+ano isusubmit pag umuwi ng maaga,trip_curtailment,,CUR-02,paraphrase,test
+What costs are paid under trip curtailment?,trip_curtailment,english,CUR-03,question,train
+Anong mga gastos ang binabayaran sa trip curtailment?,trip_curtailment,tagalog,CUR-03,question,train
+Ano yung mga babayaran sa trip curtailment?,trip_curtailment,taglish,CUR-03,question,train
+unused hotel nights refund,trip_curtailment,,CUR-03,paraphrase,train
+sayang na tour na bayad na,trip_curtailment,,CUR-03,paraphrase,train
+How does the flight delay benefit work?,flight_delay,english,DEL-01,question,train
+Paano gumagana ang benepisyo para sa naantalang flight?,flight_delay,tagalog,DEL-01,question,train
+Paano gumagana yung flight delay benefit?,flight_delay,taglish,DEL-01,question,train
+delayed flight 10 hours,flight_delay,,DEL-01,paraphrase,train
+na-delay flight ko sa NAIA,flight_delay,,DEL-01,paraphrase,train
+flight delay compensation,flight_delay,,DEL-01,paraphrase,train
+delayed ng 9 oras ang eroplano,flight_delay,,DEL-01,paraphrase,train
+Is a delay caused by an airline staff strike covered?,flight_delay,english,DEL-02,question,train
+Sagot ba ang delay na dulot ng strike ng mga empleyado ng airline?,flight_delay,tagalog,DEL-02,question,train
+Covered ba kung delayed dahil nag-strike ang airline employees?,flight_delay,taglish,DEL-02,question,train
+airline strike delay,flight_delay,,DEL-02,paraphrase,train
+charter flight delayed covered,flight_delay,,DEL-02,paraphrase,train
+I missed my connecting flight because the first flight was delayed. Am I covered?,flight_delay,english,DEL-03,question,train
+Naiwan ako ng connecting flight dahil naantala ang unang flight. Sagot ba ako?,flight_delay,tagalog,DEL-03,question,train
+Na-miss ko yung connecting flight kasi na-delay yung first flight. Covered ba ako?,flight_delay,taglish,DEL-03,question,train
+missed connection,flight_delay,,DEL-03,paraphrase,train
+naiwan ng eroplano sa transit,flight_delay,,DEL-03,paraphrase,train
+connecting flight naiwan,flight_delay,,DEL-03,paraphrase,train
+What proof do I need for a flight delay claim?,flight_delay,english,DEL-04,question,train
+Anong patunay ang kailangan para sa flight delay claim?,flight_delay,tagalog,DEL-04,question,train
+Anong proof ang kailangan sa flight delay claim?,flight_delay,taglish,DEL-04,question,train
+delay certificate airline,flight_delay,,DEL-04,paraphrase,train
+requirements flight delay claim,flight_delay,,DEL-04,paraphrase,train
+Is there a benefit if my plane is hijacked?,flight_delay,english,DEL-05,question,test
+May benepisyo ba kung ma-hijack ang eroplano ko?,flight_delay,tagalog,DEL-05,question,test
+May benefit ba kung na-hijack yung eroplano?,flight_delay,taglish,DEL-05,question,test
+hijack benefit,flight_delay,,DEL-05,paraphrase,test
+skyjacking,flight_delay,,DEL-05,paraphrase,test
+The airline lost my checked-in luggage. What can I claim?,baggage,english,BAG-01,question,train
+Nawala ng airline ang aking checked-in na bagahe. Ano ang maaari kong i-claim?,baggage,tagalog,BAG-01,question,train
+Nawala ng airline yung checked-in luggage ko. Ano pwede ko i-claim?,baggage,taglish,BAG-01,question,train
+lost luggage claim,baggage,,BAG-01,paraphrase,train
+nawala maleta ko sa airport,baggage,,BAG-01,paraphrase,train
+lost baggage magkano,baggage,,BAG-01,paraphrase,train
+hindi dumating maleta 3 weeks na,baggage,,BAG-01,paraphrase,train
+My bag was stolen at the hotel. Is it covered?,baggage,english,BAG-02,question,test
+Ninakaw ang bag ko sa hotel. Sagot ba ito?,baggage,tagalog,BAG-02,question,test
+Nanakaw yung bag ko sa hotel. Covered ba?,baggage,taglish,BAG-02,question,test
+nanakawan ako sa abroad,baggage,,BAG-02,paraphrase,test
+snatched bag,baggage,,BAG-02,paraphrase,test
+pickpocket sa Paris covered,baggage,,BAG-02,paraphrase,test
+"Are my phone, laptop or camera covered if stolen?",baggage,english,BAG-03,question,train
+"Sagot ba ang aking cellphone, laptop o camera kung manakaw?",baggage,tagalog,BAG-03,question,train
+"Covered ba ang phone, laptop o camera ko kung nanakaw?",baggage,taglish,BAG-03,question,train
+iphone nanakaw,baggage,,BAG-03,paraphrase,train
+gadgets stolen abroad,baggage,,BAG-03,paraphrase,train
+laptop nawala,baggage,,BAG-03,paraphrase,train
+My luggage didn't arrive with my flight. What can I claim?,baggage,english,BAG-04,question,train
+Hindi dumating ang bagahe ko kasabay ng flight. Ano ang maaari kong i-claim?,baggage,tagalog,BAG-04,question,train
+Hindi dumating yung luggage ko pagdating ko. Ano pwede i-claim?,baggage,taglish,BAG-04,question,train
+delayed baggage,baggage,,BAG-04,paraphrase,train
+late maleta,baggage,,BAG-04,paraphrase,train
+bumili ako damit kasi wala pa bagahe,baggage,,BAG-04,paraphrase,train
+Is baggage delay covered on my flight back home?,baggage,english,BAG-05,question,train
+Sagot ba ang delay ng bagahe sa pag-uwi ko?,baggage,tagalog,BAG-05,question,train
+Covered ba kung na-delay ang luggage ko pauwi na ng Pinas?,baggage,taglish,BAG-05,question,train
+delayed bagahe sa NAIA pauwi,baggage,,BAG-05,paraphrase,train
+inward journey baggage delay,baggage,,BAG-05,paraphrase,train
+Can I claim both baggage delay and lost baggage for the same trip?,baggage,english,BAG-06,question,train
+Pwede ko bang i-claim pareho ang baggage delay at nawalang bagahe sa iisang biyahe?,baggage,tagalog,BAG-06,question,train
+Pwede ba i-claim both baggage delay at lost baggage sa same trip?,baggage,taglish,BAG-06,question,train
+delay then lost luggage,baggage,,BAG-06,paraphrase,train
+double claim bagahe,baggage,,BAG-06,paraphrase,train
+Do I need receipts for the items in my lost luggage?,baggage,english,BAG-07,question,train
+Kailangan ko ba ng resibo para sa mga gamit sa nawalang bagahe?,baggage,tagalog,BAG-07,question,train
+Kailangan ba ng receipts ng mga gamit sa nawalang maleta?,baggage,taglish,BAG-07,question,train
+walang resibo yung damit ko,baggage,,BAG-07,paraphrase,train
+proof of ownership luggage,baggage,,BAG-07,paraphrase,train
+I lost my passport abroad. What does the policy cover?,money_documents,english,DOC-01,question,train
+Nawala ko ang pasaporte ko sa ibang bansa. Ano ang sagot ng policy?,money_documents,tagalog,DOC-01,question,train
+Nawala passport ko abroad. Ano ang covered?,money_documents,taglish,DOC-01,question,train
+lost passport,money_documents,,DOC-01,paraphrase,train
+nanakaw passport ko sa Italy,money_documents,,DOC-01,paraphrase,train
+replacement passport embassy,money_documents,,DOC-01,paraphrase,train
+Is stolen cash covered?,money_documents,english,DOC-02,question,test
+Sagot ba ang ninakaw na pera?,money_documents,tagalog,DOC-02,question,test
+Covered ba kung nanakaw yung cash ko?,money_documents,taglish,DOC-02,question,test
+na-holdap ako pera,money_documents,,DOC-02,paraphrase,test
+wallet stolen cash,money_documents,,DOC-02,paraphrase,test
+nawala pera ko,money_documents,,DOC-02,paraphrase,test
+Someone used my stolen credit card. Can I claim the charges?,money_documents,english,DOC-03,question,train
+May gumamit ng ninakaw kong credit card. Pwede ko bang i-claim ang mga singil?,money_documents,tagalog,DOC-03,question,train
+May gumamit ng nanakaw kong credit card. Pwede ko ba i-claim yung charges?,money_documents,taglish,DOC-03,question,train
+unauthorized card transactions,money_documents,,DOC-03,paraphrase,train
+na-hack credit card abroad,money_documents,,DOC-03,paraphrase,train
+What if I accidentally injure someone or damage their property abroad?,liability_car_rental,english,LIA-01,question,train
+Paano kung hindi sinasadyang makasakit ako ng tao o makasira ng ari-arian nila sa ibang bansa?,liability_car_rental,tagalog,LIA-01,question,train
+Paano kung aksidente akong nakasakit ng tao or nakasira ng gamit nila abroad?,liability_car_rental,taglish,LIA-01,question,train
+nabangga ko tao,liability_car_rental,,LIA-01,paraphrase,train
+nakabasag ako sa store,liability_car_rental,,LIA-01,paraphrase,train
+third party liability,liability_car_rental,,LIA-01,paraphrase,train
+Does personal liability cover accidents while I'm driving a car?,liability_car_rental,english,LIA-02,question,train
+Sagot ba ng personal liability ang aksidente habang nagmamaneho ako ng kotse?,liability_car_rental,tagalog,LIA-02,question,train
+Covered ba ng personal liability kung naaksidente ako while driving?,liability_car_rental,taglish,LIA-02,question,train
+car accident liability,liability_car_rental,,LIA-02,paraphrase,train
+driving abroad liability,liability_car_rental,,LIA-02,paraphrase,train
+Does the policy cover my rental car excess?,liability_car_rental,english,LIA-03,question,test
+Sagot ba ng policy ang excess o deductible ng inarkilang sasakyan?,liability_car_rental,tagalog,LIA-03,question,test
+Covered ba yung excess o deductible ng rental car ko?,liability_car_rental,taglish,LIA-03,question,test
+rent a car insurance,liability_car_rental,,LIA-03,paraphrase,test
+nagasgas ang rental car,liability_car_rental,,LIA-03,paraphrase,test
+car rental deductible,liability_car_rental,,LIA-03,paraphrase,test
+What is not covered under car rental protection?,liability_car_rental,english,LIA-04,question,train
+Ano ang hindi sagot ng car rental protection?,liability_car_rental,tagalog,LIA-04,question,train
+Ano yung hindi covered sa car rental protection?,liability_car_rental,taglish,LIA-04,question,train
+mali nalagay na gasolina rental,liability_car_rental,,LIA-04,paraphrase,train
+rental car exclusions,liability_car_rental,,LIA-04,paraphrase,train
+What counts as a pre-existing condition?,exclusions,english,EXC-01,question,train
+Ano ang itinuturing na pre-existing condition?,exclusions,tagalog,EXC-01,question,train
+Ano yung considered na pre-existing condition?,exclusions,taglish,EXC-01,question,train
+may high blood ako covered ba,exclusions,,EXC-01,paraphrase,train
+diabetic ako pwede ba mag claim,exclusions,,EXC-01,paraphrase,train
+dati ko nang sakit,exclusions,,EXC-01,paraphrase,train
+I have a condition but it is controlled. Can I still be covered?,exclusions,english,EXC-02,question,train
+May kondisyon ako pero kontrolado. Sagot pa rin ba ako?,exclusions,tagalog,EXC-02,question,train
+May condition ako pero controlled naman. Covered pa rin ba ako?,exclusions,taglish,EXC-02,question,train
+controlled hypertension covered,exclusions,,EXC-02,paraphrase,train
+maintenance medicine stable,exclusions,,EXC-02,paraphrase,train
+Am I covered for scuba diving or bungee jumping?,exclusions,english,EXC-03,question,train
+Sagot ba ako kung mag-scuba diving o bungee jumping ako?,exclusions,tagalog,EXC-03,question,train
+Covered ba ako pag nag-scuba diving or bungee jumping?,exclusions,taglish,EXC-03,question,train
+skydiving covered,exclusions,,EXC-03,paraphrase,train
+naaksidente sa diving,exclusions,,EXC-03,paraphrase,train
+adventure sports insurance,exclusions,,EXC-03,paraphrase,train
+hiking sa Nepal,exclusions,,EXC-03,paraphrase,train
+Are pregnancy and childbirth covered?,exclusions,english,EXC-04,question,test
+Sagot ba ang pagbubuntis at panganganak?,exclusions,tagalog,EXC-04,question,test
+Covered ba ang pregnancy at panganganak?,exclusions,taglish,EXC-04,question,test
+buntis ako nanganak abroad,exclusions,,EXC-04,paraphrase,test
+prenatal check up abroad,exclusions,,EXC-04,paraphrase,test
+"Is treatment for anxiety, depression or stress covered?",exclusions,english,EXC-05,question,test
+"Sagot ba ang gamutan para sa anxiety, depresyon o stress?",exclusions,tagalog,EXC-05,question,test
+Covered ba ang treatment sa anxiety o depression?,exclusions,taglish,EXC-05,question,test
+panic attack abroad,exclusions,,EXC-05,paraphrase,test
+mental health covered,exclusions,,EXC-05,paraphrase,test
+Is dengue or malaria covered?,exclusions,english,EXC-06,question,train
+Sagot ba ang dengue o malaria?,exclusions,tagalog,EXC-06,question,train
+Covered ba ang dengue o malaria?,exclusions,taglish,EXC-06,question,train
+nagka dengue ako sa Thailand,exclusions,,EXC-06,paraphrase,train
+tropical disease,exclusions,,EXC-06,paraphrase,train
+"Are natural disasters, war or terrorism covered?",exclusions,english,EXC-07,question,train
+"Sagot ba ang kalamidad, digmaan o terorismo?",exclusions,tagalog,EXC-07,question,train
+"Covered ba kung may earthquake, giyera o terrorism?",exclusions,taglish,EXC-07,question,train
+lindol sa Japan covered,exclusions,,EXC-07,paraphrase,train
+typhoon cancel flight,exclusions,,EXC-07,paraphrase,train
+terror attack,exclusions,,EXC-07,paraphrase,train
+What if I travel to a country with a 'Do Not Travel' warning?,exclusions,english,EXC-08,question,train
+Paano kung bumiyahe ako sa bansang may 'Do Not Travel' warning?,exclusions,tagalog,EXC-08,question,train
+Paano kung pumunta ako sa country na may Do Not Travel advisory?,exclusions,taglish,EXC-08,question,train
+travel ban country,exclusions,,EXC-08,paraphrase,train
+DFA advisory,exclusions,,EXC-08,paraphrase,train
+Who is eligible for Travel Shield?,eligibility,english,ELI-01,question,train
+Sino ang maaaring kumuha ng Travel Shield?,eligibility,tagalog,ELI-01,question,train
+Sino ang pwede mag-avail ng Travel Shield?,eligibility,taglish,ELI-01,question,train
+age limit travel insurance,eligibility,,ELI-01,paraphrase,train
+senior 80 years old pwede ba,eligibility,,ELI-01,paraphrase,train
+foreigner living in PH,eligibility,,ELI-01,paraphrase,train
+When does my coverage start and end?,eligibility,english,ELI-02,question,train
+Kailan nagsisimula at natatapos ang aking coverage?,eligibility,tagalog,ELI-02,question,train
+Kailan nag-start at nag-end ang coverage ko?,eligibility,taglish,ELI-02,question,train
+coverage period,eligibility,,ELI-02,paraphrase,train
+5 hours before flight,eligibility,,ELI-02,paraphrase,train
+kailan effective ang insurance,eligibility,,ELI-02,paraphrase,train
+I bought a one-way policy without a return date. How long am I covered?,eligibility,english,ELI-03,question,train
+Bumili ako ng one-way na policy na walang petsa ng pagbalik. Gaano katagal ako sagot?,eligibility,tagalog,ELI-03,question,train
+"One-way policy binili ko, walang return date. Gaano katagal ako covered?",eligibility,taglish,ELI-03,question,train
+one way ticket insurance,eligibility,,ELI-03,paraphrase,train
+walang return flight,eligibility,,ELI-03,paraphrase,train
+Is my child covered if they travel without me?,eligibility,english,ELI-04,question,train
+Sagot ba ang anak ko kung bumiyahe siya nang hindi ako kasama?,eligibility,tagalog,ELI-04,question,train
+Covered ba anak ko kung mag-travel siya nang wala ako?,eligibility,taglish,ELI-04,question,train
+anak ko mag-isa magtravel,eligibility,,ELI-04,paraphrase,train
+spouse traveling separately,eligibility,,ELI-04,paraphrase,train
+Who is included in a family policy?,eligibility,english,ELI-05,question,train
+Sino ang kasama sa family policy?,eligibility,tagalog,ELI-05,question,train
+Sino ang kasama sa family plan?,eligibility,taglish,ELI-05,question,train
+family plan ilan tao,eligibility,,ELI-05,paraphrase,train
+pwede ba isama magulang ko,eligibility,,ELI-05,paraphrase,train
+Where in the world am I covered?,eligibility,english,ELI-06,question,train
+Saan sa mundo ako sagot?,eligibility,tagalog,ELI-06,question,train
+Saan-saan ako covered?,eligibility,taglish,ELI-06,question,train
+worldwide coverage,eligibility,,ELI-06,paraphrase,train
+covered ba sa Europe,eligibility,,ELI-06,paraphrase,train
+Is a domestic trip within the Philippines covered?,eligibility,english,ELI-07,question,test
+Sagot ba ang biyahe sa loob ng Pilipinas?,eligibility,tagalog,ELI-07,question,test
+Covered ba ang domestic trip dito sa Pinas?,eligibility,taglish,ELI-07,question,test
+Boracay trip covered,eligibility,,ELI-07,paraphrase,test
+road trip Baguio insurance,eligibility,,ELI-07,paraphrase,test
+local travel,eligibility,,ELI-07,paraphrase,test
+How soon must I notify the insurer of a claim?,claims,english,CLM-01,question,train
+Gaano kabilis ko dapat ipaalam sa insurer ang claim?,claims,tagalog,CLM-01,question,train
+Gaano kabilis dapat ko i-notify ang insurance sa claim ko?,claims,taglish,CLM-01,question,train
+deadline mag file ng claim,claims,,CLM-01,paraphrase,train
+ilang araw bago mag-notify,claims,,CLM-01,paraphrase,train
+claim notification period,claims,,CLM-01,paraphrase,train
+What is the deadline to submit my claim documents?,claims,english,CLM-02,question,train
+Hanggang kailan ko dapat isumite ang mga dokumento ng claim?,claims,tagalog,CLM-02,question,train
+Hanggang kailan ang pag-submit ng claim documents?,claims,taglish,CLM-02,question,train
+90 days claim,claims,,CLM-02,paraphrase,train
+late submission claim,claims,,CLM-02,paraphrase,train
+nakalimutan ko mag-submit,claims,,CLM-02,paraphrase,train
+What documents are required for every claim?,claims,english,CLM-03,question,train
+Anong mga dokumento ang kailangan sa bawat claim?,claims,tagalog,CLM-03,question,train
+Ano yung required documents sa lahat ng claims?,claims,taglish,CLM-03,question,train
+requirements claim,claims,,CLM-03,paraphrase,train
+ano kailangan para mag-claim,claims,,CLM-03,paraphrase,train
+checklist ng claim,claims,,CLM-03,paraphrase,train
+What extra documents do I need for a medical or hospitalization claim?,claims,english,CLM-04,question,train
+Anong dagdag na dokumento ang kailangan para sa medical o hospitalization claim?,claims,tagalog,CLM-04,question,train
+Anong additional docs ang need sa medical claim?,claims,taglish,CLM-04,question,train
+hospital claim requirements,claims,,CLM-04,paraphrase,train
+medical certificate needed,claims,,CLM-04,paraphrase,train
+What documents do I need for a lost or delayed luggage claim?,claims,english,CLM-05,question,train
+Anong dokumento ang kailangan para sa claim ng nawala o naantalang bagahe?,claims,tagalog,CLM-05,question,train
+Anong docs ang need sa lost o delayed luggage claim?,claims,taglish,CLM-05,question,train
+PIR report,claims,,CLM-05,paraphrase,train
+baggage claim requirements,claims,,CLM-05,paraphrase,train
+How long does it take to get paid after my claim is approved?,claims,english,CLM-06,question,train
+Gaano katagal bago ako mabayaran matapos maaprubahan ang claim?,claims,tagalog,CLM-06,question,train
+Gaano katagal bago ma-release ang bayad sa claim?,claims,taglish,CLM-06,question,train
+claim payout time,claims,,CLM-06,paraphrase,train
+kailan ko makukuha bayad,claims,,CLM-06,paraphrase,train
+processing time claim,claims,,CLM-06,paraphrase,train
+Who receives the claim payment if the insured dies?,claims,english,CLM-07,question,train
+Sino ang tatanggap ng bayad sa claim kung mamatay ang insured?,claims,tagalog,CLM-07,question,train
+Sino ang makakatanggap ng claim kung namatay ang insured?,claims,taglish,CLM-07,question,train
+beneficiary claim,claims,,CLM-07,paraphrase,train
+sino makakakuha ng pera,claims,,CLM-07,paraphrase,train
+Does submitting all documents guarantee my claim will be approved?,claims,english,CLM-08,question,test
+Garantiya bang maaaprubahan ang claim ko kung kumpleto ang dokumento?,claims,tagalog,CLM-08,question,test
+Sure na ba ma-approve ang claim ko pag kumpleto docs?,claims,taglish,CLM-08,question,test
+approved na ba claim ko,claims,,CLM-08,paraphrase,test
+guaranteed claim,claims,,CLM-08,paraphrase,test
+I have another travel insurance. Can I claim from both?,claims,english,CLM-09,question,train
+May iba pa akong travel insurance. Pwede ba akong mag-claim sa dalawa?,claims,tagalog,CLM-09,question,train
+May iba pa akong travel insurance. Pwede ba mag-claim sa pareho?,claims,taglish,CLM-09,question,train
+credit card travel insurance din,claims,,CLM-09,paraphrase,train
+double insurance,claims,,CLM-09,paraphrase,train
+How will I receive the money if my claim is approved?,claims,english,CLM-10,question,train
+Paano ko matatanggap ang pera kung maaprubahan ang claim?,claims,tagalog,CLM-10,question,train
+Paano ko makukuha ang pera pag na-approve ang claim?,claims,taglish,CLM-10,question,train
+bank transfer claim,claims,,CLM-10,paraphrase,train
+check or direct deposit,claims,,CLM-10,paraphrase,train
+I want to file a claim now. Can you help me fill out the form?,claims,english,CLM-11,question,test
+Gusto kong mag-file ng claim ngayon. Matutulungan mo ba akong sagutan ang form?,claims,tagalog,CLM-11,question,test
+Gusto ko na mag-file ng claim. Pwede mo ba ako tulungan mag-fill out ng form?,claims,taglish,CLM-11,question,test
+file claim,claims,,CLM-11,paraphrase,test
+mag claim na ako,claims,,CLM-11,paraphrase,test
+fill up claim form,claims,,CLM-11,paraphrase,test
+submit claim online,claims,,CLM-11,paraphrase,test
+Can I get a refund if I cancel my trip and policy?,policy_admin,english,ADM-01,question,test
+Makakakuha ba ako ng refund kung kanselahin ko ang biyahe at policy?,policy_admin,tagalog,ADM-01,question,test
+May refund ba kung i-cancel ko ang trip at policy ko?,policy_admin,taglish,ADM-01,question,test
+refund premium,policy_admin,,ADM-01,paraphrase,test
+cancel insurance refund,policy_admin,,ADM-01,paraphrase,test
+ibalik bayad ko sa insurance,policy_admin,,ADM-01,paraphrase,test
+Is there a free look period?,policy_admin,english,ADM-02,question,train
+May free look period ba?,policy_admin,tagalog,ADM-02,question,train
+May free look period ba ang policy?,policy_admin,taglish,ADM-02,question,train
+free look,policy_admin,,ADM-02,paraphrase,train
+nagbago isip ko sa insurance,policy_admin,,ADM-02,paraphrase,train
+When does my policy become valid?,policy_admin,english,ADM-03,question,train
+Kailan nagiging balido ang aking policy?,policy_admin,tagalog,ADM-03,question,train
+Kailan nagiging valid ang policy ko?,policy_admin,taglish,ADM-03,question,train
+active na ba policy ko,policy_admin,,ADM-03,paraphrase,train
+effective date policy,policy_admin,,ADM-03,paraphrase,train
+What can I do if I disagree with the insurer's decision on my claim?,policy_admin,english,ADM-04,question,train
+Ano ang magagawa ko kung hindi ako sang-ayon sa desisyon ng insurer sa aking claim?,policy_admin,tagalog,ADM-04,question,train
+Ano pwede ko gawin kung hindi ako agree sa decision sa claim ko?,policy_admin,taglish,ADM-04,question,train
+denied claim complaint,policy_admin,,ADM-04,paraphrase,train
+reklamo sa insurance commission,policy_admin,,ADM-04,paraphrase,train
+appeal claim denial,policy_admin,,ADM-04,paraphrase,train
+I paid hospital bills in US dollars. In what currency will I be reimbursed?,policy_admin,english,ADM-05,question,train
+Nagbayad ako ng ospital sa US dollar. Sa anong pera ako ire-reimburse?,policy_admin,tagalog,ADM-05,question,train
+Naka-dollars yung binayaran ko sa hospital. Anong currency ang reimbursement?,policy_admin,taglish,ADM-05,question,train
+exchange rate reimbursement,policy_admin,,ADM-05,paraphrase,train
+peso or dollar claim,policy_admin,,ADM-05,paraphrase,train
+What happens if a claim is found to be fraudulent?,policy_admin,english,ADM-06,question,train
+Ano ang mangyayari kung mapatunayang mapanlinlang ang claim?,policy_admin,tagalog,ADM-06,question,train
+Ano mangyayari kung fraudulent ang claim?,policy_admin,taglish,ADM-06,question,train
+fake receipt claim,policy_admin,,ADM-06,paraphrase,train
+fraud insurance,policy_admin,,ADM-06,paraphrase,train
+"Is there optional cover for jewelry, watches or tablets?",optional_benefits,english,OPT-01,question,train
+"May optional cover ba para sa alahas, relo o tablet?",optional_benefits,tagalog,OPT-01,question,train
+"May optional cover ba para sa jewelry, watch o tablet?",optional_benefits,taglish,OPT-01,question,train
+rolex insurance travel,optional_benefits,,OPT-01,paraphrase,train
+ipad nawala covered,optional_benefits,,OPT-01,paraphrase,train
+valuable items add-on,optional_benefits,,OPT-01,paraphrase,train
+Can I buy cover for skiing or sports on my trip?,optional_benefits,english,OPT-02,question,test
+Pwede ba akong bumili ng cover para sa skiing o sports sa aking biyahe?,optional_benefits,tagalog,OPT-02,question,test
+Pwede ba ako bumili ng add-on para sa skiing or sports?,optional_benefits,taglish,OPT-02,question,test
+winter sports add on,optional_benefits,,OPT-02,paraphrase,test
+snowboarding Japan insurance,optional_benefits,,OPT-02,paraphrase,test
+Am I covered when visiting high-altitude places like Machu Picchu?,optional_benefits,english,OPT-03,question,train
+Sagot ba ako kapag bumisita sa matataas na lugar gaya ng Machu Picchu?,optional_benefits,tagalog,OPT-03,question,train
+Covered ba ako pag pumunta sa high altitude places like Machu Picchu?,optional_benefits,taglish,OPT-03,question,train
+altitude sickness Peru,optional_benefits,,OPT-03,paraphrase,train
+high altitude coverage,optional_benefits,,OPT-03,paraphrase,train
+Is a cruise trip covered?,optional_benefits,english,OPT-04,question,train
+Sagot ba ang biyahe sa cruise?,optional_benefits,tagalog,OPT-04,question,train
+Covered ba ang cruise trip?,optional_benefits,taglish,OPT-04,question,train
+cruise ship insurance,optional_benefits,,OPT-04,paraphrase,train
+naiwan ng barko,optional_benefits,,OPT-04,paraphrase,train
+How much is the exact medical limit of my plan?,out_of_scope,english,OOS-01,question,train
+Magkano eksakto ang medical limit ng aking plan?,out_of_scope,tagalog,OOS-01,question,train
+Magkano exactly ang medical limit ng plan ko?,out_of_scope,taglish,OOS-01,question,train
+magkano max ng plan ko,out_of_scope,,OOS-01,paraphrase,train
+benefit limit ko,out_of_scope,,OOS-01,paraphrase,train
+how much coverage do I have,out_of_scope,,OOS-01,paraphrase,train
+sum insured ko,out_of_scope,,OOS-01,paraphrase,train
+How much does Travel Shield cost?,out_of_scope,english,OOS-02,question,train
+Magkano ang Travel Shield?,out_of_scope,tagalog,OOS-02,question,train
+Magkano ang premium ng Travel Shield?,out_of_scope,taglish,OOS-02,question,train
+price travel insurance,out_of_scope,,OOS-02,paraphrase,train
+quotation,out_of_scope,,OOS-02,paraphrase,train
+how much is the premium,out_of_scope,,OOS-02,paraphrase,train
+Which country should I visit for my vacation?,out_of_scope,english,OOS-03,question,test
+Anong bansa ang dapat kong bisitahin para sa bakasyon?,out_of_scope,tagalog,OOS-03,question,test
+Saan magandang mag-travel for vacation?,out_of_scope,taglish,OOS-03,question,test
+best food in Tokyo,out_of_scope,,OOS-03,paraphrase,test
+weather in Seoul,out_of_scope,,OOS-03,paraphrase,test
+recommend hotel,out_of_scope,,OOS-03,paraphrase,test
+sino presidente,out_of_scope,,OOS-03,paraphrase,test

@@ -1,0 +1,58 @@
+﻿text,language,gold,majority,naive_bayes,logreg,logreg_weak
+What should I do first if I am hospitalized during my trip?,english,medical,claims,hospital_family,hospital_family,hospital_family
+Ano ang dapat kong unang gawin kung ma-ospital ako habang nasa biyahe?,tagalog,medical,claims,hospital_family,hospital_family,hospital_family
+Ano unang gagawin ko pag na-hospital ako habang nasa trip?,taglish,medical,claims,hospital_family,hospital_family,hospital_family
+Does the COVID rider cover other pandemics or epidemics?,english,covid,claims,claims,covid,covid
+Sagot ba ng COVID rider ang ibang pandemya o epidemya?,tagalog,covid,claims,covid,covid,covid
+Kasama ba sa COVID rider yung ibang pandemic o epidemic?,taglish,covid,claims,covid,covid,covid
+Who decides if I need to be evacuated or sent home for treatment?,english,evacuation,claims,claims,claims,exclusions
+Sino ang magpapasya kung kailangan akong ilipat o pauwiin para magpagamot?,tagalog,evacuation,claims,claims,claims,claims
+Sino magdedecide kung kailangan ako i-evacuate or pauwiin?,taglish,evacuation,claims,claims,claims,eligibility
+What if I have to stay longer abroad because I am sick and my policy is about to expire?,english,hospital_family,claims,claims,policy_admin,policy_admin
+Paano kung kailangan kong manatili nang mas matagal sa ibang bansa dahil may sakit ako at mag-e-expire na ang policy ko?,tagalog,hospital_family,claims,medical,medical,medical
+Paano kung ma-extend stay ko abroad dahil nagkasakit ako at mag-e-expire na policy ko?,taglish,hospital_family,claims,medical,medical,medical
+Am I covered if I have an accident while drunk?,english,personal_accident,claims,personal_accident,personal_accident,personal_accident
+Sagot ba ako kung maaksidente ako habang lasing?,tagalog,personal_accident,claims,covid,exclusions,exclusions
+Covered ba kung naaksidente ako habang lasing?,taglish,personal_accident,claims,exclusions,personal_accident,personal_accident
+I booked my flight with airline miles. What do I get if I cancel for a covered reason?,english,trip_cancellation,claims,baggage,flight_delay,flight_delay
+Ginamit ko ang airline miles sa pag-book. Ano ang makukuha ko kung magkansela ako dahil sa covered na dahilan?,tagalog,trip_cancellation,claims,baggage,trip_cancellation,trip_cancellation
+Naka-miles yung booking ko. Ano makukuha ko kung nag-cancel ako for a covered reason?,taglish,trip_cancellation,claims,baggage,trip_cancellation,trip_cancellation
+What documents do I need for a trip curtailment claim?,english,trip_curtailment,claims,claims,claims,claims
+Anong mga dokumento ang kailangan ko para sa trip curtailment claim?,tagalog,trip_curtailment,claims,claims,claims,claims
+Anong documents ang need ko for trip curtailment claim?,taglish,trip_curtailment,claims,claims,claims,claims
+Is there a benefit if my plane is hijacked?,english,flight_delay,claims,claims,out_of_scope,eligibility
+May benepisyo ba kung ma-hijack ang eroplano ko?,tagalog,flight_delay,claims,flight_delay,flight_delay,flight_delay
+May benefit ba kung na-hijack yung eroplano?,taglish,flight_delay,claims,exclusions,flight_delay,flight_delay
+My bag was stolen at the hotel. Is it covered?,english,baggage,claims,baggage,baggage,baggage
+Ninakaw ang bag ko sa hotel. Sagot ba ito?,tagalog,baggage,claims,covid,baggage,baggage
+Nanakaw yung bag ko sa hotel. Covered ba?,taglish,baggage,claims,baggage,baggage,baggage
+Is stolen cash covered?,english,money_documents,claims,baggage,baggage,baggage
+Sagot ba ang ninakaw na pera?,tagalog,money_documents,claims,medical,money_documents,money_documents
+Covered ba kung nanakaw yung cash ko?,taglish,money_documents,claims,baggage,baggage,baggage
+Does the policy cover my rental car excess?,english,liability_car_rental,claims,liability_car_rental,liability_car_rental,liability_car_rental
+Sagot ba ng policy ang excess o deductible ng inarkilang sasakyan?,tagalog,liability_car_rental,claims,covid,policy_admin,covid
+Covered ba yung excess o deductible ng rental car ko?,taglish,liability_car_rental,claims,liability_car_rental,liability_car_rental,liability_car_rental
+Are pregnancy and childbirth covered?,english,exclusions,claims,exclusions,eligibility,eligibility
+Sagot ba ang pagbubuntis at panganganak?,tagalog,exclusions,claims,covid,medical,medical
+Covered ba ang pregnancy at panganganak?,taglish,exclusions,claims,exclusions,exclusions,exclusions
+"Is treatment for anxiety, depression or stress covered?",english,exclusions,claims,exclusions,medical,exclusions
+"Sagot ba ang gamutan para sa anxiety, depresyon o stress?",tagalog,exclusions,claims,covid,medical,medical
+Covered ba ang treatment sa anxiety o depression?,taglish,exclusions,claims,medical,medical,exclusions
+Is a domestic trip within the Philippines covered?,english,eligibility,claims,medical,medical,eligibility
+Sagot ba ang biyahe sa loob ng Pilipinas?,tagalog,eligibility,claims,covid,medical,medical
+Covered ba ang domestic trip dito sa Pinas?,taglish,eligibility,claims,covid,medical,medical
+Does submitting all documents guarantee my claim will be approved?,english,claims,claims,claims,claims,claims
+Garantiya bang maaaprubahan ang claim ko kung kumpleto ang dokumento?,tagalog,claims,claims,claims,claims,claims
+Sure na ba ma-approve ang claim ko pag kumpleto docs?,taglish,claims,claims,claims,claims,claims
+I want to file a claim now. Can you help me fill out the form?,english,claims,claims,claims,claims,claims
+Gusto kong mag-file ng claim ngayon. Matutulungan mo ba akong sagutan ang form?,tagalog,claims,claims,claims,claims,claims
+Gusto ko na mag-file ng claim. Pwede mo ba ako tulungan mag-fill out ng form?,taglish,claims,claims,claims,claims,claims
+Can I get a refund if I cancel my trip and policy?,english,policy_admin,claims,trip_cancellation,trip_cancellation,trip_cancellation
+Makakakuha ba ako ng refund kung kanselahin ko ang biyahe at policy?,tagalog,policy_admin,claims,trip_cancellation,trip_cancellation,trip_cancellation
+May refund ba kung i-cancel ko ang trip at policy ko?,taglish,policy_admin,claims,trip_cancellation,trip_cancellation,trip_cancellation
+Can I buy cover for skiing or sports on my trip?,english,optional_benefits,claims,baggage,exclusions,exclusions
+Pwede ba akong bumili ng cover para sa skiing o sports sa aking biyahe?,tagalog,optional_benefits,claims,claims,trip_cancellation,trip_cancellation
+Pwede ba ako bumili ng add-on para sa skiing or sports?,taglish,optional_benefits,claims,exclusions,exclusions,optional_benefits
+Which country should I visit for my vacation?,english,out_of_scope,claims,claims,exclusions,exclusions
+Anong bansa ang dapat kong bisitahin para sa bakasyon?,tagalog,out_of_scope,claims,claims,claims,claims
+Saan magandang mag-travel for vacation?,taglish,out_of_scope,claims,eligibility,eligibility,eligibility

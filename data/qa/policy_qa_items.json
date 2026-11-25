@@ -1,0 +1,1885 @@
+[
+  {
+    "id": "MED-01",
+    "topic": "medical",
+    "section": "Section 1 - Medical and Emergency Expenses",
+    "pages": [
+      12
+    ],
+    "q_en": "What medical expenses are covered if I get sick or injured abroad?",
+    "q_tl": "Anong gastos sa pagpapagamot ang sagot ng insurance kapag nagkasakit o nasaktan ako sa ibang bansa?",
+    "q_tg": "Ano yung mga medical expenses na covered pag nagkasakit or na-injure ako abroad?",
+    "a_en": "Section 1 pays, up to the limit in your Policy Schedule, the necessary and reasonable cost of medical, surgical and hospital treatment and ambulance costs if you become ill, are injured or die during the trip. It can also pay an earlier return ticket to the Philippines if medically necessary and approved by the Company (Section 1, p. 12).",
+    "a_tl": "Sa ilalim ng Section 1, babayaran hanggang sa limitang nakasaad sa iyong Policy Schedule ang kinakailangan at makatwirang gastos sa gamutan, operasyon, ospital at ambulansya kung magkasakit, masaktan o mamatay ka habang nasa biyahe. Maaari ring sagutin ang mas maagang tiket pauwi ng Pilipinas kung kailangan ayon sa doktor at aprubado ng Kompanya (Section 1, p. 12).",
+    "a_tg": "Under Section 1, covered ang necessary at reasonable na medical, surgical, hospital at ambulance costs kung nagkasakit, na-injure o namatay ka during the trip, up to the limit sa Policy Schedule mo. Pwede rin i-cover ang mas maagang ticket pauwi ng Pilipinas kung medically necessary at approved ng Company (Section 1, p. 12).",
+    "alt": [
+      "covered ba ang hospital bills ko sa Japan",
+      "magkano sagot sa ospital abroad",
+      "doctor fees abroad covered?",
+      "na-confine ako sa Singapore sagot ba"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "MED-02",
+    "topic": "medical",
+    "section": "Section 1 - Medical and Emergency Expenses",
+    "pages": [
+      12
+    ],
+    "q_en": "What should I do first if I am hospitalized during my trip?",
+    "q_tl": "Ano ang dapat kong unang gawin kung ma-ospital ako habang nasa biyahe?",
+    "q_tg": "Ano unang gagawin ko pag na-hospital ako habang nasa trip?",
+    "a_en": "You, or someone on your behalf, must contact the Company's hotline immediately if you are admitted as an in-patient or have any medical emergency. The Company's medical team will keep in touch with the hospital and your doctors (Section 1, p. 12; Notice of Claim, p. 42).",
+    "a_tl": "Ikaw o ang sinumang kumakatawan sa iyo ay dapat tumawag agad sa hotline ng Kompanya kapag na-admit ka sa ospital o may medical emergency. Ang medical team ng Kompanya ang makikipag-ugnayan sa ospital at sa iyong mga doktor (Section 1, p. 12; Notice of Claim, p. 42).",
+    "a_tg": "Tawagan agad ang hotline ng Company, ikaw man o kasama mo, once na-admit ka or may medical emergency. Yung medical team nila ang mag-co-coordinate sa hospital at sa doctors mo (Section 1, p. 12; Notice of Claim, p. 42).",
+    "alt": [
+      "emergency sa abroad sino tatawagan",
+      "na-admit ako ano gagawin",
+      "first step pag na-ospital"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "MED-03",
+    "topic": "medical",
+    "section": "Section 1 - Medical and Emergency Expenses",
+    "pages": [
+      13
+    ],
+    "q_en": "Is the medical coverage cashless?",
+    "q_tl": "Cashless ba ang medical coverage?",
+    "q_tg": "Cashless ba yung medical coverage o kailangan ko munang magbayad?",
+    "a_en": "It is cashless if treatment is done within the accredited network of medical providers. Otherwise you pay first and the Company reimburses you (Section 1, p. 13).",
+    "a_tl": "Cashless ito kung sa accredited network ng mga medical provider ka magpapagamot. Kung hindi, ikaw muna ang magbabayad at ire-reimburse ito ng Kompanya (Section 1, p. 13).",
+    "a_tg": "Cashless siya kung sa accredited network ng medical providers ka magpapagamot. Kung hindi, ikaw muna magbabayad tapos ire-reimburse ng Company (Section 1, p. 13).",
+    "alt": [
+      "reimbursement ba o direct bayad sa hospital",
+      "need ko ba mag-abono sa ospital",
+      "accredited hospital cashless"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "MED-04",
+    "topic": "medical",
+    "section": "Section 1 - Follow-up Treatment",
+    "pages": [
+      13
+    ],
+    "q_en": "Can I claim follow-up treatment after I return to the Philippines?",
+    "q_tl": "Pwede ko bang i-claim ang follow-up na gamutan pagbalik ko sa Pilipinas?",
+    "q_tg": "Covered pa ba yung follow-up check-up pag nakauwi na ako ng Pinas?",
+    "a_en": "Yes, if the illness or accident happened during the trip and initial treatment was received during the trip. Expenses must be incurred within 30 days of returning home, hospital admission must be within 12 hours of arrival as a continuation of treatment abroad, and the maximum is 10% of your Medical Expenses limit (Section 1, p. 13).",
+    "a_tl": "Oo, kung ang sakit o aksidente ay nangyari sa biyahe at may unang gamutan na habang nasa biyahe. Dapat magastos ito sa loob ng 30 araw mula pag-uwi, ang admission sa ospital ay sa loob ng 12 oras mula pagdating bilang tuloy-tuloy na gamutan, at hanggang 10% lamang ng iyong Medical Expenses limit (Section 1, p. 13).",
+    "a_tg": "Yes, basta nangyari yung sakit o accident during the trip at may initial treatment ka na habang nasa trip. Dapat within 30 days pag-uwi ang expenses, within 12 hours of arrival ang hospital admission bilang continuation ng treatment, at max 10% lang ng Medical Expenses limit mo (Section 1, p. 13).",
+    "alt": [
+      "pagdating ko ng manila nagpacheck up ako covered pa ba",
+      "follow up treatment sa Pilipinas",
+      "after trip medical"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "MED-05",
+    "topic": "medical",
+    "section": "Section 1 - Pre-existing during emergency",
+    "pages": [
+      13
+    ],
+    "q_en": "What happens if the hospital finds out my illness is pre-existing after I was admitted?",
+    "q_tl": "Ano ang mangyayari kung matuklasan ng ospital na pre-existing ang sakit ko matapos akong ma-admit?",
+    "q_tg": "Paano kung after ma-admit, lumabas na pre-existing pala yung sakit ko?",
+    "a_en": "The Company may assist you while the diagnosis is still unknown. If the final diagnosis is not pre-existing, it is at no cost to you; if it is pre-existing, the Company will inform you and all expenses from admission are for your own account (Section 1, p. 13).",
+    "a_tl": "Maaaring tumulong ang Kompanya habang hindi pa tiyak ang diagnosis. Kung hindi pre-existing ang huling diagnosis, wala kang babayaran; kung pre-existing, ipaaalam ito ng Kompanya at ikaw ang sasagot sa lahat ng gastos mula nang ma-admit ka (Section 1, p. 13).",
+    "a_tg": "Pwedeng tumulong muna ang Company habang wala pang final diagnosis. Kung hindi pre-existing, wala kang babayaran; pero kung pre-existing pala, sasabihan ka nila at ikaw na ang magbabayad ng lahat ng expenses since admission (Section 1, p. 13).",
+    "alt": [
+      "pre-existing pala sakit ko sino magbabayad",
+      "lumabas na dati ko nang sakit"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "MED-06",
+    "topic": "medical",
+    "section": "Optional Benefit E - Prescribed Medicines",
+    "pages": [
+      39
+    ],
+    "q_en": "Are prescribed medicines covered?",
+    "q_tl": "Sagot ba ang mga gamot na nireseta ng doktor?",
+    "q_tg": "Covered ba yung mga gamot na nireseta sa akin abroad?",
+    "a_en": "Under the optional Prescribed Medicines benefit (only if shown in your Policy Schedule), in-patient and out-patient medicines for the covered condition prescribed by an authorized physician are covered up to USD 200, as part of the Medical Expense limit, not in addition to it (Optional Benefit E, p. 39).",
+    "a_tl": "Sa optional na Prescribed Medicines benefit (kung nakasaad lamang sa iyong Policy Schedule), sagot ang gamot sa loob at labas ng ospital para sa covered na kondisyon na nireseta ng awtorisadong doktor, hanggang USD 200, bahagi ng Medical Expense limit at hindi dagdag dito (Optional Benefit E, p. 39).",
+    "a_tg": "Kung may optional Prescribed Medicines benefit ka sa Policy Schedule, covered ang in-patient at out-patient na gamot para sa covered condition na nireseta ng authorized physician, up to USD 200. Part siya ng Medical Expense limit, hindi dagdag (Optional Benefit E, p. 39).",
+    "alt": [
+      "gamot binili ko sa pharmacy abroad",
+      "reimburse ba ang medicines",
+      "maintenance meds"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-01",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Benefits",
+    "pages": [
+      1
+    ],
+    "q_en": "Is COVID-19 covered by Travel Shield?",
+    "q_tl": "Sagot ba ng Travel Shield ang COVID-19?",
+    "q_tg": "Covered ba ang COVID-19 sa Travel Shield?",
+    "a_en": "Yes, through the COVID-19 Endorsement. Medical treatment for COVID-19 is covered at 100% of the medical limit up to a maximum of USD 50,000 (whichever is lower). The rider limits are part of, not in addition to, your plan's benefit limits (COVID-19 Endorsement, p. 1).",
+    "a_tl": "Oo, sa pamamagitan ng COVID-19 Endorsement. Ang gamutan sa COVID-19 ay sagot hanggang 100% ng medical limit at hindi lalampas sa USD 50,000 (alinman ang mas mababa). Ang limits ng rider ay bahagi ng, at hindi dagdag sa, limits ng iyong plan (COVID-19 Endorsement, p. 1).",
+    "a_tg": "Yes, through the COVID-19 Endorsement. Covered ang COVID-19 medical treatment at 100% ng medical limit, max USD 50,000 (kung alin ang mas mababa). Part lang siya ng benefit limits ng plan mo, hindi dagdag (COVID-19 Endorsement, p. 1).",
+    "alt": [
+      "nagka covid ako sa abroad",
+      "positive ako sa covid habang nasa trip",
+      "covid hospitalization covered ba"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-02",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Benefits",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "q_en": "Can I claim trip cancellation if I get COVID-19 before my trip?",
+    "q_tl": "Pwede ba akong mag-claim ng trip cancellation kung magka-COVID ako bago ang biyahe?",
+    "q_tg": "Pwede ba mag-claim ng trip cancellation kung nag-positive ako sa COVID bago umalis?",
+    "a_en": "Yes. Trip cancellation due to COVID-19 pays 50% of the benefit limit but not more than USD 1,000 (whichever is lower). You must submit a positive COVID-19 test taken within 14 days before the start of the trip; self-diagnosis is not accepted (COVID-19 Endorsement, pp. 1-3).",
+    "a_tl": "Oo. Ang trip cancellation dahil sa COVID-19 ay magbabayad ng 50% ng benefit limit pero hindi lalampas sa USD 1,000 (alinman ang mas mababa). Kailangang magsumite ng positibong COVID-19 test na ginawa sa loob ng 14 na araw bago ang biyahe; hindi tinatanggap ang self-diagnosis (COVID-19 Endorsement, pp. 1-3).",
+    "a_tg": "Yes. Ang trip cancellation dahil sa COVID ay 50% ng benefit limit pero max USD 1,000 (kung alin ang mas mababa). Kailangan mo mag-submit ng positive COVID test na ginawa within 14 days bago ang trip; hindi tinatanggap ang self-diagnosis (COVID-19 Endorsement, pp. 1-3).",
+    "alt": [
+      "covid cancel trip refund",
+      "di natuloy flight dahil covid"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-03",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Terms",
+    "pages": [
+      2
+    ],
+    "q_en": "Are quarantine expenses covered?",
+    "q_tl": "Sagot ba ang gastos sa quarantine?",
+    "q_tg": "Covered ba yung quarantine hotel expenses?",
+    "a_en": "No. Quarantine expenses are not covered, whether required on arrival in the foreign country or required for a COVID-positive insured. Hospitalization is also not covered if the hospital is only the required quarantine facility for an asymptomatic or mild case (COVID-19 Endorsement, Terms 3 and 5, p. 2).",
+    "a_tl": "Hindi. Hindi sagot ang gastos sa quarantine, kahit kinakailangan ito pagdating sa ibang bansa o dahil positibo sa COVID ang insured. Hindi rin sagot ang ospital kung ito lang ang itinakdang quarantine facility para sa asymptomatic o mild na kaso (COVID-19 Endorsement, Terms 3 at 5, p. 2).",
+    "a_tg": "Hindi. Not covered ang quarantine expenses, required man pagdating sa ibang bansa o dahil COVID-positive ka. Hindi rin covered ang hospital kung quarantine facility lang siya para sa asymptomatic o mild case (COVID-19 Endorsement, Terms 3 at 5, p. 2).",
+    "alt": [
+      "quarantine fee reimbursement",
+      "isolation hotel covid sagot ba"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-04",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Maximum Days of Coverage",
+    "pages": [
+      2
+    ],
+    "q_en": "How many days is COVID-19 covered on my trip?",
+    "q_tl": "Ilang araw sagot ang COVID-19 sa aking biyahe?",
+    "q_tg": "Ilang days covered ang COVID sa trip ko?",
+    "a_en": "It depends on the trip type: up to 180 days for two-way leisure or business trips; up to 90 days per trip for annual multi-trip; up to 21 days for OFW one-way trips (excluding USA and Canada); and up to 24 hours after reaching immigration for non-OFW one-way trips (COVID-19 Endorsement, p. 2).",
+    "a_tl": "Depende sa uri ng biyahe: hanggang 180 araw para sa two-way leisure o business trip; hanggang 90 araw bawat biyahe para sa annual multi-trip; hanggang 21 araw para sa OFW one-way trip (hindi kasama ang USA at Canada); at hanggang 24 oras matapos makarating sa immigration para sa one-way trip na hindi OFW (COVID-19 Endorsement, p. 2).",
+    "a_tg": "Depende sa trip type: up to 180 days sa two-way leisure o business trip; up to 90 days per trip sa annual multi-trip; up to 21 days sa OFW one-way (excluding USA at Canada); at up to 24 hours after immigration sa non-OFW one-way trip (COVID-19 Endorsement, p. 2).",
+    "alt": [
+      "OFW covid coverage days",
+      "one way trip covid ilang oras"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-05",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Terms",
+    "pages": [
+      2
+    ],
+    "q_en": "Is an RT-PCR test covered?",
+    "q_tl": "Sagot ba ang RT-PCR test?",
+    "q_tg": "Covered ba yung RT-PCR test ko?",
+    "a_en": "Only for symptomatic patients. The RT-PCR test is part of the medical expenses limit. For mild symptomatic cases that do not need hospitalization, only the RT-PCR test is covered, not the check-ups. Preventive tests for asymptomatic travellers are excluded (COVID-19 Endorsement, Terms 1, 6 and 8, pp. 2-3).",
+    "a_tl": "Para lamang sa may sintomas. Bahagi ng medical expenses limit ang RT-PCR test. Sa mild na may sintomas na hindi kailangang ma-ospital, RT-PCR test lang ang sagot at hindi ang check-up. Hindi sagot ang test na pang-iwas lang para sa walang sintomas (COVID-19 Endorsement, Terms 1, 6 at 8, pp. 2-3).",
+    "a_tg": "Covered lang kung symptomatic ka. Part siya ng medical expenses limit. Sa mild symptomatic na di kailangan ma-hospital, RT-PCR lang ang covered, hindi yung check-up. Hindi covered ang preventive test kung asymptomatic ka (COVID-19 Endorsement, Terms 1, 6 at 8, pp. 2-3).",
+    "alt": [
+      "swab test sagot ba",
+      "pcr test requirement sa airport"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-06",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Benefits",
+    "pages": [
+      1,
+      2
+    ],
+    "q_en": "Will they evacuate or repatriate me if I have active COVID-19?",
+    "q_tl": "Ie-evacuate o pauuwiin ba ako kung may aktibong COVID-19 ako?",
+    "q_tg": "Ire-repatriate ba nila ako kung may active COVID ako?",
+    "a_en": "No. Medical evacuation or repatriation due to COVID-19 is not covered, and the rider does not cover evacuation of people with the active virus. Repatriation of mortal remains is covered up to USD 5,000 (USD 1,000 for a cremated body) (COVID-19 Endorsement, p. 1 and Term 4, p. 2).",
+    "a_tl": "Hindi. Hindi sagot ang medical evacuation o repatriation dahil sa COVID-19, at hindi kasama ang mga may aktibong virus. Ang pag-uwi ng labi ay sagot hanggang USD 5,000 (USD 1,000 kung cremated) (COVID-19 Endorsement, p. 1 at Term 4, p. 2).",
+    "a_tg": "Hindi. Not covered ang medical evacuation o repatriation dahil sa COVID, lalo na kung active ang virus. Yung repatriation ng mortal remains naman ay covered up to USD 5,000 (USD 1,000 kung cremated) (COVID-19 Endorsement, p. 1 at Term 4, p. 2).",
+    "alt": [
+      "stranded dahil covid rebooking",
+      "covid repatriation"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "COV-07",
+    "topic": "covid",
+    "section": "COVID-19 Endorsement - Terms 11-12",
+    "pages": [
+      3
+    ],
+    "q_en": "Does the COVID rider cover other pandemics or epidemics?",
+    "q_tl": "Sagot ba ng COVID rider ang ibang pandemya o epidemya?",
+    "q_tg": "Kasama ba sa COVID rider yung ibang pandemic o epidemic?",
+    "a_en": "No. The rider is for COVID-19 only. Other epidemics, pandemics and communicable diseases declared by a government agency that require quarantine measures are not covered under the rider or the main travel policy (COVID-19 Endorsement, Terms 11-12, p. 3).",
+    "a_tl": "Hindi. Para sa COVID-19 lamang ang rider. Ang ibang epidemya, pandemya at nakahahawang sakit na idineklara ng gobyerno at nangangailangan ng quarantine ay hindi sagot ng rider o ng pangunahing travel policy (COVID-19 Endorsement, Terms 11-12, p. 3).",
+    "a_tg": "Hindi. COVID-19 lang ang sakop ng rider. Yung ibang epidemic, pandemic at communicable disease na dineclare ng government at may quarantine ay hindi covered, pati sa main travel policy (COVID-19 Endorsement, Terms 11-12, p. 3).",
+    "alt": [
+      "bird flu outbreak covered",
+      "mpox covered ba"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "DEN-01",
+    "topic": "dental",
+    "section": "Section 2 - Emergency and Accidental Dental Expenses",
+    "pages": [
+      13
+    ],
+    "q_en": "Is emergency dental treatment covered?",
+    "q_tl": "Sagot ba ang emergency na pagpapagamot ng ngipin?",
+    "q_tg": "Covered ba ang emergency dental, like sumakit ngipin ko abroad?",
+    "a_en": "Yes, for strictly necessary emergency treatment of natural teeth only, for immediate relief of pain, and not caused by the previous deteriorated state of the teeth, gums or jaws. Accidental dental treatment is also covered when the same accident caused a bodily injury. Both are up to the limit in your Policy Schedule (Section 2, p. 13).",
+    "a_tl": "Oo, para lamang sa kinakailangang emergency na gamutan ng natural na ngipin upang maibsan agad ang sakit, at hindi dulot ng dati nang sira ng ngipin, gilagid o panga. Sagot din ang gamutan sa ngipin dahil sa aksidente kung may kasamang pinsala sa katawan. Pareho itong hanggang sa limitang nasa iyong Policy Schedule (Section 2, p. 13).",
+    "a_tg": "Yes, pero para lang sa necessary emergency treatment ng natural teeth para mawala agad ang sakit, at hindi dahil sa dati nang sira ng ngipin, gums o jaw. Covered din ang dental dahil sa accident kung may kasamang bodily injury. Up to the limit sa Policy Schedule mo (Section 2, p. 13).",
+    "alt": [
+      "toothache abroad",
+      "nabungi ako sa aksidente",
+      "dentist sa ibang bansa"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DEN-02",
+    "topic": "dental",
+    "section": "Section 2 - Emergency and Accidental Dental Expenses",
+    "pages": [
+      13
+    ],
+    "q_en": "Are crowns, bridges or dentures covered?",
+    "q_tl": "Sagot ba ang crown, bridge o pustiso?",
+    "q_tg": "Covered ba kung nasira yung pustiso o crown ko?",
+    "a_en": "No. Crowned teeth, crowns, bridges and dentures are not considered natural teeth, so they are not covered under the dental benefit (Section 2, p. 13). False dentures are also excluded from baggage claims (p. 29).",
+    "a_tl": "Hindi. Ang crowned teeth, crown, bridge at pustiso ay hindi itinuturing na natural na ngipin kaya hindi sagot ng dental benefit (Section 2, p. 13). Hindi rin sagot ang pustiso sa baggage claim (p. 29).",
+    "a_tg": "Hindi. Hindi considered natural teeth ang crowns, bridges at dentures kaya hindi covered sa dental benefit (Section 2, p. 13). Excluded din ang pustiso sa baggage claims (p. 29).",
+    "alt": [
+      "veneers covered",
+      "nabasag pustiso"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EVA-01",
+    "topic": "evacuation",
+    "section": "Section 3 - Emergency Medical Evacuation",
+    "pages": [
+      13,
+      14
+    ],
+    "q_en": "Who decides if I need to be evacuated or sent home for treatment?",
+    "q_tl": "Sino ang magpapasya kung kailangan akong ilipat o pauwiin para magpagamot?",
+    "q_tg": "Sino magdedecide kung kailangan ako i-evacuate or pauwiin?",
+    "a_en": "The Company's medical team decides, based on contact with your doctors, which properly equipped health center you go to, whether repatriation is needed and the most suitable transport. Minor cases are moved by ambulance or other transport to where adequate care is available (Section 3, pp. 13-14).",
+    "a_tl": "Ang medical team ng Kompanya ang magpapasya, batay sa pakikipag-usap sa iyong mga doktor, kung saang maayos na health center ka dadalhin, kung kailangan kang pauwiin, at kung anong sasakyan ang pinakaangkop. Sa hindi malalang kaso, ililipat ka sa pamamagitan ng ambulansya o ibang sasakyan sa lugar na may sapat na gamutan (Section 3, pp. 13-14).",
+    "a_tg": "Ang medical team ng Company ang magdedecide, after makausap ang doctors mo, kung saang health center ka dadalhin, kung kailangan ng repatriation, at anong transport ang best. Pag minor lang, by ambulance or ibang transport lang papunta sa may tamang care (Section 3, pp. 13-14).",
+    "alt": [
+      "air ambulance covered",
+      "medical evacuation sino magbabayad",
+      "ilipat ng ospital"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "EVA-02",
+    "topic": "evacuation",
+    "section": "Section 3 - Repatriation of Mortal Remains",
+    "pages": [
+      14
+    ],
+    "q_en": "If the insured dies abroad, are the costs of bringing the body home covered?",
+    "q_tl": "Kung mamatay ang insured sa ibang bansa, sagot ba ang pag-uwi ng labi?",
+    "q_tg": "Pag namatay yung insured abroad, covered ba ang pag-uwi ng body?",
+    "a_en": "Yes. If death results from a covered injury or sickness during the trip, the Authorized Company arranges and the Company pays for returning the mortal remains to the place of residence, up to the limit in the Policy Schedule. Interment, cremation (except COVID-19 deaths) and funeral ceremony costs are excluded (Section 3, p. 14).",
+    "a_tl": "Oo. Kung ang pagkamatay ay dahil sa covered na pinsala o sakit habang nasa biyahe, ang Authorized Company ang mag-aayos at ang Kompanya ang magbabayad sa pag-uwi ng labi sa tirahan, hanggang sa limitang nasa Policy Schedule. Hindi kasama ang libing, cremation (maliban sa namatay sa COVID-19) at seremonya ng lamay (Section 3, p. 14).",
+    "a_tg": "Yes. Kung dahil sa covered injury o sickness during the trip, ang Authorized Company ang mag-aarrange at babayaran ng Company ang repatriation ng mortal remains pauwi, up to the Policy Schedule limit. Hindi kasama ang interment, cremation (except COVID deaths) at funeral ceremony (Section 3, p. 14).",
+    "alt": [
+      "repatriation of remains",
+      "iuwi ang bangkay",
+      "namatay sa abroad"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EVA-03",
+    "topic": "evacuation",
+    "section": "Additional Exclusions Sections 1-6",
+    "pages": [
+      16
+    ],
+    "q_en": "Are search and rescue costs covered?",
+    "q_tl": "Sagot ba ang gastos sa search and rescue?",
+    "q_tg": "Covered ba ang search and rescue fees, like naligaw sa bundok?",
+    "a_en": "No. Search and rescue costs charged by a government, regulated authority or private organization to find and rescue you are excluded. This does not include medical evacuation by the most appropriate transport, which Section 3 covers (Exclusion 20, p. 16).",
+    "a_tl": "Hindi. Hindi sagot ang singil ng gobyerno, awtoridad o pribadong organisasyon para hanapin at iligtas ka. Hindi kasama rito ang medical evacuation gamit ang pinakaangkop na sasakyan, na sagot ng Section 3 (Exclusion 20, p. 16).",
+    "a_tg": "Hindi. Excluded ang search and rescue costs na sinisingil ng government o private org para hanapin at i-rescue ka. Iba yun sa medical evacuation, na covered sa Section 3 (Exclusion 20, p. 16).",
+    "alt": [
+      "rescue helicopter fee",
+      "nawala sa hiking rescue"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "HOS-01",
+    "topic": "hospital_family",
+    "section": "Section 4 - Daily Hospital Confinement Allowance",
+    "pages": [
+      14
+    ],
+    "q_en": "Is there a daily cash allowance if I am confined in a hospital abroad?",
+    "q_tl": "May araw-araw bang allowance kung ma-confine ako sa ospital sa ibang bansa?",
+    "q_tg": "May daily allowance ba pag na-confine ako sa hospital abroad?",
+    "a_en": "Yes. The Daily Hospital Confinement Allowance pays for each 24-hour period you are an in-patient abroad due to a covered injury or illness, up to the limit in your policy. Confinement must start within 30 days of the accident and be considered medically necessary by a physician (Section 4, p. 14).",
+    "a_tl": "Oo. Ang Daily Hospital Confinement Allowance ay nagbabayad sa bawat 24 oras na ikaw ay in-patient sa ibang bansa dahil sa covered na pinsala o sakit, hanggang sa limitang nasa iyong policy. Ang confinement ay dapat sa loob ng 30 araw mula sa aksidente at itinuring na kailangan ng doktor (Section 4, p. 14).",
+    "a_tg": "Yes. Ang Daily Hospital Confinement Allowance ay nagbabayad per 24 hours na in-patient ka abroad dahil sa covered injury o illness, up to the limit sa policy mo. Dapat within 30 days ng accident ang confinement at medically necessary ayon sa physician (Section 4, p. 14).",
+    "alt": [
+      "hospital cash benefit per day",
+      "daily allowance confinement"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "HOS-02",
+    "topic": "hospital_family",
+    "section": "Section 5 - Compassionate Visit",
+    "pages": [
+      14
+    ],
+    "q_en": "Can a family member fly to be with me if I am hospitalized abroad?",
+    "q_tl": "Pwede bang lumipad ang isang kapamilya para samahan ako kung ma-ospital ako sa ibang bansa?",
+    "q_tg": "Pwede bang papuntahin ang isang family member pag na-hospital ako abroad?",
+    "a_en": "Yes, under the Compassionate Visit Benefit, if you are an in-patient for more than 5 consecutive days, your condition does not allow evacuation and no adult family member is with you. The Company pays an economy round-trip ticket plus necessary accommodation, transport and meals for one immediate family member, up to the Policy Schedule limit (Section 5, p. 14).",
+    "a_tl": "Oo, sa Compassionate Visit Benefit, kung ikaw ay in-patient nang higit 5 magkakasunod na araw, hindi ka maaaring ilikas, at walang kasamang adult na kapamilya. Babayaran ng Kompanya ang economy na round-trip na tiket at kinakailangang tirahan, transportasyon at pagkain ng isang immediate family member, hanggang sa limitang nasa Policy Schedule (Section 5, p. 14).",
+    "a_tg": "Yes, under Compassionate Visit Benefit, kung in-patient ka for more than 5 consecutive days, hindi ka pwedeng i-evacuate, at walang adult family member na kasama mo. Sagot ng Company ang economy round-trip ticket plus necessary accommodation, transport at meals ng isang immediate family member, up to the Policy Schedule limit (Section 5, p. 14).",
+    "alt": [
+      "compassionate visit",
+      "papuntahin si mama sa ospital abroad"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "HOS-03",
+    "topic": "hospital_family",
+    "section": "Section 6 - Return of Minor Children",
+    "pages": [
+      14
+    ],
+    "q_en": "Who will take care of my young child if I am hospitalized during the trip?",
+    "q_tl": "Sino ang mag-aalaga sa aking batang anak kung ma-ospital ako habang nasa biyahe?",
+    "q_tg": "Paano yung anak ko na bata kung na-hospital ako during the trip?",
+    "a_en": "If you are hospitalized for more than 5 days or die, and you are travelling with a child under 15 with no other adult, the Company provides a suitable person to look after the child, or pays an economy round-trip plus accommodation, transport and meals for one immediate family member to accompany the child (Section 6, p. 14).",
+    "a_tl": "Kung ikaw ay ma-ospital nang higit 5 araw o mamatay, at may kasama kang batang wala pang 15 taong gulang at walang ibang adult, magbibigay ang Kompanya ng angkop na mag-aalaga sa bata, o babayaran ang economy na round-trip, tirahan, transportasyon at pagkain ng isang immediate family member na sasama sa bata (Section 6, p. 14).",
+    "a_tg": "Kung na-hospital ka for more than 5 days o namatay, at may kasama kang anak na below 15 at walang ibang adult, magpo-provide ang Company ng mag-aalaga sa bata, o babayaran ang economy round-trip, accommodation, transport at meals ng isang immediate family member na sasama sa bata (Section 6, p. 14).",
+    "alt": [
+      "return of minor children",
+      "batang kasama ko sino mag-uuwi"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "HOS-04",
+    "topic": "hospital_family",
+    "section": "Section 19 - Automatic Extension",
+    "pages": [
+      33
+    ],
+    "q_en": "What if I have to stay longer abroad because I am sick and my policy is about to expire?",
+    "q_tl": "Paano kung kailangan kong manatili nang mas matagal sa ibang bansa dahil may sakit ako at mag-e-expire na ang policy ko?",
+    "q_tg": "Paano kung ma-extend stay ko abroad dahil nagkasakit ako at mag-e-expire na policy ko?",
+    "a_en": "If a covered accident or illness forces you to extend your stay, the period of insurance is automatically extended once only, for up to 10 days. The benefit limits for that claim are not increased (Section 19, p. 33).",
+    "a_tl": "Kung dahil sa covered na aksidente o sakit ay kailangan mong pahabain ang pananatili, awtomatikong mapapalawig ang period of insurance nang isang beses lamang, hanggang 10 araw. Hindi madaragdagan ang limits para sa claim na iyon (Section 19, p. 33).",
+    "a_tg": "Kung dahil sa covered accident o illness ay ma-extend ang stay mo, automatic na ma-e-extend ang coverage once lang, up to 10 days. Pero hindi tataas ang benefit limits ng claim na yun (Section 19, p. 33).",
+    "alt": [
+      "automatic extension 10 days",
+      "lagpas na sa travel dates dahil naospital"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "PA-01",
+    "topic": "personal_accident",
+    "section": "Section 7 - Personal Accident",
+    "pages": [
+      17
+    ],
+    "q_en": "What does the Personal Accident benefit pay?",
+    "q_tl": "Ano ang binabayaran ng Personal Accident benefit?",
+    "q_tg": "Ano yung sakop ng Personal Accident benefit?",
+    "a_en": "If an accident during the trip causes accidental death or permanent total disability, the Company pays according to the Benefit Amount in your Policy Schedule. Partial disabilities are paid as a percentage of the sum insured using the Injury Table, with a maximum of 100% (Section 7, pp. 17-19).",
+    "a_tl": "Kung ang aksidente sa biyahe ay magdulot ng kamatayan o permanenteng kabuuang kapansanan, magbabayad ang Kompanya ayon sa Benefit Amount sa iyong Policy Schedule. Ang bahagyang kapansanan ay babayaran bilang porsyento ng sum insured gamit ang Injury Table, hanggang 100% (Section 7, pp. 17-19).",
+    "a_tg": "Kung dahil sa accident during the trip ay nagkaroon ng accidental death o permanent total disability, magbabayad ang Company ayon sa Benefit Amount sa Policy Schedule mo. Ang partial disability ay percentage ng sum insured base sa Injury Table, max 100% (Section 7, pp. 17-19).",
+    "alt": [
+      "accidental death benefit",
+      "naaksidente ako permanent disability",
+      "personal accident magkano"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "PA-02",
+    "topic": "personal_accident",
+    "section": "Section 7 - Injury Table",
+    "pages": [
+      18
+    ],
+    "q_en": "How much is paid for losing a hand in an accident?",
+    "q_tl": "Magkano ang ibabayad kung mawalan ng kamay dahil sa aksidente?",
+    "q_tg": "Magkano ang bayad kung naputulan ng kamay sa accident?",
+    "a_en": "Under the Injury Table, amputation of a hand at or below the wrist pays 55% of the sum insured. If it is the non-dominant hand, the percentage is reduced by 15% (Section 7, Injury Table, pp. 18-19).",
+    "a_tl": "Ayon sa Injury Table, ang pagputol ng kamay sa pulsuhan o mas mababa ay 55% ng sum insured. Kung ito ang hindi dominanteng kamay, babawasan ng 15% ang porsyento (Section 7, Injury Table, pp. 18-19).",
+    "a_tg": "Sa Injury Table, 55% ng sum insured ang amputation ng kamay at or below the wrist. Kung non-dominant hand yun, mababawasan ng 15% ang percentage (Section 7, Injury Table, pp. 18-19).",
+    "alt": [
+      "naputol daliri magkano",
+      "injury table percentage"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "PA-03",
+    "topic": "personal_accident",
+    "section": "Section 7 - Eligibility",
+    "pages": [
+      19,
+      6
+    ],
+    "q_en": "Can children get Accidental Death coverage?",
+    "q_tl": "Pwede bang magkaroon ng Accidental Death coverage ang mga bata?",
+    "q_tg": "Pwede ba ang kids sa Accidental Death coverage?",
+    "a_en": "Minors can be insured only with written authorization from their legal guardian. Accidental Death cover cannot be taken out for children under 18 unless they travel under the family plan (Section 7, p. 19). Under a family policy, each dependent receives 25% of the Personal Accident benefit (Definition 23, p. 6).",
+    "a_tl": "Maaaring i-insure ang menor de edad kung may nakasulat na pahintulot ng legal guardian. Hindi maaaring kumuha ng Accidental Death cover para sa batang wala pang 18 maliban kung sila ay nasa family plan (Section 7, p. 19). Sa family policy, bawat dependent ay makatatanggap ng 25% ng Personal Accident benefit (Definition 23, p. 6).",
+    "a_tg": "Pwede ma-insure ang minors basta may written authorization ng legal guardian. Pero hindi pwede ang Accidental Death cover sa below 18 unless naka-family plan sila (Section 7, p. 19). Sa family policy, 25% ng Personal Accident benefit ang matatanggap ng bawat dependent (Definition 23, p. 6).",
+    "alt": [
+      "anak ko 10 years old accidental death",
+      "minors personal accident"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "PA-04",
+    "topic": "personal_accident",
+    "section": "Section 8 - Accident Burial",
+    "pages": [
+      20,
+      14
+    ],
+    "q_en": "Are burial expenses covered?",
+    "q_tl": "Sagot ba ang gastos sa libing?",
+    "q_tg": "Covered ba yung burial expenses?",
+    "a_en": "Yes, if the insured dies due to an accident during the period of insurance. The Accident Burial Benefit reimburses burial costs up to the limit in the Policy Schedule or Certificate of Insurance (Section 8, p. 20). Note that funeral and interment costs are not part of the repatriation benefit (p. 14).",
+    "a_tl": "Oo, kung ang insured ay namatay dahil sa aksidente sa loob ng period of insurance. Ire-reimburse ng Accident Burial Benefit ang gastos sa libing hanggang sa limitang nasa Policy Schedule o Certificate of Insurance (Section 8, p. 20). Tandaan na hindi kasama ang lamay at libing sa repatriation benefit (p. 14).",
+    "a_tg": "Yes, kung namatay ang insured dahil sa accident within the period of insurance. Ire-reimburse ng Accident Burial Benefit ang burial costs up to the limit sa Policy Schedule (Section 8, p. 20). Pero hindi kasama ang funeral at interment sa repatriation benefit (p. 14).",
+    "alt": [
+      "libing benefit",
+      "burial assistance"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "PA-05",
+    "topic": "personal_accident",
+    "section": "Additional Exclusions Sections 7-8",
+    "pages": [
+      20,
+      35
+    ],
+    "q_en": "Am I covered if I have an accident while drunk?",
+    "q_tl": "Sagot ba ako kung maaksidente ako habang lasing?",
+    "q_tg": "Covered ba kung naaksidente ako habang lasing?",
+    "a_en": "No. Accidents suffered while inebriated (blood alcohol above 0.50 g per 1,000 cc, or if fined or convicted for it) or under the influence of drugs are excluded from Personal Accident and Burial benefits, and claims arising from alcohol or non-prescribed drugs are excluded under the general exclusions (p. 20; General Exclusion 21, p. 35).",
+    "a_tl": "Hindi. Hindi sagot ang aksidente habang lasing (blood alcohol na higit 0.50 g bawat 1,000 cc, o kung namultahan o nahatulan dahil dito) o nasa impluwensya ng droga sa Personal Accident at Burial benefits, at hindi rin sagot ang claim dahil sa alak o drogang hindi nireseta ayon sa general exclusions (p. 20; General Exclusion 21, p. 35).",
+    "a_tg": "Hindi. Excluded ang accident habang lasing (blood alcohol above 0.50 g per 1,000 cc, o kung na-fine o na-convict dahil dito) o naka-drugs sa Personal Accident at Burial, at excluded din sa general exclusions ang claims dahil sa alcohol o non-prescribed drugs (p. 20; General Exclusion 21, p. 35).",
+    "alt": [
+      "nakainom ako nadisgrasya",
+      "drunk driving accident claim"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "PA-06",
+    "topic": "personal_accident",
+    "section": "General Exclusion 28",
+    "pages": [
+      36
+    ],
+    "q_en": "Am I covered if I ride a motorbike or scooter abroad?",
+    "q_tl": "Sagot ba ako kung sumakay ako ng motorsiklo o scooter sa ibang bansa?",
+    "q_tg": "Covered ba kung nag-motor o scooter ako abroad?",
+    "a_en": "Only if you (driver or passenger) wear a crash helmet, and as driver you hold a licence valid for that country. For motorcycles 55cc or higher, the driver must also hold a valid licence for an equivalent motorcycle in the Philippines (General Exclusion 28, p. 36).",
+    "a_tl": "Kung ikaw (driver o pasahero) ay nakasuot ng helmet, at bilang driver ay may lisensyang balido sa bansang iyon. Para sa motorsiklong 55cc pataas, ang driver ay dapat ding may balidong lisensya para sa katumbas na motorsiklo sa Pilipinas (General Exclusion 28, p. 36).",
+    "a_tg": "Covered lang kung naka-helmet ka (driver man o passenger), at kung driver ka, may valid license ka sa country na yun. Pag 55cc pataas ang motor, kailangan may valid license ka rin para sa ganung motor dito sa Pilipinas (General Exclusion 28, p. 36).",
+    "alt": [
+      "nagrent ng motor sa Bali",
+      "scooter accident Vietnam covered"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CAN-01",
+    "topic": "trip_cancellation",
+    "section": "Section 9 - Trip Cancellation",
+    "pages": [
+      22,
+      23
+    ],
+    "q_en": "What reasons for cancelling my trip are covered?",
+    "q_tl": "Anong mga dahilan ng pagkansela ng biyahe ang sagot ng insurance?",
+    "q_tg": "Anong reasons ng pag-cancel ng trip ang covered?",
+    "a_en": "Unforeseeable death, injury or illness of you, an immediate family member or a business associate; serious damage from fire, explosion or robbery to your home or business premises that needs your presence; and a departure delayed beyond 24 hours for a covered flight-delay reason (sub-limit 10% of the Trip Cancellation benefit) (Section 9, pp. 22-23).",
+    "a_tl": "Ang hindi inaasahang pagkamatay, pinsala o sakit mo, ng immediate family member o ng business associate; malubhang pinsala sa bahay o negosyo dahil sa sunog, pagsabog o pagnanakaw na nangangailangan ng iyong presensya; at pag-alis na naantala nang higit 24 oras dahil sa covered na dahilan ng flight delay (sub-limit na 10% ng Trip Cancellation benefit) (Section 9, pp. 22-23).",
+    "a_tg": "Covered kung dahil sa unforeseeable death, injury o illness mo, ng immediate family member o business associate; serious damage sa bahay o business dahil sa fire, explosion o robbery na kailangan ka doon; at departure delay ng more than 24 hours dahil sa covered flight-delay reason (sub-limit 10% ng Trip Cancellation benefit) (Section 9, pp. 22-23).",
+    "alt": [
+      "cancel trip refund",
+      "di na ako tutuloy sa trip",
+      "kinansela ko flight dahil namatay lola ko"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CAN-02",
+    "topic": "trip_cancellation",
+    "section": "Section 9 - Trip Cancellation",
+    "pages": [
+      23
+    ],
+    "q_en": "How early must I buy the insurance for trip cancellation to be valid?",
+    "q_tl": "Gaano kaaga ko dapat bilhin ang insurance para maging balido ang trip cancellation?",
+    "q_tg": "Gaano kaaga dapat bumili ng insurance para valid ang trip cancellation?",
+    "a_en": "At least 3 days before your departure date, and you must not have known of any circumstance that could lead to the cancellation (Section 9, p. 23). The same 3-day rule applies to Trip Curtailment (Section 10, p. 24).",
+    "a_tl": "Hindi bababa sa 3 araw bago ang iyong pag-alis, at hindi mo dapat alam ang anumang pangyayaring maaaring magdulot ng pagkansela (Section 9, p. 23). Ganito rin ang 3-araw na tuntunin para sa Trip Curtailment (Section 10, p. 24).",
+    "a_tg": "At least 3 days before ng departure date mo, at dapat wala kang alam na circumstance na pwedeng mag-cause ng cancellation (Section 9, p. 23). Same 3-day rule din sa Trip Curtailment (Section 10, p. 24).",
+    "alt": [
+      "bumili ako insurance kahapon lang flight ko bukas",
+      "3 days before departure"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CAN-03",
+    "topic": "trip_cancellation",
+    "section": "Additional Exclusions Sections 9-10",
+    "pages": [
+      24
+    ],
+    "q_en": "Can I claim if I simply change my mind and don't want to travel anymore?",
+    "q_tl": "Pwede ba akong mag-claim kung nagbago lang ang isip ko at ayaw ko nang bumiyahe?",
+    "q_tg": "Pwede ba mag-claim kung nagbago lang isip ko at ayoko na tumuloy?",
+    "a_en": "No. A change of plans because you or your travelling companion change your mind or choose not to travel is excluded (Exclusion 2, Sections 9-10, p. 24).",
+    "a_tl": "Hindi. Hindi sagot ang pagbabago ng plano dahil nagbago ang isip mo o ng kasama mo sa biyahe o pinili ninyong hindi bumiyahe (Exclusion 2, Sections 9-10, p. 24).",
+    "a_tg": "Hindi. Excluded kung nagbago lang isip mo o ng travel companion mo at ayaw niyo na tumuloy (Exclusion 2, Sections 9-10, p. 24).",
+    "alt": [
+      "ayoko na pumunta refund",
+      "tinamad ako mag travel"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CAN-04",
+    "topic": "trip_cancellation",
+    "section": "Additional Exclusions Sections 9-10",
+    "pages": [
+      24,
+      25
+    ],
+    "q_en": "Is a denied visa covered under trip cancellation?",
+    "q_tl": "Sagot ba kung na-deny ang visa ko?",
+    "q_tg": "Covered ba kung na-deny yung visa ko kaya di ako nakaalis?",
+    "a_en": "No. Being unable to travel because you failed to obtain the passport or visa needed is excluded, and the visa fee itself is not recoverable under these sections (Exclusions 4, 11 and 20, Sections 9-10, pp. 24-25).",
+    "a_tl": "Hindi. Hindi sagot kung hindi ka nakabiyahe dahil hindi ka nakakuha ng kinakailangang pasaporte o visa, at hindi rin maibabalik ang bayad sa visa sa mga seksyong ito (Exclusions 4, 11 at 20, Sections 9-10, pp. 24-25).",
+    "a_tg": "Hindi. Excluded kung hindi ka nakaalis dahil walang passport o visa, at hindi rin ma-claim ang visa fee (Exclusions 4, 11 at 20, Sections 9-10, pp. 24-25).",
+    "alt": [
+      "visa denied refund",
+      "di nakakuha ng visa"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CAN-05",
+    "topic": "trip_cancellation",
+    "section": "Additional Exclusions Sections 9-10",
+    "pages": [
+      24
+    ],
+    "q_en": "If I can't get leave from work, can I claim trip cancellation?",
+    "q_tl": "Kung hindi ako pinayagang mag-leave sa trabaho, pwede ba akong mag-claim?",
+    "q_tg": "Kung hindi na-approve leave ko sa work, pwede ba mag-claim ng cancellation?",
+    "a_en": "No. Claims arising from your business or employment, including not being able to take leave, are excluded. The exception is if you are involuntarily retrenched from your usual full-time job in the Philippines (Exclusion 7a, Sections 9-10, p. 24).",
+    "a_tl": "Hindi. Hindi sagot ang claim na dulot ng iyong negosyo o trabaho, kasama ang hindi pagpayag na mag-leave. Ang eksepsyon ay kung ikaw ay sapilitang na-retrench sa iyong regular na full-time na trabaho sa Pilipinas (Exclusion 7a, Sections 9-10, p. 24).",
+    "a_tg": "Hindi. Excluded ang claims dahil sa work o business mo, kasama ang hindi pag-approve ng leave. Exception lang kung involuntarily retrenched ka sa full-time job mo dito sa Pilipinas (Exclusion 7a, Sections 9-10, p. 24).",
+    "alt": [
+      "boss ko ayaw ako payagan",
+      "na-retrench ako bago trip"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CAN-06",
+    "topic": "trip_cancellation",
+    "section": "Section 9 - Frequent flyer points",
+    "pages": [
+      23
+    ],
+    "q_en": "I booked my flight with airline miles. What do I get if I cancel for a covered reason?",
+    "q_tl": "Ginamit ko ang airline miles sa pag-book. Ano ang makukuha ko kung magkansela ako dahil sa covered na dahilan?",
+    "q_tg": "Naka-miles yung booking ko. Ano makukuha ko kung nag-cancel ako for a covered reason?",
+    "a_en": "If the airline won't refund your points, the Company refunds the cost of an equivalent class ticket at the retail price when the ticket was issued. If only some points are refunded, you get that ticket cost less the value of the points refunded (Section 9, p. 23).",
+    "a_tl": "Kung hindi ibabalik ng airline ang iyong points, ibabalik ng Kompanya ang halaga ng tiket na kaparehong klase batay sa retail price noong inisyu ang tiket. Kung bahagi lamang ng points ang naibalik, makukuha mo ang halagang iyon bawas ang halaga ng naibalik na points (Section 9, p. 23).",
+    "a_tg": "Kung hindi ire-refund ng airline ang points mo, ire-refund ng Company ang cost ng equivalent class ticket base sa retail price nung na-issue ang ticket. Kung partial lang ang na-refund na points, yung ticket cost minus value ng na-refund na points ang makukuha mo (Section 9, p. 23).",
+    "alt": [
+      "frequent flyer points refund",
+      "mabuhay miles cancel"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "CUR-01",
+    "topic": "trip_curtailment",
+    "section": "Section 10 - Trip Curtailment",
+    "pages": [
+      23,
+      24
+    ],
+    "q_en": "Can I claim if I have to cut my trip short and fly home early?",
+    "q_tl": "Pwede ba akong mag-claim kung kailangan kong paikliin ang biyahe at umuwi nang maaga?",
+    "q_tg": "Pwede ba mag-claim kung kailangan kong umuwi ng maaga at i-cut short ang trip?",
+    "a_en": "Yes, if it is necessary and unavoidable because a doctor certifies you are unfit to continue; you suffer a serious illness, accident or death during the trip; an immediate family member dies or becomes seriously ill or injured; or your home or business is seriously damaged by fire, explosion or robbery. You must call the hotline for approval immediately (Section 10, pp. 23-24).",
+    "a_tl": "Oo, kung kinakailangan at hindi maiiwasan dahil pinatunayan ng doktor na hindi mo kayang ituloy; nagkaroon ka ng malubhang sakit, aksidente o pagkamatay sa biyahe; namatay o nagkasakit nang malubha ang immediate family member; o nasira nang malubha ang bahay o negosyo dahil sa sunog, pagsabog o pagnanakaw. Dapat tumawag agad sa hotline para sa pag-apruba (Section 10, pp. 23-24).",
+    "a_tg": "Yes, kung necessary at unavoidable dahil: certified ng doctor na unfit ka mag-continue; nagkaroon ka ng serious illness, accident o death during the trip; namatay o seriously ill ang immediate family member; o nasira ng fire, explosion o robbery ang bahay o business mo. Tawag agad sa hotline for approval (Section 10, pp. 23-24).",
+    "alt": [
+      "umuwi ng maaga dahil namatay tatay ko",
+      "trip curtailment",
+      "cut short vacation"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CUR-02",
+    "topic": "trip_curtailment",
+    "section": "Section 10 - Trip Curtailment",
+    "pages": [
+      23,
+      24
+    ],
+    "q_en": "What documents do I need for a trip curtailment claim?",
+    "q_tl": "Anong mga dokumento ang kailangan ko para sa trip curtailment claim?",
+    "q_tg": "Anong documents ang need ko for trip curtailment claim?",
+    "a_en": "The vouchers or certificate of the event that made you cut the trip short, written confirmation from the appropriate authority with full details, and all receipts for extra expenses (Section 10, pp. 23-24). The claim form checklist also asks for the airline itinerary or booking, certification of cancellation, copy of ticket and an incident report.",
+    "a_tl": "Ang voucher o sertipiko ng pangyayaring nagpaikli sa biyahe, nakasulat na kumpirmasyon mula sa tamang awtoridad na may buong detalye, at lahat ng resibo ng dagdag na gastos (Section 10, pp. 23-24). Hinihingi rin ng checklist sa claim form ang airline itinerary o booking, certification ng cancellation, kopya ng tiket at incident report.",
+    "a_tg": "Yung vouchers o certificate ng event na dahilan ng pag-cut short, written confirmation mula sa appropriate authority na may full details, at lahat ng receipts ng extra expenses (Section 10, pp. 23-24). Sa claim form checklist, kailangan din ang airline itinerary o booking, certification ng cancellation, copy ng ticket at incident report.",
+    "alt": [
+      "requirements curtailment",
+      "ano isusubmit pag umuwi ng maaga"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "CUR-03",
+    "topic": "trip_curtailment",
+    "section": "Section 10 - Trip Curtailment",
+    "pages": [
+      24
+    ],
+    "q_en": "What costs are paid under trip curtailment?",
+    "q_tl": "Anong mga gastos ang binabayaran sa trip curtailment?",
+    "q_tg": "Ano yung mga babayaran sa trip curtailment?",
+    "a_en": "The proportional value of the non-refundable part of the trip you lost: travel, accommodation and meal costs you paid or contracted to pay and cannot recover elsewhere, plus excursions, tours and activities paid before leaving or locally on arrival, up to the limit in the Table of Benefits (Section 10, pp. 23-24).",
+    "a_tl": "Ang proporsyonal na halaga ng hindi na maibabalik na bahagi ng biyahe: gastos sa biyahe, tirahan at pagkain na binayaran o pinagkasunduan mong bayaran at hindi na mababawi, pati excursion, tour at aktibidad na binayaran bago umalis o pagdating doon, hanggang sa limitang nasa Table of Benefits (Section 10, pp. 23-24).",
+    "a_tg": "Yung proportional value ng non-refundable part ng trip na nawala: travel, accommodation at meals na binayaran mo at hindi na ma-recover, plus excursions, tours at activities na binayaran bago umalis o pagdating doon, up to the Table of Benefits limit (Section 10, pp. 23-24).",
+    "alt": [
+      "unused hotel nights refund",
+      "sayang na tour na bayad na"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DEL-01",
+    "topic": "flight_delay",
+    "section": "Section 11 - Flight/Travel Delay",
+    "pages": [
+      25
+    ],
+    "q_en": "How does the flight delay benefit work?",
+    "q_tl": "Paano gumagana ang benepisyo para sa naantalang flight?",
+    "q_tg": "Paano gumagana yung flight delay benefit?",
+    "a_en": "The Company pays for each full 8-hour period the first part of your booked flight is delayed, up to your plan limit, as long as you eventually take the trip. Covered causes are a strike unknown to you, acts of nature, technical failure of the aircraft, or failure of airport facilities. Extra transport, hotel, meals, toiletries and necessary clothing are reimbursed with original invoices (Section 11, p. 25).",
+    "a_tl": "Magbabayad ang Kompanya sa bawat buong 8 oras na naantala ang unang bahagi ng iyong flight, hanggang sa limitang nasa iyong plan, basta't itutuloy mo ang biyahe. Sagot na dahilan ang strike na hindi mo alam, kalamidad, sira ng eroplano, o sira ng pasilidad ng airport. Ire-reimburse ang dagdag na transportasyon, hotel, pagkain, toiletries at kinakailangang damit kapag may orihinal na resibo (Section 11, p. 25).",
+    "a_tg": "Magbabayad ang Company per full 8 hours na delayed ang first leg ng flight mo, up to your plan limit, basta tumuloy ka pa rin sa trip. Covered reasons: strike na hindi mo alam, acts of nature, technical failure ng aircraft, o sira sa airport facility. Reimbursed ang extra transport, hotel, meals, toiletries at clothes basta may original invoices (Section 11, p. 25).",
+    "alt": [
+      "delayed flight 10 hours",
+      "na-delay flight ko sa NAIA",
+      "flight delay compensation",
+      "delayed ng 9 oras ang eroplano"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DEL-02",
+    "topic": "flight_delay",
+    "section": "Section 11 - Flight/Travel Delay",
+    "pages": [
+      25,
+      26
+    ],
+    "q_en": "Is a delay caused by an airline staff strike covered?",
+    "q_tl": "Sagot ba ang delay na dulot ng strike ng mga empleyado ng airline?",
+    "q_tg": "Covered ba kung delayed dahil nag-strike ang airline employees?",
+    "a_en": "No. Delays directly caused by a strike called by airline employees, departure or arrival airport employees, or their subcontractors are excluded, as are strikes the public knew about when you booked. Delays on charter or non-regular flights are also excluded (Section 11, pp. 25-26).",
+    "a_tl": "Hindi. Hindi sagot ang delay na direktang dulot ng strike ng empleyado ng airline, ng airport na pag-aalisan o pupuntahan, o ng kanilang subcontractor, gayundin ang strike na alam na ng publiko noong nag-book ka. Hindi rin sagot ang delay sa charter o hindi regular na flight (Section 11, pp. 25-26).",
+    "a_tg": "Hindi. Excluded ang delay dahil sa strike ng airline employees, airport employees o subcontractors nila, pati strikes na alam na ng public nung nag-book ka. Excluded din ang delays sa charter o non-regular flights (Section 11, pp. 25-26).",
+    "alt": [
+      "airline strike delay",
+      "charter flight delayed covered"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DEL-03",
+    "topic": "flight_delay",
+    "section": "Section 13 - Flight Misconnection",
+    "pages": [
+      26
+    ],
+    "q_en": "I missed my connecting flight because the first flight was delayed. Am I covered?",
+    "q_tl": "Naiwan ako ng connecting flight dahil naantala ang unang flight. Sagot ba ako?",
+    "q_tg": "Na-miss ko yung connecting flight kasi na-delay yung first flight. Covered ba ako?",
+    "a_en": "Yes, under Flight Misconnection, if the delay was caused by a strike unknown to you, acts of nature or mechanical breakdown. The Company reimburses essential items while waiting (clothing, toiletries) and reasonable alternative scheduled transport, with original invoices. You can claim either Flight Delay or Misconnection for the same event, not both (Section 13, p. 26).",
+    "a_tl": "Oo, sa Flight Misconnection, kung ang delay ay dahil sa strike na hindi mo alam, kalamidad o sira ng makina. Ire-reimburse ng Kompanya ang mahahalagang gamit habang naghihintay (damit, toiletries) at makatwirang alternatibong transportasyon, kapag may orihinal na resibo. Isa lang ang maaaring i-claim sa Flight Delay o Misconnection para sa parehong pangyayari (Section 13, p. 26).",
+    "a_tg": "Yes, sa Flight Misconnection, kung ang delay ay dahil sa strike na di mo alam, acts of nature o mechanical breakdown. Ire-reimburse ang essentials habang naghihintay (clothes, toiletries) at reasonable alternative transport, basta may original invoices. Pero isa lang pwede i-claim, Flight Delay o Misconnection, hindi pareho (Section 13, p. 26).",
+    "alt": [
+      "missed connection",
+      "naiwan ng eroplano sa transit",
+      "connecting flight naiwan"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DEL-04",
+    "topic": "flight_delay",
+    "section": "Section 11 - Flight/Travel Delay",
+    "pages": [
+      26
+    ],
+    "q_en": "What proof do I need for a flight delay claim?",
+    "q_tl": "Anong patunay ang kailangan para sa flight delay claim?",
+    "q_tg": "Anong proof ang kailangan sa flight delay claim?",
+    "a_en": "Written confirmation from the airline or transport authority stating the reason and length of the delay, plus original invoices for the extra expenses (Section 11, pp. 25-26). The claim form checklist lists a Certificate from the Airline and an Incident Report.",
+    "a_tl": "Nakasulat na kumpirmasyon mula sa airline o awtoridad sa transportasyon na nagsasaad ng dahilan at haba ng delay, at orihinal na resibo ng dagdag na gastos (Section 11, pp. 25-26). Nakalista rin sa checklist ng claim form ang Certificate from the Airline at Incident Report.",
+    "a_tg": "Written confirmation mula sa airline na nagsasabi ng reason at gaano katagal ang delay, plus original receipts ng extra expenses (Section 11, pp. 25-26). Sa claim form checklist, kailangan ang Certificate from the Airline at Incident Report.",
+    "alt": [
+      "delay certificate airline",
+      "requirements flight delay claim"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DEL-05",
+    "topic": "flight_delay",
+    "section": "Section 12 - Aircraft Skyjacking",
+    "pages": [
+      26
+    ],
+    "q_en": "Is there a benefit if my plane is hijacked?",
+    "q_tl": "May benepisyo ba kung ma-hijack ang eroplano ko?",
+    "q_tg": "May benefit ba kung na-hijack yung eroplano?",
+    "a_en": "Yes. The Aircraft Skyjacking benefit pays the scheduled amount for each 6-hour period (domestic trips) or 12-hour period (international trips) that the hijacking prevents you from reaching the destination, up to the limit and hours in the Policy Schedule (Section 12, p. 26).",
+    "a_tl": "Oo. Ang Aircraft Skyjacking benefit ay nagbabayad ng nakatakdang halaga sa bawat 6 na oras (domestic) o 12 oras (international) na pinipigilan ka ng hijacking na makarating sa destinasyon, hanggang sa limitang nasa Policy Schedule (Section 12, p. 26).",
+    "a_tg": "Yes. Ang Aircraft Skyjacking benefit ay nagbabayad per 6-hour period (domestic) o 12-hour period (international) na hindi ka makarating sa destination dahil sa hijacking, up to the Policy Schedule limit (Section 12, p. 26).",
+    "alt": [
+      "hijack benefit",
+      "skyjacking"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "BAG-01",
+    "topic": "baggage",
+    "section": "Section 14 - Loss or Damage of Baggage",
+    "pages": [
+      26,
+      27
+    ],
+    "q_en": "The airline lost my checked-in luggage. What can I claim?",
+    "q_tl": "Nawala ng airline ang aking checked-in na bagahe. Ano ang maaari kong i-claim?",
+    "q_tg": "Nawala ng airline yung checked-in luggage ko. Ano pwede ko i-claim?",
+    "a_en": "The Company pays only the portion not covered by the airline's own liability limit, up to your Policy Schedule limit. Luggage counts as lost after the period set by the carrier, minimum 21 days. You need a list of contents with estimated price and purchase date, and the airline's settlement. Valuables, money, jewelry, cards and documents are excluded (Section 14, pp. 26-27).",
+    "a_tl": "Babayaran ng Kompanya ang bahaging hindi sagot ng limitasyon ng airline, hanggang sa limitang nasa Policy Schedule. Itinuturing na nawala ang bagahe matapos ang panahong itinakda ng carrier, hindi bababa sa 21 araw. Kailangan ang listahan ng laman na may tantiyang presyo at petsa ng pagbili, at ang bayad ng airline. Hindi sagot ang valuables, pera, alahas, card at dokumento (Section 14, pp. 26-27).",
+    "a_tg": "Ang babayaran ng Company ay yung portion na hindi covered ng airline liability limit, up to your Policy Schedule limit. Considered lost ang luggage after ng period ng carrier, minimum 21 days. Kailangan ng list of contents with estimated price at date of purchase, at yung settlement ng airline. Excluded ang valuables, cash, jewelry, cards at documents (Section 14, pp. 26-27).",
+    "alt": [
+      "lost luggage claim",
+      "nawala maleta ko sa airport",
+      "lost baggage magkano",
+      "hindi dumating maleta 3 weeks na"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "BAG-02",
+    "topic": "baggage",
+    "section": "Section 14 - Robbery of luggage not checked-in",
+    "pages": [
+      27
+    ],
+    "q_en": "My bag was stolen at the hotel. Is it covered?",
+    "q_tl": "Ninakaw ang bag ko sa hotel. Sagot ba ito?",
+    "q_tg": "Nanakaw yung bag ko sa hotel. Covered ba?",
+    "a_en": "Burglary from a hotel room is covered only if the room was locked and there are visible signs of forced entry; robbery means taking by force or threat. You must file a police report within 24 hours listing the items and their value, and send a copy to the Company (Section 14, p. 27). Items left unattended in public places are excluded (p. 30).",
+    "a_tl": "Sagot ang pagnanakaw sa kuwarto ng hotel kung nakakandado ito at may nakikitang palatandaan ng sapilitang pagpasok; ang robbery ay pagkuha gamit ang dahas o pananakot. Kailangang mag-report sa pulis sa loob ng 24 oras, ilista ang mga gamit at halaga, at ipadala ang kopya sa Kompanya (Section 14, p. 27). Hindi sagot ang gamit na iniwang walang bantay sa pampublikong lugar (p. 30).",
+    "a_tg": "Covered ang burglary sa hotel room kung naka-lock ito at may visible signs ng forced entry; ang robbery naman ay pagkuha gamit ang force o threat. Kailangan mag-file ng police report within 24 hours na may list ng items at value, tapos ipadala ang copy sa Company (Section 14, p. 27). Excluded ang items na iniwan nang walang bantay sa public place (p. 30).",
+    "alt": [
+      "nanakawan ako sa abroad",
+      "snatched bag",
+      "pickpocket sa Paris covered"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "BAG-03",
+    "topic": "baggage",
+    "section": "Section 14 - Valuable items",
+    "pages": [
+      27,
+      31
+    ],
+    "q_en": "Are my phone, laptop or camera covered if stolen?",
+    "q_tl": "Sagot ba ang aking cellphone, laptop o camera kung manakaw?",
+    "q_tg": "Covered ba ang phone, laptop o camera ko kung nanakaw?",
+    "a_en": "Valuable items are covered only against total loss by robbery, and only if they were in the hotel safe or you were wearing or carrying them. Cover is up to 50% of the sum insured, or 100% with the optional Valuable Articles cover and premium surcharge (Section 14, p. 27). Mobile phones are excluded under the general baggage exclusions (Exclusion 26, p. 31).",
+    "a_tl": "Ang mahahalagang gamit ay sagot lamang sa kabuuang pagkawala dahil sa robbery, at kung ito ay nasa safe ng hotel o suot o dala mo. Hanggang 50% ng sum insured, o 100% kung may optional Valuable Articles cover at dagdag na premium (Section 14, p. 27). Hindi sagot ang mobile phone sa ilalim ng general baggage exclusions (Exclusion 26, p. 31).",
+    "a_tg": "Ang valuable items ay covered lang sa total loss dahil sa robbery, at kung nasa hotel safe o suot/dala mo. Up to 50% ng sum insured, o 100% kung may optional Valuable Articles cover na may dagdag na premium (Section 14, p. 27). Pero excluded ang mobile phones sa general baggage exclusions (Exclusion 26, p. 31).",
+    "alt": [
+      "iphone nanakaw",
+      "gadgets stolen abroad",
+      "laptop nawala"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "BAG-04",
+    "topic": "baggage",
+    "section": "Section 17 - Baggage Delay",
+    "pages": [
+      28,
+      29
+    ],
+    "q_en": "My luggage didn't arrive with my flight. What can I claim?",
+    "q_tl": "Hindi dumating ang bagahe ko kasabay ng flight. Ano ang maaari kong i-claim?",
+    "q_tg": "Hindi dumating yung luggage ko pagdating ko. Ano pwede i-claim?",
+    "a_en": "Baggage Delay pays for essential clothing and toiletries if your checked-in baggage is delayed more than 6 hours after arrival at the overseas destination, with additional amounts after 24 and 48 hours, up to the Policy Schedule limit. Get written confirmation of the delay from the airline and keep all receipts (Section 17, pp. 28-29).",
+    "a_tl": "Ang Baggage Delay ay nagbabayad ng mahahalagang damit at toiletries kung ang checked-in na bagahe ay naantala nang higit 6 oras mula pagdating sa destinasyon sa ibang bansa, at may dagdag pagkalipas ng 24 at 48 oras, hanggang sa limitang nasa Policy Schedule. Kumuha ng nakasulat na kumpirmasyon mula sa airline at itago ang lahat ng resibo (Section 17, pp. 28-29).",
+    "a_tg": "Ang Baggage Delay ay nagbabayad ng essential clothes at toiletries kung delayed ang checked-in baggage mo ng more than 6 hours pagdating sa overseas destination, may dagdag pa after 24 at 48 hours, up to Policy Schedule limit. Kumuha ng written confirmation ng delay sa airline at itago lahat ng receipts (Section 17, pp. 28-29).",
+    "alt": [
+      "delayed baggage",
+      "late maleta",
+      "bumili ako damit kasi wala pa bagahe"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "BAG-05",
+    "topic": "baggage",
+    "section": "Section 17 - Exclusions",
+    "pages": [
+      29
+    ],
+    "q_en": "Is baggage delay covered on my flight back home?",
+    "q_tl": "Sagot ba ang delay ng bagahe sa pag-uwi ko?",
+    "q_tg": "Covered ba kung na-delay ang luggage ko pauwi na ng Pinas?",
+    "a_en": "No. Baggage delay on the journey back to your normal home is excluded. Also excluded: delays not reported to the airline as soon as you know, purchases made more than 4 days after arrival, and purchases after your baggage is delivered (Section 17 exclusions, p. 29).",
+    "a_tl": "Hindi. Hindi sagot ang delay ng bagahe sa pag-uwi sa iyong tirahan. Hindi rin sagot ang delay na hindi agad inireport sa airline, mga binili pagkalipas ng 4 na araw mula pagdating, at mga binili matapos maibigay ang bagahe (Section 17 exclusions, p. 29).",
+    "a_tg": "Hindi. Excluded ang baggage delay sa pauwi. Excluded din kung hindi agad ni-report sa airline, kung binili mo after 4 days ng arrival, at kung binili after ma-deliver ang baggage (Section 17 exclusions, p. 29).",
+    "alt": [
+      "delayed bagahe sa NAIA pauwi",
+      "inward journey baggage delay"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "BAG-06",
+    "topic": "baggage",
+    "section": "Section 17 - Baggage Delay",
+    "pages": [
+      29
+    ],
+    "q_en": "Can I claim both baggage delay and lost baggage for the same trip?",
+    "q_tl": "Pwede ko bang i-claim pareho ang baggage delay at nawalang bagahe sa iisang biyahe?",
+    "q_tg": "Pwede ba i-claim both baggage delay at lost baggage sa same trip?",
+    "a_en": "No, you cannot claim under both for any one trip. If the baggage turns out to be permanently lost, any baggage delay payment is deducted from the lost baggage claim (Section 17, p. 29; Section 14, p. 27).",
+    "a_tl": "Hindi, hindi maaaring i-claim ang dalawa sa iisang biyahe. Kung tuluyang nawala ang bagahe, ibabawas ang naibayad sa baggage delay mula sa claim sa nawalang bagahe (Section 17, p. 29; Section 14, p. 27).",
+    "a_tg": "Hindi, isa lang pwede per trip. Kung permanently lost pala yung baggage, ibabawas sa lost baggage claim ang naibayad na sa baggage delay (Section 17, p. 29; Section 14, p. 27).",
+    "alt": [
+      "delay then lost luggage",
+      "double claim bagahe"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "BAG-07",
+    "topic": "baggage",
+    "section": "Additional Exclusions Sections 14-17",
+    "pages": [
+      30
+    ],
+    "q_en": "Do I need receipts for the items in my lost luggage?",
+    "q_tl": "Kailangan ko ba ng resibo para sa mga gamit sa nawalang bagahe?",
+    "q_tg": "Kailangan ba ng receipts ng mga gamit sa nawalang maleta?",
+    "a_en": "Yes for expensive items. Any article worth more than USD 200 without official receipts and proof of ownership is not covered, and articles without original receipts may be reduced further. Items not listed in the police or official report are also not covered (Exclusions 14-16, p. 30).",
+    "a_tl": "Oo para sa mamahaling gamit. Hindi sagot ang anumang gamit na higit USD 200 ang halaga kung walang opisyal na resibo at patunay ng pagmamay-ari, at maaaring bawasan pa ang halaga ng gamit na walang orihinal na resibo. Hindi rin sagot ang gamit na hindi nakalista sa police o opisyal na report (Exclusions 14-16, p. 30).",
+    "a_tg": "Yes, lalo na sa mahal na items. Hindi covered ang article na above USD 200 kung walang official receipt at proof of ownership, at pwedeng may extra deduction kung walang original receipt. Hindi rin covered ang items na wala sa police report (Exclusions 14-16, p. 30).",
+    "alt": [
+      "walang resibo yung damit ko",
+      "proof of ownership luggage"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DOC-01",
+    "topic": "money_documents",
+    "section": "Section 16 - Loss of Travel Documents",
+    "pages": [
+      28
+    ],
+    "q_en": "I lost my passport abroad. What does the policy cover?",
+    "q_tl": "Nawala ko ang pasaporte ko sa ibang bansa. Ano ang sagot ng policy?",
+    "q_tg": "Nawala passport ko abroad. Ano ang covered?",
+    "a_en": "The cost to replace your passport, visa or non-refundable traveller's cheques, the travel needed to get the new documents, and accommodation until they are obtained if your trip goes past the planned return date, up to the plan limit. Meals are not included, and the loss must be reported within 24 hours (Section 16, p. 28).",
+    "a_tl": "Ang gastos sa pagpapalit ng pasaporte, visa o traveller's cheque na hindi na maibabalik, ang biyahe para makuha ang bagong dokumento, at tirahan hanggang makuha ito kung lalampas ang biyahe sa nakaplanong pag-uwi, hanggang sa limitang nasa plan. Hindi kasama ang pagkain, at dapat i-report ang pagkawala sa loob ng 24 oras (Section 16, p. 28).",
+    "a_tg": "Covered ang cost ng pag-replace ng passport, visa o non-refundable traveller's cheques, yung travel para makuha ang new documents, at accommodation hanggang makuha kung lumampas ka sa return date, up to plan limit. Hindi kasama ang meals, at dapat ma-report within 24 hours (Section 16, p. 28).",
+    "alt": [
+      "lost passport",
+      "nanakaw passport ko sa Italy",
+      "replacement passport embassy"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "DOC-02",
+    "topic": "money_documents",
+    "section": "Section 15 - Loss of Personal Money",
+    "pages": [
+      28
+    ],
+    "q_en": "Is stolen cash covered?",
+    "q_tl": "Sagot ba ang ninakaw na pera?",
+    "q_tg": "Covered ba kung nanakaw yung cash ko?",
+    "a_en": "Yes, under Loss of Personal Money, if your cash, traveller's cheques, banknotes or credit card are lost or stolen through robbery, burglary or natural disaster while in your care. You must take reasonable care, report to the local police within 24 hours, submit the police documentation and prove ownership (Section 15, p. 28).",
+    "a_tl": "Oo, sa Loss of Personal Money, kung ang iyong cash, traveller's cheque, perang papel o credit card ay nawala o ninakaw dahil sa robbery, burglary o kalamidad habang hawak mo. Dapat ay nag-ingat ka, nag-report sa lokal na pulis sa loob ng 24 oras, nagsumite ng dokumento ng pulis at may patunay ng pagmamay-ari (Section 15, p. 28).",
+    "a_tg": "Yes, under Loss of Personal Money, kung nawala o nanakaw ang cash, traveller's cheques o credit card mo dahil sa robbery, burglary o natural disaster habang hawak mo. Kailangan nag-ingat ka, nag-report sa police within 24 hours, may police documentation at proof of ownership (Section 15, p. 28).",
+    "alt": [
+      "na-holdap ako pera",
+      "wallet stolen cash",
+      "nawala pera ko"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "DOC-03",
+    "topic": "money_documents",
+    "section": "Additional Exclusions Sections 14-17",
+    "pages": [
+      31
+    ],
+    "q_en": "Someone used my stolen credit card. Can I claim the charges?",
+    "q_tl": "May gumamit ng ninakaw kong credit card. Pwede ko bang i-claim ang mga singil?",
+    "q_tg": "May gumamit ng nanakaw kong credit card. Pwede ko ba i-claim yung charges?",
+    "a_en": "No. Claims arising from an unauthorized person fraudulently using your credit or debit card are excluded (Exclusion 27, p. 31). Contact your bank to dispute the charges.",
+    "a_tl": "Hindi. Hindi sagot ang claim na dulot ng mapanlinlang na paggamit ng ibang tao sa iyong credit o debit card (Exclusion 27, p. 31). Makipag-ugnayan sa iyong bangko para i-dispute ang mga singil.",
+    "a_tg": "Hindi. Excluded ang claims dahil sa fraudulent na paggamit ng ibang tao sa credit o debit card mo (Exclusion 27, p. 31). Kontakin mo ang bank mo para i-dispute ang charges.",
+    "alt": [
+      "unauthorized card transactions",
+      "na-hack credit card abroad"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "LIA-01",
+    "topic": "liability_car_rental",
+    "section": "Section 18 - Personal Liability",
+    "pages": [
+      31,
+      32,
+      40
+    ],
+    "q_en": "What if I accidentally injure someone or damage their property abroad?",
+    "q_tl": "Paano kung hindi sinasadyang makasakit ako ng tao o makasira ng ari-arian nila sa ibang bansa?",
+    "q_tg": "Paano kung aksidente akong nakasakit ng tao or nakasira ng gamit nila abroad?",
+    "a_en": "Personal Liability covers your legal liability to a third party for accidental death, bodily injury or property damage, up to the aggregate limit, including approved defence costs, court bail and legal costs. Do not admit fault or promise payment without the Company's written approval (Section 18, pp. 31-32; General Provisions a, p. 40).",
+    "a_tl": "Sinasagot ng Personal Liability ang iyong legal na pananagutan sa ibang tao para sa aksidenteng kamatayan, pinsala sa katawan o pinsala sa ari-arian, hanggang sa aggregate limit, kasama ang aprubadong gastos sa depensa, piyansa at legal na gastos. Huwag umamin ng pagkakamali o mangako ng bayad nang walang nakasulat na pahintulot ng Kompanya (Section 18, pp. 31-32; General Provisions a, p. 40).",
+    "a_tg": "Covered ng Personal Liability ang legal liability mo sa third party para sa accidental death, injury o property damage, up to the aggregate limit, kasama ang approved defense costs, court bail at legal costs. Wag umamin ng fault o mangako ng bayad nang walang written approval ng Company (Section 18, pp. 31-32; General Provisions a, p. 40).",
+    "alt": [
+      "nabangga ko tao",
+      "nakabasag ako sa store",
+      "third party liability"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "LIA-02",
+    "topic": "liability_car_rental",
+    "section": "Section 18 - Exclusions",
+    "pages": [
+      32
+    ],
+    "q_en": "Does personal liability cover accidents while I'm driving a car?",
+    "q_tl": "Sagot ba ng personal liability ang aksidente habang nagmamaneho ako ng kotse?",
+    "q_tg": "Covered ba ng personal liability kung naaksidente ako while driving?",
+    "a_en": "No. Liability from owning, possessing or using vehicles, aircraft, watercraft, firearms or animals, and damage from using motor vehicles, is excluded from Personal Liability (Section 18 exclusions e and g, p. 32). For a rented car, see the Car Rental Protection benefit.",
+    "a_tl": "Hindi. Hindi sagot ng Personal Liability ang pananagutan sa pagmamay-ari o paggamit ng sasakyan, eroplano, bangka, baril o hayop, at pinsala mula sa paggamit ng motor vehicle (Section 18 exclusions e at g, p. 32). Para sa inarkilang kotse, tingnan ang Car Rental Protection benefit.",
+    "a_tg": "Hindi. Excluded sa Personal Liability ang liability dahil sa paggamit ng vehicles, aircraft, watercraft, firearms o animals (Section 18 exclusions e at g, p. 32). Para sa rented car, check ang Car Rental Protection benefit.",
+    "alt": [
+      "car accident liability",
+      "driving abroad liability"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "LIA-03",
+    "topic": "liability_car_rental",
+    "section": "Section 20 - Car Rental Protection",
+    "pages": [
+      33
+    ],
+    "q_en": "Does the policy cover my rental car excess?",
+    "q_tl": "Sagot ba ng policy ang excess o deductible ng inarkilang sasakyan?",
+    "q_tg": "Covered ba yung excess o deductible ng rental car ko?",
+    "a_en": "Yes. Car Rental Protection reimburses the excess or deductible you become legally liable for when the rented vehicle is damaged in an accident, up to PHP 10,000. The car must be from a licensed rental agency, the rental agreement must include comprehensive motor insurance, and you must follow the rental terms (Section 20, p. 33).",
+    "a_tl": "Oo. Ire-reimburse ng Car Rental Protection ang excess o deductible na legal mong babayaran kapag nasira sa aksidente ang inarkilang sasakyan, hanggang PHP 10,000. Dapat galing ito sa lisensyadong rental agency, may comprehensive motor insurance ang kasunduan, at sinunod mo ang mga tuntunin ng rental (Section 20, p. 33).",
+    "a_tg": "Yes. Ire-reimburse ng Car Rental Protection ang excess o deductible na babayaran mo pag nasira sa accident ang rented car, up to PHP 10,000. Dapat licensed rental agency, may comprehensive motor insurance ang rental agreement, at sinunod mo ang rental terms (Section 20, p. 33).",
+    "alt": [
+      "rent a car insurance",
+      "nagasgas ang rental car",
+      "car rental deductible"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "LIA-04",
+    "topic": "liability_car_rental",
+    "section": "Section 20 - Exclusions",
+    "pages": [
+      33,
+      34
+    ],
+    "q_en": "What is not covered under car rental protection?",
+    "q_tl": "Ano ang hindi sagot ng car rental protection?",
+    "q_tg": "Ano yung hindi covered sa car rental protection?",
+    "a_en": "Excluded: driving in violation of the rental agreement or off public roads; wear and tear; claims with no excess or where the excess is waived or recovered; breakdown, misfuelling, in-car equipment or pre-existing damage; driving while intoxicated or on non-prescribed drugs; and loss of use or other consequential losses (Section 20, pp. 33-34).",
+    "a_tl": "Hindi sagot: pagmamaneho na labag sa kasunduan o labas ng pampublikong daan; pagkaluma; claim na walang excess o na-waive o nabawi na; sira ng makina, maling gasolina, kagamitan sa loob ng kotse o dati nang sira; pagmamaneho nang lasing o nasa drogang hindi nireseta; at hindi magamit ang sasakyan o iba pang kasunod na pagkalugi (Section 20, pp. 33-34).",
+    "a_tg": "Excluded: driving na labag sa rental agreement o off-road; wear and tear; claims na walang excess o waived na; breakdown, maling fuel, in-car gadgets o dati nang damage; driving while drunk o naka-drugs; at loss of use o ibang consequential losses (Section 20, pp. 33-34).",
+    "alt": [
+      "mali nalagay na gasolina rental",
+      "rental car exclusions"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EXC-01",
+    "topic": "exclusions",
+    "section": "Definition 49 - Pre-Existing Condition",
+    "pages": [
+      8,
+      9
+    ],
+    "q_en": "What counts as a pre-existing condition?",
+    "q_tl": "Ano ang itinuturing na pre-existing condition?",
+    "q_tg": "Ano yung considered na pre-existing condition?",
+    "a_en": "Any illness or condition affecting you before your coverage started, including anything you got advice or treatment for, that was evident to you, or disclosed in the application. Within the 2-year look-back before purchase, any symptoms, consultation, test, diagnosis or medication change makes it pre-existing. Examples include hypertension, diabetes, asthma, heart disease, kidney disease and cancer (Definition 49, pp. 8-9).",
+    "a_tl": "Anumang sakit o kondisyon na mayroon ka na bago nagsimula ang coverage, kasama ang anumang pinatingnan o pinagamot mo, halata na sa iyo, o idineklara sa application. Sa loob ng 2 taong look-back bago bumili, anumang sintomas, konsulta, test, diagnosis o pagbabago ng gamot ay ginagawa itong pre-existing. Halimbawa: altapresyon, diabetes, hika, sakit sa puso, sakit sa bato at kanser (Definition 49, pp. 8-9).",
+    "a_tg": "Kahit anong illness o condition na meron ka na bago nag-start ang coverage, kasama yung pina-check up o pina-treat mo, obvious na sa'yo, o dineclare sa application. Within the 2-year look-back bago bumili, kung may symptoms, consultation, test, diagnosis o medication change, pre-existing na yun. Examples: hypertension, diabetes, asthma, heart disease, kidney disease at cancer (Definition 49, pp. 8-9).",
+    "alt": [
+      "may high blood ako covered ba",
+      "diabetic ako pwede ba mag claim",
+      "dati ko nang sakit"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EXC-02",
+    "topic": "exclusions",
+    "section": "Definition 39 - Medically Stable",
+    "pages": [
+      7,
+      8
+    ],
+    "q_en": "I have a condition but it is controlled. Can I still be covered?",
+    "q_tl": "May kondisyon ako pero kontrolado. Sagot pa rin ba ako?",
+    "q_tg": "May condition ako pero controlled naman. Covered pa rin ba ako?",
+    "a_en": "Possibly. If you were medically stable for the 2 years before buying the policy (no flare-ups or symptoms needing care, no change in prescribed medicine, no new treatment recommended), the condition is not considered pre-existing, subject to the limits in the Policy Schedule (Definitions 39 and 49, pp. 7-8). Confirm with the Company for your specific case.",
+    "a_tl": "Maaari. Kung ikaw ay medically stable sa loob ng 2 taon bago bumili ng policy (walang pagsumpong o sintomas na kailangang ipagamot, walang pagbabago sa gamot, walang bagong gamutang inirekomenda), hindi ito ituturing na pre-existing, ayon sa limits ng Policy Schedule (Definitions 39 at 49, pp. 7-8). Kumpirmahin sa Kompanya para sa iyong sitwasyon.",
+    "a_tg": "Possible. Kung medically stable ka for 2 years bago bumili ng policy (walang flare-ups, walang change sa meds, walang bagong treatment na ni-recommend), hindi siya considered pre-existing, subject sa Policy Schedule limits (Definitions 39 at 49, pp. 7-8). I-confirm pa rin sa Company para sa case mo.",
+    "alt": [
+      "controlled hypertension covered",
+      "maintenance medicine stable"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EXC-03",
+    "topic": "exclusions",
+    "section": "Definitions 16, 22, 25 - Sports",
+    "pages": [
+      5,
+      6
+    ],
+    "q_en": "Am I covered for scuba diving or bungee jumping?",
+    "q_tl": "Sagot ba ako kung mag-scuba diving o bungee jumping ako?",
+    "q_tg": "Covered ba ako pag nag-scuba diving or bungee jumping?",
+    "a_en": "No. Scuba diving up to 40 m, bungee jumping, parachuting, white water rafting and trekking above 2,500 m are Extra Hazardous Sports, and diving deeper than 40 m is a Dangerous Sport; participation is never covered. Some Hazardous Sports (e.g., off-road biking, canyoning, downhill skiing) may be covered for an extra premium (Definitions 16, 22 and 25, pp. 5-6).",
+    "a_tl": "Hindi. Ang scuba diving hanggang 40 m, bungee jumping, parachuting, white water rafting at trekking na higit 2,500 m ay Extra Hazardous Sports, at ang diving na lampas 40 m ay Dangerous Sport; hindi kailanman sagot ang paglahok dito. Ang ilang Hazardous Sports (hal. off-road biking, canyoning, downhill skiing) ay maaaring sagutin kapag may dagdag na premium (Definitions 16, 22 at 25, pp. 5-6).",
+    "a_tg": "Hindi. Ang scuba diving up to 40 m, bungee jumping, parachuting, white water rafting at trekking above 2,500 m ay Extra Hazardous Sports, at ang diving deeper than 40 m ay Dangerous Sport; never covered. Yung ibang Hazardous Sports (off-road biking, canyoning, downhill skiing) pwede ma-cover with extra premium (Definitions 16, 22 at 25, pp. 5-6).",
+    "alt": [
+      "skydiving covered",
+      "naaksidente sa diving",
+      "adventure sports insurance",
+      "hiking sa Nepal"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EXC-04",
+    "topic": "exclusions",
+    "section": "Additional Exclusions Sections 1-6",
+    "pages": [
+      15,
+      25,
+      35
+    ],
+    "q_en": "Are pregnancy and childbirth covered?",
+    "q_tl": "Sagot ba ang pagbubuntis at panganganak?",
+    "q_tg": "Covered ba ang pregnancy at panganganak?",
+    "a_en": "No. Claims arising from pregnancy or childbirth are excluded from the medical sections, from trip cancellation and curtailment, and under the general exclusions (Exclusion 9, p. 15; Exclusion 18, p. 25; General Exclusion 20, p. 35).",
+    "a_tl": "Hindi. Hindi sagot ang claim na dulot ng pagbubuntis o panganganak sa medical sections, trip cancellation at curtailment, at sa general exclusions (Exclusion 9, p. 15; Exclusion 18, p. 25; General Exclusion 20, p. 35).",
+    "a_tg": "Hindi. Excluded ang claims dahil sa pregnancy o childbirth sa medical sections, trip cancellation at curtailment, at sa general exclusions (Exclusion 9, p. 15; Exclusion 18, p. 25; General Exclusion 20, p. 35).",
+    "alt": [
+      "buntis ako nanganak abroad",
+      "prenatal check up abroad"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "EXC-05",
+    "topic": "exclusions",
+    "section": "Additional Exclusions Sections 1-6",
+    "pages": [
+      15,
+      25
+    ],
+    "q_en": "Is treatment for anxiety, depression or stress covered?",
+    "q_tl": "Sagot ba ang gamutan para sa anxiety, depresyon o stress?",
+    "q_tg": "Covered ba ang treatment sa anxiety o depression?",
+    "a_en": "No. Claims related to psychological or psychiatric disorders, anxiety, depression, or nervous or stress-related disorders are excluded (Exclusion 11, p. 15). Mental or nervous illness is also excluded for trip cancellation and curtailment (Exclusion 14, p. 25).",
+    "a_tl": "Hindi. Hindi sagot ang claim na may kinalaman sa sakit sa pag-iisip, anxiety, depresyon, o kondisyong dulot ng nerbiyos o stress (Exclusion 11, p. 15). Hindi rin sagot ang sakit sa pag-iisip o nerbiyos para sa trip cancellation at curtailment (Exclusion 14, p. 25).",
+    "a_tg": "Hindi. Excluded ang claims related sa psychological o psychiatric disorders, anxiety, depression o stress (Exclusion 11, p. 15). Excluded din ito sa trip cancellation at curtailment (Exclusion 14, p. 25).",
+    "alt": [
+      "panic attack abroad",
+      "mental health covered"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "EXC-06",
+    "topic": "exclusions",
+    "section": "Additional Exclusions Sections 1-6",
+    "pages": [
+      16
+    ],
+    "q_en": "Is dengue or malaria covered?",
+    "q_tl": "Sagot ba ang dengue o malaria?",
+    "q_tg": "Covered ba ang dengue o malaria?",
+    "a_en": "Not if you did not get the recommended vaccinations or take the recommended medication. Costs from tropical diseases such as malaria and dengue are excluded in that case (Exclusion 18, p. 16).",
+    "a_tl": "Hindi, kung hindi ka nagpabakuna o uminom ng inirekomendang gamot. Hindi sagot ang gastos sa tropical diseases gaya ng malaria at dengue sa ganoong kaso (Exclusion 18, p. 16).",
+    "a_tg": "Hindi, kung hindi ka nagpa-vaccine o uminom ng recommended medication. Excluded ang tropical diseases gaya ng malaria at dengue sa ganung case (Exclusion 18, p. 16).",
+    "alt": [
+      "nagka dengue ako sa Thailand",
+      "tropical disease"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EXC-07",
+    "topic": "exclusions",
+    "section": "General Exclusions 3-6",
+    "pages": [
+      34
+    ],
+    "q_en": "Are natural disasters, war or terrorism covered?",
+    "q_tl": "Sagot ba ang kalamidad, digmaan o terorismo?",
+    "q_tg": "Covered ba kung may earthquake, giyera o terrorism?",
+    "a_en": "Generally no. Extraordinary natural phenomena (floods, earthquakes, volcanic eruptions, atypical storms), terrorism, riots, war and military action are excluded for all sections unless a benefit specifically says otherwise. For example, Loss of Personal Money covers cash lost through natural disasters (General Exclusions 3-6, p. 34; Section 15, p. 28).",
+    "a_tl": "Karaniwan ay hindi. Hindi sagot sa lahat ng seksyon ang pambihirang kalamidad (baha, lindol, pagsabog ng bulkan, kakaibang bagyo), terorismo, kaguluhan, digmaan at aksyong militar, maliban kung partikular na sinasabi ng benepisyo. Halimbawa, sagot ng Loss of Personal Money ang perang nawala dahil sa kalamidad (General Exclusions 3-6, p. 34; Section 15, p. 28).",
+    "a_tg": "Generally hindi. Excluded sa lahat ng sections ang extraordinary natural phenomena (flood, earthquake, volcanic eruption, atypical storms), terrorism, riots, war at military action, unless specific benefit ang nagsasabi. Example, covered ng Loss of Personal Money ang cash na nawala dahil sa natural disaster (General Exclusions 3-6, p. 34; Section 15, p. 28).",
+    "alt": [
+      "lindol sa Japan covered",
+      "typhoon cancel flight",
+      "terror attack"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "EXC-08",
+    "topic": "exclusions",
+    "section": "General Exclusion 18",
+    "pages": [
+      35
+    ],
+    "q_en": "What if I travel to a country with a 'Do Not Travel' warning?",
+    "q_tl": "Paano kung bumiyahe ako sa bansang may 'Do Not Travel' warning?",
+    "q_tg": "Paano kung pumunta ako sa country na may Do Not Travel advisory?",
+    "a_en": "Claims from travelling in, to or through a country or area where the Philippine Government issued a 'Do Not Travel' warning are excluded. The exception: if a place on your itinerary is added to the list after your policy was issued and before your trip starts, you may cancel or curtail under Trip Cancellation (General Exclusion 18, p. 35).",
+    "a_tl": "Hindi sagot ang claim mula sa pagbiyahe sa, papunta o dumaan sa bansang may 'Do Not Travel' warning ng Gobyerno ng Pilipinas. Ang eksepsyon: kung naidagdag ang lugar sa iyong itinerary sa listahan matapos maisyu ang policy at bago magsimula ang biyahe, maaari kang magkansela o magpaikli sa ilalim ng Trip Cancellation (General Exclusion 18, p. 35).",
+    "a_tg": "Excluded ang claims kung nag-travel ka sa o through ng country na may 'Do Not Travel' warning ng Philippine Government. Exception: kung na-add sa list ang destination mo after ma-issue ang policy at bago ang trip, pwede ka mag-cancel o curtail under Trip Cancellation (General Exclusion 18, p. 35).",
+    "alt": [
+      "travel ban country",
+      "DFA advisory"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-01",
+    "topic": "eligibility",
+    "section": "Definition 19 - Eligibility",
+    "pages": [
+      5,
+      6
+    ],
+    "q_en": "Who is eligible for Travel Shield?",
+    "q_tl": "Sino ang maaaring kumuha ng Travel Shield?",
+    "q_tg": "Sino ang pwede mag-avail ng Travel Shield?",
+    "a_en": "Residents of the Philippines aged 0 to 99 on the Effective Date. You may also cover a legal spouse or relative who is a Philippine resident aged 18 to 99, and unmarried dependent children aged 0-18 (or up to 21 if full-time students primarily dependent on you) (Definition 19, pp. 5-6). Foreigners officially residing in the Philippines can also be insured (Definition 29, p. 7).",
+    "a_tl": "Mga residente ng Pilipinas na edad 0 hanggang 99 sa Effective Date. Maaari ring isama ang legal na asawa o kamag-anak na residente ng Pilipinas na edad 18 hanggang 99, at mga walang asawang dependent na anak na 0-18 (o hanggang 21 kung full-time na estudyante at umaasa sa iyo) (Definition 19, pp. 5-6). Maaari ring ma-insure ang mga dayuhang opisyal na naninirahan sa Pilipinas (Definition 29, p. 7).",
+    "a_tg": "Philippine residents na 0 to 99 years old sa Effective Date. Pwede ring isama ang legal spouse o relative na PH resident na 18 to 99, at unmarried dependent kids na 0-18 (o up to 21 kung full-time student at dependent sa'yo) (Definition 19, pp. 5-6). Pwede rin ang foreigners na officially residing sa Pilipinas (Definition 29, p. 7).",
+    "alt": [
+      "age limit travel insurance",
+      "senior 80 years old pwede ba",
+      "foreigner living in PH"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-02",
+    "topic": "eligibility",
+    "section": "Effective and Termination Dates",
+    "pages": [
+      11,
+      10
+    ],
+    "q_en": "When does my coverage start and end?",
+    "q_tl": "Kailan nagsisimula at natatapos ang aking coverage?",
+    "q_tg": "Kailan nag-start at nag-end ang coverage ko?",
+    "a_en": "All benefits except Trip Cancellation start 5 hours before your scheduled flight departure and end once you are back home within 5 hours of the actual flight arrival, with no side trips on the way. Single trips are covered up to 180 consecutive days (Effective and Termination Dates, p. 11; Definition 62, p. 10).",
+    "a_tl": "Lahat ng benepisyo maliban sa Trip Cancellation ay nagsisimula 5 oras bago ang nakatakdang alis ng flight at natatapos kapag nakauwi ka na sa loob ng 5 oras mula sa aktwal na pagdating ng flight, nang walang dinaanang ibang lugar. Ang single trip ay sagot hanggang 180 magkakasunod na araw (Effective and Termination Dates, p. 11; Definition 62, p. 10).",
+    "a_tg": "Lahat ng benefits except Trip Cancellation ay nag-start 5 hours bago ang scheduled departure at nag-end pag nakauwi ka na within 5 hours ng actual arrival, walang side trips. Ang single trip ay covered up to 180 consecutive days (Effective and Termination Dates, p. 11; Definition 62, p. 10).",
+    "alt": [
+      "coverage period",
+      "5 hours before flight",
+      "kailan effective ang insurance"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-03",
+    "topic": "eligibility",
+    "section": "Effective and Termination Dates",
+    "pages": [
+      11
+    ],
+    "q_en": "I bought a one-way policy without a return date. How long am I covered?",
+    "q_tl": "Bumili ako ng one-way na policy na walang petsa ng pagbalik. Gaano katagal ako sagot?",
+    "q_tg": "One-way policy binili ko, walang return date. Gaano katagal ako covered?",
+    "a_en": "Only up to 24 hours after passing the immigration point at the airport of your final destination; coverage ends after that. You must declare the actual date and time of departure and arrival (Effective and Termination Dates, p. 11).",
+    "a_tl": "Hanggang 24 oras lamang matapos dumaan sa immigration sa airport ng iyong huling destinasyon; matatapos na ang coverage pagkatapos nito. Kailangan mong ideklara ang aktwal na petsa at oras ng pag-alis at pagdating (Effective and Termination Dates, p. 11).",
+    "a_tg": "Up to 24 hours lang after dumaan sa immigration sa airport ng final destination mo; tapos na ang coverage after nun. Dapat i-declare mo ang actual date at time ng departure at arrival (Effective and Termination Dates, p. 11).",
+    "alt": [
+      "one way ticket insurance",
+      "walang return flight"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-04",
+    "topic": "eligibility",
+    "section": "Limits of Coverage",
+    "pages": [
+      11,
+      12
+    ],
+    "q_en": "Is my child covered if they travel without me?",
+    "q_tl": "Sagot ba ang anak ko kung bumiyahe siya nang hindi ako kasama?",
+    "q_tg": "Covered ba anak ko kung mag-travel siya nang wala ako?",
+    "a_en": "No. For both annual and single trip policies, a dependent child is covered only if accompanied by the insured or the spouse. On annual policies a spouse can travel independently, but on single trip policies the spouse is covered only if the insured also travels to the same destination within the period. There is no premium refund if someone is not covered for this reason (Limits of Coverage, pp. 11-12).",
+    "a_tl": "Hindi. Sa annual at single trip, sagot lamang ang dependent na anak kung kasama ang insured o ang asawa. Sa annual policy, maaaring bumiyahe nang mag-isa ang asawa, pero sa single trip ay sagot lamang siya kung bibiyahe rin ang insured sa parehong destinasyon sa loob ng period. Walang refund ng premium kung hindi sagot ang sinuman dahil dito (Limits of Coverage, pp. 11-12).",
+    "a_tg": "Hindi. Sa annual at single trip, covered lang ang dependent child kung kasama ang insured o spouse. Sa annual, pwede mag-travel mag-isa ang spouse, pero sa single trip covered lang siya kung pupunta rin ang insured sa same destination. Walang premium refund kung hindi covered dahil dito (Limits of Coverage, pp. 11-12).",
+    "alt": [
+      "anak ko mag-isa magtravel",
+      "spouse traveling separately"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-05",
+    "topic": "eligibility",
+    "section": "Definition 23 - Family Policy",
+    "pages": [
+      6
+    ],
+    "q_en": "Who is included in a family policy?",
+    "q_tl": "Sino ang kasama sa family policy?",
+    "q_tg": "Sino ang kasama sa family plan?",
+    "a_en": "The insured plus spouse and up to four dependents or relatives, or the principal insured with five dependents/relatives. Dependents get 100% of the benefit amounts, except Personal Accident where each dependent gets 25% (Definition 23, p. 6).",
+    "a_tl": "Ang insured kasama ang asawa at hanggang apat na dependent o kamag-anak, o ang principal insured kasama ang limang dependent o kamag-anak. Makatatanggap ang mga dependent ng 100% ng benefit amounts, maliban sa Personal Accident kung saan 25% ang bawat dependent (Definition 23, p. 6).",
+    "a_tg": "Ang insured plus spouse at up to 4 dependents o relatives, o principal insured with 5 dependents/relatives. 100% ng benefits ang dependents, except sa Personal Accident na 25% each (Definition 23, p. 6).",
+    "alt": [
+      "family plan ilan tao",
+      "pwede ba isama magulang ko"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-06",
+    "topic": "eligibility",
+    "section": "Geographical Limits",
+    "pages": [
+      6,
+      45
+    ],
+    "q_en": "Where in the world am I covered?",
+    "q_tl": "Saan sa mundo ako sagot?",
+    "q_tg": "Saan-saan ako covered?",
+    "a_en": "Benefits apply 24 hours a day anywhere in the world unless otherwise endorsed or amended (Definition 24, p. 6; Geographical Limits, p. 45). Trips to areas with a Philippine 'Do Not Travel' warning are excluded (p. 35).",
+    "a_tl": "Ang mga benepisyo ay umiiral 24 oras bawat araw saanman sa mundo maliban kung binago ng endorsement (Definition 24, p. 6; Geographical Limits, p. 45). Hindi sagot ang biyahe sa lugar na may 'Do Not Travel' warning ng Pilipinas (p. 35).",
+    "a_tg": "Covered ka 24 hours a day anywhere in the world unless may endorsement na nagbago nito (Definition 24, p. 6; Geographical Limits, p. 45). Excluded ang trips sa areas na may 'Do Not Travel' warning ng Pilipinas (p. 35).",
+    "alt": [
+      "worldwide coverage",
+      "covered ba sa Europe"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ELI-07",
+    "topic": "eligibility",
+    "section": "Definition 17 - Domestic Trip",
+    "pages": [
+      5
+    ],
+    "q_en": "Is a domestic trip within the Philippines covered?",
+    "q_tl": "Sagot ba ang biyahe sa loob ng Pilipinas?",
+    "q_tg": "Covered ba ang domestic trip dito sa Pinas?",
+    "a_en": "Yes, if the destination is at least 100 km from your residence or place of business when travelling by land or sea, or the trip requires at least one round-trip flight. For non-air travel, cover starts when you actually leave your usual residence (Definition 17, p. 5).",
+    "a_tl": "Oo, kung ang destinasyon ay hindi bababa sa 100 km mula sa iyong tirahan o negosyo kapag bumibiyahe sa lupa o dagat, o kung nangangailangan ng kahit isang round-trip na flight. Para sa biyaheng hindi eroplano, nagsisimula ang coverage pag-alis mo sa iyong tirahan (Definition 17, p. 5).",
+    "a_tg": "Yes, kung at least 100 km ang layo ng destination mula sa bahay o business mo pag by land o sea, o kung may at least one round-trip flight. Sa non-air travel, nag-start ang cover pag-alis mo ng bahay (Definition 17, p. 5).",
+    "alt": [
+      "Boracay trip covered",
+      "road trip Baguio insurance",
+      "local travel"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "CLM-01",
+    "topic": "claims",
+    "section": "Notice of Claim or Loss",
+    "pages": [
+      42
+    ],
+    "q_en": "How soon must I notify the insurer of a claim?",
+    "q_tl": "Gaano kabilis ko dapat ipaalam sa insurer ang claim?",
+    "q_tg": "Gaano kabilis dapat ko i-notify ang insurance sa claim ko?",
+    "a_en": "For hospitalization or emergencies, contact the Company immediately, before admission or as soon as reasonably possible. All claims need written or email notice within 30 calendar days from the date of loss, including your name and policy number. Report robbery or theft to the police within 24 hours of discovery (Notice of Claim or Loss, p. 42).",
+    "a_tl": "Para sa pag-ospital o emergency, makipag-ugnayan agad sa Kompanya, bago ma-admit o sa lalong madaling panahon. Lahat ng claim ay kailangang may nakasulat o email na abiso sa loob ng 30 araw mula sa petsa ng pagkawala, kasama ang iyong pangalan at policy number. I-report sa pulis ang robbery o pagnanakaw sa loob ng 24 oras mula nang matuklasan (Notice of Claim or Loss, p. 42).",
+    "a_tg": "Pag hospitalization o emergency, contact agad ang Company, bago ma-admit o ASAP. Lahat ng claims ay kailangan ng written o email notice within 30 calendar days mula sa date of loss, kasama ang name at policy number mo. Ang robbery o theft ay i-report sa police within 24 hours (Notice of Claim or Loss, p. 42).",
+    "alt": [
+      "deadline mag file ng claim",
+      "ilang araw bago mag-notify",
+      "claim notification period"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-02",
+    "topic": "claims",
+    "section": "Proof of Loss",
+    "pages": [
+      42
+    ],
+    "q_en": "What is the deadline to submit my claim documents?",
+    "q_tl": "Hanggang kailan ko dapat isumite ang mga dokumento ng claim?",
+    "q_tg": "Hanggang kailan ang pag-submit ng claim documents?",
+    "a_en": "Written proof of loss (original policy or certificate, original receipts, invoices and other documents) must be submitted within 90 days after the loss. Late proof is still accepted if it was not reasonably possible to submit on time, but never later than 1 year from the date of loss (Proof of Loss, p. 42). The claim form also states the 90-day limit, after which the claim may be deemed abandoned.",
+    "a_tl": "Ang nakasulat na proof of loss (orihinal na policy o certificate, orihinal na resibo, invoice at iba pang dokumento) ay dapat maisumite sa loob ng 90 araw mula sa pagkawala. Tinatanggap pa rin kung hindi talaga posible sa oras, pero hindi lalampas sa 1 taon mula sa petsa ng pagkawala (Proof of Loss, p. 42). Nakasaad din sa claim form ang 90-araw na limitasyon, at pagkatapos nito ay maaaring ituring na abandonado ang claim.",
+    "a_tg": "Ang written proof of loss (original policy o certificate, original receipts, invoices at iba pang docs) ay dapat ma-submit within 90 days after the loss. Tatanggapin pa rin kung talagang hindi kaya on time, pero hindi lalagpas ng 1 year mula sa date of loss (Proof of Loss, p. 42). Sa claim form, after 90 days pwedeng ituring na abandoned ang claim.",
+    "alt": [
+      "90 days claim",
+      "late submission claim",
+      "nakalimutan ko mag-submit"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-03",
+    "topic": "claims",
+    "section": "Claim Form - Compulsory Documents",
+    "pages": [
+      42
+    ],
+    "q_en": "What documents are required for every claim?",
+    "q_tl": "Anong mga dokumento ang kailangan sa bawat claim?",
+    "q_tg": "Ano yung required documents sa lahat ng claims?",
+    "a_en": "Per the Notification of Claim checklist: the duly accomplished Notification of Claim form, a copy of the insurance policy, a request letter for reimbursement, original official receipts of all payments, and a copy of your passport with exit/entry dates. The insurer may request additional documents (Claim Form checklist; Proof of Loss, p. 42).",
+    "a_tl": "Ayon sa checklist ng Notification of Claim: ang nasagutang Notification of Claim form, kopya ng insurance policy, request letter para sa reimbursement, orihinal na opisyal na resibo ng lahat ng bayad, at kopya ng pasaporte na may exit/entry dates. Maaaring humingi ang insurer ng dagdag na dokumento (Claim Form checklist; Proof of Loss, p. 42).",
+    "a_tg": "Base sa Notification of Claim checklist: filled-out Notification of Claim form, copy ng policy, request letter for reimbursement, original official receipts ng lahat ng binayaran, at copy ng passport na may exit/entry stamps. Pwede pa humingi ng additional docs ang insurer (Claim Form checklist; Proof of Loss, p. 42).",
+    "alt": [
+      "requirements claim",
+      "ano kailangan para mag-claim",
+      "checklist ng claim"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-04",
+    "topic": "claims",
+    "section": "Claim Form - Medical documents",
+    "pages": [
+      42
+    ],
+    "q_en": "What extra documents do I need for a medical or hospitalization claim?",
+    "q_tl": "Anong dagdag na dokumento ang kailangan para sa medical o hospitalization claim?",
+    "q_tg": "Anong additional docs ang need sa medical claim?",
+    "a_en": "In addition to the compulsory documents: a medical report with admitting history, clinical/laboratory results, an itemized statement of account, operative or histopathology report if applicable, a registered death certificate if applicable, and a dental report for emergency dental care. The Attending Physician Statement section of the claim form should be completed by the doctor (Claim Form checklist).",
+    "a_tl": "Bukod sa mga compulsory na dokumento: medical report na may admitting history, clinical/laboratory results, itemized na statement of account, operative o histopathology report kung mayroon, rehistradong death certificate kung kailangan, at dental report para sa emergency dental care. Dapat sagutan ng doktor ang Attending Physician Statement sa claim form (Claim Form checklist).",
+    "a_tg": "Bukod sa compulsory docs: medical report with admitting history, lab results, itemized statement of account, operative o histopath report kung meron, death certificate kung applicable, at dental report sa emergency dental. Dapat i-fill out ng doctor ang Attending Physician Statement sa claim form (Claim Form checklist).",
+    "alt": [
+      "hospital claim requirements",
+      "medical certificate needed"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-05",
+    "topic": "claims",
+    "section": "Claim Form - Luggage documents",
+    "pages": [
+      27,
+      42
+    ],
+    "q_en": "What documents do I need for a lost or delayed luggage claim?",
+    "q_tl": "Anong dokumento ang kailangan para sa claim ng nawala o naantalang bagahe?",
+    "q_tg": "Anong docs ang need sa lost o delayed luggage claim?",
+    "a_en": "A Property Irregularity Report (PIR) or Baggage Damage Report from the airline, your incident report, and original receipts of basic necessities you bought, plus the compulsory documents (Claim Form checklist). For theft, add the police report filed within 24 hours (Section 14, p. 27).",
+    "a_tl": "Property Irregularity Report (PIR) o Baggage Damage Report mula sa airline, ang iyong incident report, at orihinal na resibo ng mga pangunahing pangangailangang binili mo, kasama ang compulsory na dokumento (Claim Form checklist). Kung nanakaw, idagdag ang police report na ginawa sa loob ng 24 oras (Section 14, p. 27).",
+    "a_tg": "Property Irregularity Report (PIR) o Baggage Damage Report galing airline, incident report mo, at original receipts ng basic necessities na binili mo, plus compulsory docs (Claim Form checklist). Kung nanakaw, isama ang police report na na-file within 24 hours (Section 14, p. 27).",
+    "alt": [
+      "PIR report",
+      "baggage claim requirements"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-06",
+    "topic": "claims",
+    "section": "Time of Payment of Claim",
+    "pages": [
+      42,
+      43
+    ],
+    "q_en": "How long does it take to get paid after my claim is approved?",
+    "q_tl": "Gaano katagal bago ako mabayaran matapos maaprubahan ang claim?",
+    "q_tg": "Gaano katagal bago ma-release ang bayad sa claim?",
+    "a_en": "Payment is made within 30 days after the Company receives the written proof of loss and the loss amount is agreed. If agreement is not reached within 60 days, the loss is paid within 90 days of receipt. Late payment without a fraud ground earns interest at twice the Monetary Board ceiling (Time of Payment of Claim, pp. 42-43).",
+    "a_tl": "Babayaran sa loob ng 30 araw matapos matanggap ng Kompanya ang nakasulat na proof of loss at magkasundo sa halaga. Kung hindi magkasundo sa loob ng 60 araw, babayaran ang pagkawala sa loob ng 90 araw mula sa pagtanggap. Kapag naantala ang bayad nang walang dahilang pandaraya, may interes na doble sa ceiling ng Monetary Board (Time of Payment of Claim, pp. 42-43).",
+    "a_tg": "Babayaran within 30 days after matanggap ng Company ang proof of loss at ma-agree ang amount. Kung walang agreement within 60 days, babayaran within 90 days of receipt. Kung late ang bayad at hindi dahil sa fraud, may interest na twice the Monetary Board ceiling (Time of Payment of Claim, pp. 42-43).",
+    "alt": [
+      "claim payout time",
+      "kailan ko makukuha bayad",
+      "processing time claim"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-07",
+    "topic": "claims",
+    "section": "To Whom Claims Paid",
+    "pages": [
+      42
+    ],
+    "q_en": "Who receives the claim payment if the insured dies?",
+    "q_tl": "Sino ang tatanggap ng bayad sa claim kung mamatay ang insured?",
+    "q_tg": "Sino ang makakatanggap ng claim kung namatay ang insured?",
+    "a_en": "The designated beneficiary, if not legally disqualified and still living. If none, payment goes in this order: legal spouse, children, parents, brothers and sisters, otherwise the insured's estate (To Whom Claims Paid, p. 42).",
+    "a_tl": "Ang itinalagang beneficiary, kung hindi diskwalipikado at buhay pa. Kung wala, babayaran ayon sa pagkakasunod: legal na asawa, mga anak, mga magulang, mga kapatid, kung wala ay sa estate ng insured (To Whom Claims Paid, p. 42).",
+    "a_tg": "Yung designated beneficiary, kung hindi disqualified at buhay pa. Kung wala, ganito ang order: legal spouse, children, parents, brothers at sisters, otherwise sa estate ng insured (To Whom Claims Paid, p. 42).",
+    "alt": [
+      "beneficiary claim",
+      "sino makakakuha ng pera"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-08",
+    "topic": "claims",
+    "section": "Claim Form - Instructions",
+    "pages": [
+      42
+    ],
+    "q_en": "Does submitting all documents guarantee my claim will be approved?",
+    "q_tl": "Garantiya bang maaaprubahan ang claim ko kung kumpleto ang dokumento?",
+    "q_tg": "Sure na ba ma-approve ang claim ko pag kumpleto docs?",
+    "a_en": "No. The claim form states that submitting the required documents does not guarantee approval; documents are reviewed subject to the limits, terms and conditions of your policy. This chatbot also cannot approve or deny claims (Claim Form instructions; Terms and Conditions, p. 45).",
+    "a_tl": "Hindi. Nakasaad sa claim form na hindi garantiya ng pag-apruba ang pagsusumite ng mga dokumento; susuriin ang mga ito ayon sa limits, tuntunin at kondisyon ng iyong policy. Hindi rin kayang aprubahan o tanggihan ng chatbot na ito ang claim (Claim Form instructions; Terms and Conditions, p. 45).",
+    "a_tg": "Hindi. Sabi sa claim form, hindi guarantee ng approval ang pag-submit ng docs; ire-review pa base sa limits, terms at conditions ng policy mo. Hindi rin kaya ng chatbot na ito na mag-approve o mag-deny ng claim (Claim Form instructions; Terms and Conditions, p. 45).",
+    "alt": [
+      "approved na ba claim ko",
+      "guaranteed claim"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "CLM-09",
+    "topic": "claims",
+    "section": "Cumulative Insurances",
+    "pages": [
+      43,
+      40
+    ],
+    "q_en": "I have another travel insurance. Can I claim from both?",
+    "q_tl": "May iba pa akong travel insurance. Pwede ba akong mag-claim sa dalawa?",
+    "q_tg": "May iba pa akong travel insurance. Pwede ba mag-claim sa pareho?",
+    "a_en": "You must tell the Company about other insurance covering the same risks. Except for Personal Accident, if other valid insurance exists, Travel Shield pays only the excess over what the other insurance pays, less any deductible (Cumulative Insurances, p. 43). You can also only be covered under one Travel Shield policy for the same trip (General Provisions b, p. 40).",
+    "a_tl": "Dapat mong ipaalam sa Kompanya ang iba pang insurance na sumasagot sa parehong panganib. Maliban sa Personal Accident, kung may iba pang balidong insurance, ang sobra lamang sa binayaran ng ibang insurance ang sasagutin ng Travel Shield, bawas ang deductible (Cumulative Insurances, p. 43). Isa lamang na Travel Shield policy ang maaaring sumagot sa iisang biyahe (General Provisions b, p. 40).",
+    "a_tg": "Kailangan mo i-declare sa Company ang ibang insurance na may same coverage. Except sa Personal Accident, kung may ibang valid insurance, yung excess lang sa nabayaran ng other insurance ang babayaran ng Travel Shield, less deductible (Cumulative Insurances, p. 43). Isang Travel Shield policy lang din per trip (General Provisions b, p. 40).",
+    "alt": [
+      "credit card travel insurance din",
+      "double insurance"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-10",
+    "topic": "claims",
+    "section": "Claim Form - Payment",
+    "pages": [
+      41
+    ],
+    "q_en": "How will I receive the money if my claim is approved?",
+    "q_tl": "Paano ko matatanggap ang pera kung maaprubahan ang claim?",
+    "q_tg": "Paano ko makukuha ang pera pag na-approve ang claim?",
+    "a_en": "On the claim form you name the payee for the check, or give bank details for a direct credit to your nominated account. Check is the default for amounts above the threshold on the form, inter-branch crediting costs may be deducted, and a processing fee applies if you give incorrect information. Amounts are computed in Philippine Pesos at the exchange rate when the expense was incurred (Claim Form; Currency, p. 41).",
+    "a_tl": "Sa claim form, ilalagay mo ang pangalan ng payee sa tseke, o ang detalye ng bangko para sa direct credit sa iyong account. Tseke ang default para sa halagang lampas sa threshold sa form, maaaring ibawas ang gastos sa inter-branch crediting, at may processing fee kung mali ang ibinigay mong impormasyon. Kinukuwenta ang halaga sa Philippine Peso gamit ang palitan noong gumastos ka (Claim Form; Currency, p. 41).",
+    "a_tg": "Sa claim form, ilalagay mo ang payee name para sa check, o bank details para sa direct credit sa account mo. Check ang default kung lampas sa threshold sa form, pwedeng ibawas ang inter-branch crediting fee, at may processing fee kung mali ang info na binigay mo. Computed in Philippine Pesos sa exchange rate nung gumastos ka (Claim Form; Currency, p. 41).",
+    "alt": [
+      "bank transfer claim",
+      "check or direct deposit"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "CLM-11",
+    "topic": "claims",
+    "section": "Claim Form",
+    "pages": [
+      42
+    ],
+    "q_en": "I want to file a claim now. Can you help me fill out the form?",
+    "q_tl": "Gusto kong mag-file ng claim ngayon. Matutulungan mo ba akong sagutan ang form?",
+    "q_tg": "Gusto ko na mag-file ng claim. Pwede mo ba ako tulungan mag-fill out ng form?",
+    "a_en": "Yes. Open the Claim Assistant tab: it follows the official Notification of Claim form (insured and claimant information, type of loss, injury or sickness details, official receipts, payee and bank details, declaration), shows the document checklist for your type of loss, and emails the completed form with your attachments to the claims team.",
+    "a_tl": "Oo. Buksan ang Claim Assistant tab: sinusunod nito ang opisyal na Notification of Claim form (impormasyon ng insured at claimant, uri ng pagkawala, detalye ng pinsala o sakit, opisyal na resibo, payee at detalye ng bangko, deklarasyon), ipinapakita ang checklist ng dokumento para sa uri ng iyong claim, at ini-email ang nasagutang form kasama ang mga attachment sa claims team.",
+    "a_tg": "Yes. Punta ka sa Claim Assistant tab: sinusundan nito ang official Notification of Claim form (insured at claimant info, type of loss, injury o sickness details, official receipts, payee at bank details, declaration), pinapakita ang document checklist para sa type of loss mo, at ine-email ang completed form at attachments sa claims team.",
+    "alt": [
+      "file claim",
+      "mag claim na ako",
+      "fill up claim form",
+      "submit claim online"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "ADM-01",
+    "topic": "policy_admin",
+    "section": "Cancellation",
+    "pages": [
+      44
+    ],
+    "q_en": "Can I get a refund if I cancel my trip and policy?",
+    "q_tl": "Makakakuha ba ako ng refund kung kanselahin ko ang biyahe at policy?",
+    "q_tg": "May refund ba kung i-cancel ko ang trip at policy ko?",
+    "a_en": "If you cancel a trip before the policy's effective date or within 30 days after it and notify the Company, the premium paid for that trip is refunded less documentary stamp and premium taxes. For other cancellations by the policyholder, the Company keeps a share of the annual premium: 40% at 2 months, 50% at 3, 60% at 4, 70% at 5, 75% at 6, and 100% after 6 months (Cancellation, p. 44).",
+    "a_tl": "Kung kanselahin mo ang biyahe bago ang effective date o sa loob ng 30 araw matapos ito at ipinaalam sa Kompanya, ibabalik ang premium para sa biyaheng iyon bawas ang documentary stamp at premium taxes. Sa ibang pagkansela ng policyholder, kukunin ng Kompanya ang bahagi ng annual premium: 40% sa 2 buwan, 50% sa 3, 60% sa 4, 70% sa 5, 75% sa 6, at 100% lampas 6 na buwan (Cancellation, p. 44).",
+    "a_tg": "Kung i-cancel mo ang trip bago ang effective date o within 30 days after at in-inform mo ang Company, ire-refund ang premium ng trip na yun minus documentary stamp at premium taxes. Sa ibang cancellation ng policyholder, may retained na percentage ng annual premium: 40% sa 2 months, 50% sa 3, 60% sa 4, 70% sa 5, 75% sa 6, at 100% after 6 months (Cancellation, p. 44).",
+    "alt": [
+      "refund premium",
+      "cancel insurance refund",
+      "ibalik bayad ko sa insurance"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "ADM-02",
+    "topic": "policy_admin",
+    "section": "Free Look Provision",
+    "pages": [
+      46
+    ],
+    "q_en": "Is there a free look period?",
+    "q_tl": "May free look period ba?",
+    "q_tg": "May free look period ba ang policy?",
+    "a_en": "Yes: 15 days for policies effective more than 6 months, and 5 days for policies of 6 months or less but longer than 30 days, with a full premium refund. It does not apply to short-term travel policies of up to 30 days, after the trip has started, if a claim was already made, or to group contracts (Free Look Provision, p. 46).",
+    "a_tl": "Oo: 15 araw para sa policy na higit 6 na buwan, at 5 araw para sa 6 na buwan o mas maikli pero higit 30 araw, na may buong refund ng premium. Hindi ito para sa short-term travel policy na hanggang 30 araw, kapag nagsimula na ang biyahe, kung may claim na, o sa group contract (Free Look Provision, p. 46).",
+    "a_tg": "Yes: 15 days kung more than 6 months ang policy, at 5 days kung 6 months or less pero more than 30 days, full refund ng premium. Hindi applicable sa short-term travel policies na up to 30 days, kung nag-start na ang trip, kung may claim na, o sa group contracts (Free Look Provision, p. 46).",
+    "alt": [
+      "free look",
+      "nagbago isip ko sa insurance"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ADM-03",
+    "topic": "policy_admin",
+    "section": "Premium Payment",
+    "pages": [
+      41
+    ],
+    "q_en": "When does my policy become valid?",
+    "q_tl": "Kailan nagiging balido ang aking policy?",
+    "q_tg": "Kailan nagiging valid ang policy ko?",
+    "a_en": "Only once the premium is paid and the Company issues an official receipt signed by its official or authorized agent (Premium Payment, p. 41). No insurance is in force unless the Policy Schedule or Travel Itinerary Page is signed by an authorized representative (p. 4).",
+    "a_tl": "Kapag nabayaran na ang premium at nag-isyu ang Kompanya ng opisyal na resibo na pinirmahan ng opisyal o awtorisadong ahente (Premium Payment, p. 41). Walang bisa ang insurance hangga't hindi pinipirmahan ng awtorisadong kinatawan ang Policy Schedule o Travel Itinerary Page (p. 4).",
+    "a_tg": "Pag bayad na ang premium at may official receipt na pinirmahan ng official o authorized agent (Premium Payment, p. 41). Walang bisa ang insurance hangga't hindi signed ng authorized representative ang Policy Schedule o Travel Itinerary Page (p. 4).",
+    "alt": [
+      "active na ba policy ko",
+      "effective date policy"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ADM-04",
+    "topic": "policy_admin",
+    "section": "Arbitration and Legal Action",
+    "pages": [
+      46,
+      47
+    ],
+    "q_en": "What can I do if I disagree with the insurer's decision on my claim?",
+    "q_tl": "Ano ang magagawa ko kung hindi ako sang-ayon sa desisyon ng insurer sa aking claim?",
+    "q_tg": "Ano pwede ko gawin kung hindi ako agree sa decision sa claim ko?",
+    "a_en": "Disputes go first to mediation administered by the Insurance Commission or a recognized mediation institution, then to arbitration under the Philippine Dispute Resolution Center rules. Legal action can be filed only 60 days after proof of loss, and not later than 12 months from notice of denial (Arbitration and Legal Action, p. 46). The Insurance Commission can also assist (p. 47).",
+    "a_tl": "Ang hindi pagkakasundo ay dadaan muna sa mediation ng Insurance Commission o kinikilalang mediation institution, bago sa arbitration ayon sa patakaran ng Philippine Dispute Resolution Center. Maaari lamang magsampa ng kaso 60 araw matapos ang proof of loss, at hindi lalampas sa 12 buwan mula sa abiso ng pagtanggi (Arbitration and Legal Action, p. 46). Maaari ring tumulong ang Insurance Commission (p. 47).",
+    "a_tg": "Unahin ang mediation sa Insurance Commission o recognized mediation institution, tapos arbitration under Philippine Dispute Resolution Center rules. Pwede lang mag-file ng legal action after 60 days ng proof of loss, at hindi lalagpas ng 12 months mula sa notice of denial (Arbitration and Legal Action, p. 46). Pwede ring tumulong ang Insurance Commission (p. 47).",
+    "alt": [
+      "denied claim complaint",
+      "reklamo sa insurance commission",
+      "appeal claim denial"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ADM-05",
+    "topic": "policy_admin",
+    "section": "Currency",
+    "pages": [
+      41
+    ],
+    "q_en": "I paid hospital bills in US dollars. In what currency will I be reimbursed?",
+    "q_tl": "Nagbayad ako ng ospital sa US dollar. Sa anong pera ako ire-reimburse?",
+    "q_tg": "Naka-dollars yung binayaran ko sa hospital. Anong currency ang reimbursement?",
+    "a_en": "Amounts are in Philippine Pesos unless your Policy Schedule specifies otherwise. Foreign currency expenses are converted at the exchange rate at the time the expense was incurred or the loss occurred (Currency, p. 41).",
+    "a_tl": "Ang halaga ay nasa Philippine Peso maliban kung iba ang nakasaad sa iyong Policy Schedule. Ang gastos sa dayuhang pera ay kukuwentahin sa palitan noong panahong ginastos o nangyari ang pagkawala (Currency, p. 41).",
+    "a_tg": "Philippine Pesos ang amounts unless iba ang nakalagay sa Policy Schedule mo. Ang foreign currency expenses ay iko-convert sa exchange rate nung time na gumastos ka o nangyari ang loss (Currency, p. 41).",
+    "alt": [
+      "exchange rate reimbursement",
+      "peso or dollar claim"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "ADM-06",
+    "topic": "policy_admin",
+    "section": "Fraudulent Claims",
+    "pages": [
+      45
+    ],
+    "q_en": "What happens if a claim is found to be fraudulent?",
+    "q_tl": "Ano ang mangyayari kung mapatunayang mapanlinlang ang claim?",
+    "q_tg": "Ano mangyayari kung fraudulent ang claim?",
+    "a_en": "The Company has no liability for that claim and may terminate the policy immediately. Any intentional misstatement in the application is also fraud and allows immediate termination (Fraud and Fraudulent Claims, p. 45).",
+    "a_tl": "Walang pananagutan ang Kompanya sa claim na iyon at maaari nitong agad na tapusin ang policy. Ang sinadyang maling pahayag sa application ay pandaraya rin at dahilan para agad itong tapusin (Fraud at Fraudulent Claims, p. 45).",
+    "a_tg": "Walang babayaran ang Company sa claim na yun at pwede nilang i-terminate agad ang policy. Fraud din ang sinadyang maling info sa application at pwede ring i-terminate agad (Fraud at Fraudulent Claims, p. 45).",
+    "alt": [
+      "fake receipt claim",
+      "fraud insurance"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "OPT-01",
+    "topic": "optional_benefits",
+    "section": "Optional Benefit B - Valuable Items",
+    "pages": [
+      39
+    ],
+    "q_en": "Is there optional cover for jewelry, watches or tablets?",
+    "q_tl": "May optional cover ba para sa alahas, relo o tablet?",
+    "q_tg": "May optional cover ba para sa jewelry, watch o tablet?",
+    "a_en": "Yes, the optional Valuable Items Benefit covers jewelry, watches, touchscreen tablets, paintings and cameras up to PHP 50,000 (PHP 10,000 per item), only if shown in your Policy Schedule. Items must be declared when the policy is issued, kept in the hotel safe or worn/carried at the time of loss, and supported by original receipts and proof of ownership (Optional Benefit B, p. 39).",
+    "a_tl": "Oo, ang optional Valuable Items Benefit ay sumasagot sa alahas, relo, touchscreen tablet, painting at camera hanggang PHP 50,000 (PHP 10,000 bawat item), kung nakasaad lamang sa iyong Policy Schedule. Dapat ideklara ang mga ito sa pag-isyu ng policy, nasa safe ng hotel o suot/dala noong nawala, at may orihinal na resibo at patunay ng pagmamay-ari (Optional Benefit B, p. 39).",
+    "a_tg": "Yes, ang optional Valuable Items Benefit ay nagco-cover ng jewelry, watches, tablets, paintings at cameras up to PHP 50,000 (PHP 10,000 per item), kung nasa Policy Schedule mo. Dapat declared sa pag-issue ng policy, nasa hotel safe o suot/dala mo nung nawala, at may original receipts at proof of ownership (Optional Benefit B, p. 39).",
+    "alt": [
+      "rolex insurance travel",
+      "ipad nawala covered",
+      "valuable items add-on"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "OPT-02",
+    "topic": "optional_benefits",
+    "section": "Optional Benefit A - Sports Activities",
+    "pages": [
+      39,
+      11
+    ],
+    "q_en": "Can I buy cover for skiing or sports on my trip?",
+    "q_tl": "Pwede ba akong bumili ng cover para sa skiing o sports sa aking biyahe?",
+    "q_tg": "Pwede ba ako bumili ng add-on para sa skiing or sports?",
+    "a_en": "Yes, the optional Sports Activities Benefit extends only the Section 1 medical benefits to non-professional sports and winter sports, excluding competitive and extra hazardous sports. The first PHP 5,000 (peso policy) or USD 100 (dollar policy) of each occurrence is not paid (Optional Benefit A, p. 39). Skiing, ski jumping and ski mountaineering remain excluded (Definition 68, p. 11).",
+    "a_tl": "Oo, ang optional Sports Activities Benefit ay nagpapalawig lamang ng Section 1 medical benefits sa hindi propesyonal na sports at winter sports, hindi kasama ang competitive at extra hazardous sports. Hindi babayaran ang unang PHP 5,000 (peso policy) o USD 100 (dollar policy) sa bawat pangyayari (Optional Benefit A, p. 39). Nananatiling hindi sagot ang skiing, ski jumping at ski mountaineering (Definition 68, p. 11).",
+    "a_tg": "Yes, ang optional Sports Activities Benefit ay nag-e-extend lang ng Section 1 medical sa non-professional at winter sports, excluding competitive at extra hazardous sports. Hindi babayaran ang first PHP 5,000 (peso policy) o USD 100 (dollar policy) per occurrence (Optional Benefit A, p. 39). Excluded pa rin ang skiing, ski jumping at ski mountaineering (Definition 68, p. 11).",
+    "alt": [
+      "winter sports add on",
+      "snowboarding Japan insurance"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "OPT-03",
+    "topic": "optional_benefits",
+    "section": "Optional Benefit D - Tourist Spots above 2,500 m",
+    "pages": [
+      39
+    ],
+    "q_en": "Am I covered when visiting high-altitude places like Machu Picchu?",
+    "q_tl": "Sagot ba ako kapag bumisita sa matataas na lugar gaya ng Machu Picchu?",
+    "q_tg": "Covered ba ako pag pumunta sa high altitude places like Machu Picchu?",
+    "a_en": "Only with the optional Tourist Spots above 2,500 m benefit, which extends Section 1 medical benefits to places like Cusco and Machu Picchu, excluding travellers aged 60 and above. It must be declared with your itinerary before the trip, and is limited to 10% of your Medical Expense limit (Optional Benefit D, p. 39).",
+    "a_tl": "Kung may optional Tourist Spots above 2,500 m benefit lamang, na nagpapalawig ng Section 1 medical benefits sa mga lugar gaya ng Cusco at Machu Picchu, hindi kasama ang edad 60 pataas. Dapat itong ideklara kasama ang itinerary bago ang biyahe, at hanggang 10% lamang ng iyong Medical Expense limit (Optional Benefit D, p. 39).",
+    "a_tg": "Kung may optional Tourist Spots above 2,500 m benefit ka lang, na nag-e-extend ng Section 1 medical sa places like Cusco at Machu Picchu, excluding ages 60 and above. Dapat i-declare kasama ang itinerary bago ang trip, at up to 10% lang ng Medical Expense limit mo (Optional Benefit D, p. 39).",
+    "alt": [
+      "altitude sickness Peru",
+      "high altitude coverage"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "OPT-04",
+    "topic": "optional_benefits",
+    "section": "Optional Benefit F - Cruise",
+    "pages": [
+      40
+    ],
+    "q_en": "Is a cruise trip covered?",
+    "q_tl": "Sagot ba ang biyahe sa cruise?",
+    "q_tg": "Covered ba ang cruise trip?",
+    "a_en": "With the optional Cruise benefit, Section 1 extends to international cruise programs that start from the Philippines by cruise, or by commercial flight with no side trips to the cruise port. Cruise cancellation, curtailment, delay, cabin baggage loss (21 days to be considered lost), personal accident and liability follow your policy limits. Missed departures due to late arrival at the port are excluded (Optional Benefit F, p. 40).",
+    "a_tl": "Sa optional Cruise benefit, umaabot ang Section 1 sa international cruise program na nagsisimula sa Pilipinas sakay ng cruise, o sa commercial flight nang walang ibang dinaanan papunta sa pantalan. Ang cruise cancellation, curtailment, delay, pagkawala ng bagahe sa cabin (21 araw bago ituring na nawala), personal accident at liability ay ayon sa limits ng iyong policy. Hindi sagot ang naiwang cruise dahil huli kang dumating sa pantalan (Optional Benefit F, p. 40).",
+    "a_tg": "Sa optional Cruise benefit, covered ng Section 1 ang international cruise na nag-start sa Pilipinas by cruise, o by commercial flight na walang side trips papunta sa port. Ang cruise cancellation, curtailment, delay, cabin baggage loss (21 days bago considered lost), personal accident at liability ay base sa policy limits mo. Excluded kung naiwan ka ng cruise dahil late ka dumating sa port (Optional Benefit F, p. 40).",
+    "alt": [
+      "cruise ship insurance",
+      "naiwan ng barko"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "OOS-01",
+    "topic": "out_of_scope",
+    "section": "Policy Schedule",
+    "pages": [
+      4,
+      5
+    ],
+    "q_en": "How much is the exact medical limit of my plan?",
+    "q_tl": "Magkano eksakto ang medical limit ng aking plan?",
+    "q_tg": "Magkano exactly ang medical limit ng plan ko?",
+    "a_en": "The exact benefit amounts are in your own Policy Schedule, Confirmation of Insurance or Certificate of Insurance, which is not part of the general policy wording I have. Please check your Policy Schedule or contact Prudential Guarantee customer care (customercare@prudentialguarantee.com) (Definition 8, p. 5).",
+    "a_tl": "Ang eksaktong halaga ng benepisyo ay nasa iyong sariling Policy Schedule, Confirmation of Insurance o Certificate of Insurance, na hindi kasama sa pangkalahatang policy wording na hawak ko. Pakitingnan ang iyong Policy Schedule o makipag-ugnayan sa customer care ng Prudential Guarantee (customercare@prudentialguarantee.com) (Definition 8, p. 5).",
+    "a_tg": "Nasa sarili mong Policy Schedule, Confirmation of Insurance o Certificate of Insurance ang exact amounts, na wala sa general policy wording na hawak ko. Paki-check ang Policy Schedule mo o contact ang Prudential Guarantee customer care (customercare@prudentialguarantee.com) (Definition 8, p. 5).",
+    "alt": [
+      "magkano max ng plan ko",
+      "benefit limit ko",
+      "how much coverage do I have",
+      "sum insured ko"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "OOS-02",
+    "topic": "out_of_scope",
+    "section": "Not in policy",
+    "pages": [
+      4
+    ],
+    "q_en": "How much does Travel Shield cost?",
+    "q_tl": "Magkano ang Travel Shield?",
+    "q_tg": "Magkano ang premium ng Travel Shield?",
+    "a_en": "Premium prices are not stated in the policy wording, so I can't quote them. Please check Prudential Guarantee's website or an accredited agent or broker for a quote.",
+    "a_tl": "Hindi nakasaad sa policy wording ang presyo ng premium, kaya hindi ko ito maibibigay. Pakitingnan ang website ng Prudential Guarantee o isang accredited na ahente o broker para sa quotation.",
+    "a_tg": "Wala sa policy wording ang premium prices, kaya hindi ko ma-quote. Paki-check ang website ng Prudential Guarantee o accredited agent o broker para sa quote.",
+    "alt": [
+      "price travel insurance",
+      "quotation",
+      "how much is the premium"
+    ],
+    "split": "train"
+  },
+  {
+    "id": "OOS-03",
+    "topic": "out_of_scope",
+    "section": "Not in policy",
+    "pages": [],
+    "q_en": "Which country should I visit for my vacation?",
+    "q_tl": "Anong bansa ang dapat kong bisitahin para sa bakasyon?",
+    "q_tg": "Saan magandang mag-travel for vacation?",
+    "a_en": "I can only answer questions about the Travel Shield policy and help you file a claim. For travel recommendations, please use a travel guide. Ask me anything about your coverage!",
+    "a_tl": "Mga tanong lamang tungkol sa Travel Shield policy ang kaya kong sagutin at tulungan kang mag-file ng claim. Para sa rekomendasyon sa paglalakbay, gumamit ng travel guide. Magtanong ka tungkol sa iyong coverage!",
+    "a_tg": "Travel Shield policy questions at claim filing lang ang kaya kong i-assist. Para sa travel recommendations, mas okay ang travel guide. Tanong ka lang about sa coverage mo!",
+    "alt": [
+      "best food in Tokyo",
+      "weather in Seoul",
+      "recommend hotel",
+      "sino presidente"
+    ],
+    "split": "test"
+  }
+]
