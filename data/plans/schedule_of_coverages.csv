@@ -1,0 +1,22 @@
+benefit,policy_section,topic,claim_loss_type,max_php,limit_text,pages
+Medical and Emergency Expenses Benefit including Follow-up Treatment (including COVID-19 cover),Section 1,medical,Medical Expenses,1000000,"Up to PHP 1,000,000",12;13
+Emergency and Accidental Dental Expenses,Section 2,dental,Medical Expenses,25000,"Up to PHP 25,000",13
+Emergency Medical Evacuation & Repatriation Benefit,Section 3,evacuation,Repatriation Expenses,1000000,"Up to PHP 1,000,000",13;14
+Daily Hospital Confinement Allowance,Section 4,hospital_family,Medical Expenses,20000,"PHP 1,000 per day, maximum of 20 days",14
+Compassionate Visit Benefit,Section 5,hospital_family,,100000,"Up to PHP 100,000",14
+Return of Minor Children Benefit,Section 6,hospital_family,,100000,"Up to PHP 100,000",14
+Personal Accident Benefit,Section 7,personal_accident,Personal Accident,1000000,"Up to PHP 1,000,000",17;18;19
+Accident Burial Benefit,Section 8,personal_accident,,10000,"Up to PHP 10,000",20
+Trip Cancellation Benefit,Section 9,trip_cancellation,Trip Cancellation,75000,"Up to PHP 75,000",22;23
+Trip Curtailment Benefit,Section 10,trip_curtailment,Trip Curtailment,75000,"Up to PHP 75,000",23;24
+Flight/Travel Delay Benefit,Section 11,flight_delay,Flight Delay,16000,"Up to PHP 2,000 per 8 hours, maximum of 64 hours (PHP 16,000)",25;26
+Aircraft Skyjacking Benefit,Section 12,flight_delay,,16000,"Up to PHP 2,000 per 8 hours, maximum of 64 hours (PHP 16,000)",26
+Flight Misconnection,Section 13,flight_delay,,32000,"Up to PHP 4,000 per 8 hours, maximum of 64 hours (PHP 32,000)",26
+Loss or Damage of Baggage and Personal Effects Benefit,Section 14,baggage,Luggage and Personal Effects,50000,"Up to PHP 50,000, subject to PHP 10,000 per item",26;27
+Loss of Personal Money Benefit,Section 15,money_documents,,5000,"Up to PHP 5,000, deductible of PHP 1,000",28
+Loss of Travel Documents Benefit,Section 16,money_documents,,10000,"Up to PHP 10,000",28
+Baggage Delay Benefit,Section 17,baggage,Luggage Delay,10000,"Up to PHP 2,000 after 6 hours; additional PHP 3,000 after 24 hours; additional PHP 5,000 after 48 hours (PHP 10,000 total)",28;29
+Personal Liability Benefit,Section 18,liability_car_rental,,1000000,"Up to PHP 1,000,000",31;32
+Automatic Extension Benefit,Section 19,hospital_family,,,Up to 10 days,33
+Car Rental Protection,Section 20,liability_car_rental,,10000,"Up to PHP 10,000",33
+Condition within the Look Back Period,Definition 49 (Pre-Existing Condition),exclusions,,50000,"Up to PHP 50,000",8;9

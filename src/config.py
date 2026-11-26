@@ -56,8 +56,8 @@ TOPIC_LABELS = {
 
 # Public contact details printed in the policy footer (pp. 1-47).
 INSURER_NAME = "Prudential Guarantee and Assurance, Inc."
-INSURER_PHONES = "(632) 8810-4916 / 8878-3000 / 8651-9500"
-INSURER_EMAIL = "customercare@prudentialguarantee.com"
+INSURER_PHONES = "(632) 1234-5678"#(632) 8810-4916 / 8878-3000 / 8651-9500"
+INSURER_EMAIL = "testmail@gmail.com"#"customercare@prudentialguarantee.com"
 
 for _p in (DATA_PROCESSED, DATA_QA, MODELS, RESULTS, CHARTS):
     _p.mkdir(parents=True, exist_ok=True)

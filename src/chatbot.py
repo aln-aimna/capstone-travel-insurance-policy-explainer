@@ -22,6 +22,7 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 from . import config
 from .glossary import expand_query
 from .language import TAGALOG_WORDS, RuleLanguageDetector
+from .plans import ASSISTANCE_HOTLINE, is_amount_question, load_schedule, rows_for_topic, schedule_text
 from .prompts import PROMPT_VERSION, SYSTEM_PROMPT, build_user_content
 from .retriever import HybridRetriever, bank_frame
 from .topic_classifier import build_topic_model, predict_with_confidence
@@ -98,7 +99,7 @@ def _load_or_train_models(qa: pd.DataFrame):
 
 class PolicyChatbot:
     def __init__(self, api_key: str | None = None, model: str = config.MODEL, k_chunks: int = 5,
-                 history_turns: int = 6, max_tokens: int = 700):
+                 history_turns: int = 6, max_tokens: int = 1500):
         self.qa = pd.read_csv(config.QA_FILE)
         self.retriever = HybridRetriever(qa=bank_frame())
         self.topic_model, self.lang_model = _load_or_train_models(self.qa)
@@ -108,6 +109,11 @@ class PolicyChatbot:
         self._client = None
         self.total_cost = 0.0
         self.last_result: ChatResult | None = None
+        self.schedule = load_schedule()
+        # Some models think before answering, and thinking tokens count against max_tokens. With a small cap
+        # the whole budget can go to thinking and no visible text comes back. As in the sentiment project's
+        # llm.py: ask for thinking to be disabled; if the model rejects that, drop it and allow more tokens.
+        self._thinking_off = True
 
     # ------------------------------------------------------------------ analysis
     @property
@@ -129,6 +135,8 @@ class PolicyChatbot:
     def _guardrail(self, text, info, refs) -> str | None:
         """Answer clear out-of-scope questions straight from the dataset (no API cost)."""
         top = refs[0] if refs else None
+        if top and top["item_id"] == "OOS-01" and not self.schedule.empty:
+            return None                    # "how much is my limit?" -> answered from the Schedule of Coverages
         margin = top["sim"] - refs[1]["sim"] if top and len(refs) > 1 else 0.0
         if top and top["topic"] == "out_of_scope" and (top["sim"] >= 0.45 or
                                                        (info["topic"] == "out_of_scope" and margin >= 0.12)):
@@ -155,7 +163,8 @@ class PolicyChatbot:
         ret = self.retriever.retrieve(text, k=self.k_chunks)
         refs = self._references_in_language(ret.references, info["language"])
         system = SYSTEM_PROMPT.format(language=info["language"], topic=config.TOPIC_LABELS.get(info["topic"], info["topic"]),
-                                      insurer_email=config.INSURER_EMAIL, insurer_phones=config.INSURER_PHONES)
+                                      insurer_email=config.INSURER_EMAIL, insurer_phones=config.INSURER_PHONES,
+                                      hotline=ASSISTANCE_HOTLINE, schedule=schedule_text(self.schedule))
         msgs = []
         for m in (history or [])[-self.history_turns:]:
             if m.get("role") in ("user", "assistant") and m.get("content"):
@@ -172,7 +181,29 @@ class PolicyChatbot:
                           topic_confidence=info["topic_confidence"], mode=mode, chunks=prep["chunks"],
                           references=prep["references"], suggest_claim=info["topic"] == "claims", **kw)
 
+    def schedule_note(self, prep) -> str:
+        """For "how much / magkano" questions: the limits from the Schedule of Coverages for the topic."""
+        if not is_amount_question(prep["question"]):
+            return ""
+        rows = rows_for_topic(prep["info"]["topic"], self.schedule)
+        if rows.empty:
+            top = prep["references"][0]["item_id"] if prep["references"] else ""
+            if prep["info"]["topic"] != "out_of_scope" and top != "OOS-01":
+                return ""
+            rows = self.schedule           # general "what are my limits?" -> whole table
+        head = {"english": "**Your Schedule of Coverages (PHP):**", "tagalog": "**Ayon sa iyong Schedule of Coverages (PHP):**",
+                "taglish": "**Sa Schedule of Coverages mo (PHP):**"}[prep["info"]["language"]]
+        lines = [f"- {r.benefit}: {r.limit_text} [{r.policy_section}]" for r in rows.itertuples()]
+        return head + "\n" + "\n".join(lines) + "\n\n"
+
     def offline_answer(self, prep) -> str:
+        note = self.schedule_note(prep)
+        refs = prep["references"]
+        if note and refs and refs[0]["item_id"] == "OOS-01":
+            return note.rstrip()           # the table is the whole answer
+        return note + self._offline_body(prep)
+
+    def _offline_body(self, prep) -> str:
         """Three tiers, so the customer is not left at a dead end:
         1. confident match      -> the checked reference answer
         2. related matches      -> the 2-3 closest reference answers, each under its question
@@ -202,6 +233,23 @@ class PolicyChatbot:
         tin, tout = usage.input_tokens, usage.output_tokens
         return tin, tout, tin / 1e6 * price["input"] + tout / 1e6 * price["output"]
 
+    def _kwargs(self, prep) -> dict:
+        kw = dict(model=self.model, max_tokens=self.max_tokens, system=prep["system"], messages=prep["messages"])
+        if self._thinking_off:
+            kw["thinking"] = {"type": "disabled"}
+        else:
+            kw["max_tokens"] = max(self.max_tokens, 4000)
+        return kw
+
+    def _thinking_rejected(self, err) -> bool:
+        if self._thinking_off and "thinking" in str(err).lower():
+            self._thinking_off = False
+            return True
+        return False
+
+    def _empty_answer(self, prep) -> str:
+        return self.offline_answer(prep) + "\n\n_(Claude returned no text; showing the reference answer instead.)_"
+
     def answer(self, text: str, history: list | None = None) -> ChatResult:
         """Non-streaming answer (used by scripts and tests)."""
         prep = self.prepare(text, history)
@@ -210,12 +258,17 @@ class PolicyChatbot:
         if not self.online:
             return self._result(prep, self.offline_answer(prep), "offline")
         t0 = time.perf_counter()
-        try:
-            resp = self.client.messages.create(model=self.model, max_tokens=self.max_tokens,
-                                               system=prep["system"], messages=prep["messages"])
-        except Exception as e:                                  # network / key / rate limit
-            return self._result(prep, self.offline_answer(prep) + f"\n\n_(Claude unavailable: {type(e).__name__})_", "error")
+        for _ in range(2):
+            try:
+                resp = self.client.messages.create(**self._kwargs(prep))
+                break
+            except Exception as e:                              # network / key / rate limit
+                if self._thinking_rejected(e):
+                    continue
+                return self._result(prep, self.offline_answer(prep) + f"\n\n_(Claude unavailable: {type(e).__name__})_", "error")
         text_out = "".join(b.text for b in resp.content if b.type == "text").strip()
+        if not text_out:
+            text_out = self._empty_answer(prep)
         tin, tout, cost = self._cost(resp.usage)
         self.total_cost += cost
         return self._result(prep, text_out, "claude", input_tokens=tin, output_tokens=tout, cost_usd=cost,
@@ -233,21 +286,29 @@ class PolicyChatbot:
             return
         t0 = time.perf_counter()
         pieces = []
-        try:
-            with self.client.messages.stream(model=self.model, max_tokens=self.max_tokens,
-                                             system=prep["system"], messages=prep["messages"]) as stream:
-                for piece in stream.text_stream:
-                    pieces.append(piece)
-                    yield piece
-                final = stream.get_final_message()
-            tin, tout, cost = self._cost(final.usage)
-            self.total_cost += cost
-            self.last_result = self._result(prep, "".join(pieces), "claude", input_tokens=tin, output_tokens=tout,
-                                            cost_usd=cost, latency_s=time.perf_counter() - t0)
-        except Exception as e:
-            fallback = self.offline_answer(prep) + f"\n\n_(Claude unavailable: {type(e).__name__})_"
-            self.last_result = self._result(prep, fallback, "error")
-            yield ("\n\n" if pieces else "") + fallback
+        for attempt in range(2):
+            try:
+                with self.client.messages.stream(**self._kwargs(prep)) as stream:
+                    for piece in stream.text_stream:
+                        pieces.append(piece)
+                        yield piece
+                    final = stream.get_final_message()
+                break
+            except Exception as e:
+                if not pieces and self._thinking_rejected(e):
+                    continue
+                fallback = self.offline_answer(prep) + f"\n\n_(Claude unavailable: {type(e).__name__})_"
+                self.last_result = self._result(prep, fallback, "error")
+                yield ("\n\n" if pieces else "") + fallback
+                return
+        text_out = "".join(pieces).strip()
+        if not text_out:
+            text_out = self._empty_answer(prep)
+            yield text_out
+        tin, tout, cost = self._cost(final.usage)
+        self.total_cost += cost
+        self.last_result = self._result(prep, text_out, "claude", input_tokens=tin, output_tokens=tout,
+                                        cost_usd=cost, latency_s=time.perf_counter() - t0)
 
 
 __all__ = ["PolicyChatbot", "ChatResult", "PROMPT_VERSION"]

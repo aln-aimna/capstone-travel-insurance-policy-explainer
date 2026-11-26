@@ -58,6 +58,11 @@ Test sets are small (18-19 items per language), so treat differences of a few po
   [`data/qa/DATASET_CARD.md`](data/qa/DATASET_CARD.md). Files: `policy_qa_dataset.csv` (input → output),
   `classifier_dataset.csv`, `train.jsonl` / `test.jsonl` (chat format for few-shot or fine-tuning).
 * To add or fix an item, edit `data/qa/seed_part*.py` and run `python scripts/build_dataset.py`.
+* `data/plans/schedule_of_coverages.csv` — the **benefit limits** (PHP) from a Travel Shield Certificate of
+  Insurance's *Schedule of Coverages* (amounts only, no personal data). The policy wording says most benefits are paid
+  "up to the amount shown in the Policy Schedule"; this table supplies those amounts. The chatbot quotes them, the
+  sidebar shows them, and the Claim Assistant shows the limit per type of loss and warns when receipts exceed it.
+  For a different plan, replace the numbers in this file.
 
 ## Run it
 
@@ -109,8 +114,8 @@ cached, cost-logged Claude calls from the sentiment project's `src/llm.py`.
 
 ## Limitations & next steps
 
-* Policy wording only. Benefit amounts are in each customer's Policy Schedule; a next step is letting the
-  customer upload their schedule so answers can quote their own limits.
+* One Schedule of Coverages is built in. A next step is letting each customer upload their own Certificate of
+  Insurance so the limits match their plan.
 * The dataset was written by one author; a native-speaker and an underwriter review of the answers is recommended.
 * The claims mailbox receives personal and bank data: use an official, TLS-only mailbox, and in production replace
   e-mail with the insurer's claims API and add authentication.

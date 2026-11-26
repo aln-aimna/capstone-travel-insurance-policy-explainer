@@ -25,6 +25,8 @@ from src.chatbot import PolicyChatbot
 from src.claims import (LOSS_TYPES, POLICY_TIPS, claim_email_bodies, reference_number, render_claim_pdf,
                         required_documents, suggest_loss_types, total_claimed, validate_claim)
 from src.emailer import SMTPSettings, build_message, send
+from src.ingest import load_chunks
+from src.plans import ASSISTANCE_HOTLINE, limit_for_loss_types, load_schedule
 
 st.set_page_config(page_title="Travel Shield Policy Explainer", page_icon="🛡️", layout="wide")
 
@@ -43,6 +45,15 @@ def get_bot(api_key: str, model: str) -> PolicyChatbot:
     return PolicyChatbot(api_key=api_key or None, model=model)
 
 
+EXAMPLES = [
+    "Nawala ng airline yung maleta ko, ano pwede ko i-claim?",
+    "Sagot ba ang COVID-19 kung ma-ospital ako sa Japan?",
+    "My flight was delayed 9 hours. What can I claim?",
+    "Covered ba ako pag nag-scuba diving ako?",
+    "Gaano katagal bago ko dapat i-file ang claim?",
+    "Is a pre-existing condition covered?",
+]
+
 ss = st.session_state
 for k, v in {"messages": [], "meta": [], "pending": None, "claim_desc": "", "loss_types": [],
              "submitted": None}.items():
@@ -53,40 +64,45 @@ with st.sidebar:
     st.markdown("## 🛡️ Travel Shield")
     st.caption("Policy Explainer & Claim Assistant")
     api_key = secret("ANTHROPIC_API_KEY")
-    model = st.selectbox("Claude model", ["claude-haiku-5-5", "claude-sonnet-5-5"], index=0,
-                         help="Haiku is fast and cheap; Sonnet for harder questions.")
+    # model = st.selectbox("Claude model", ["claude-haiku-5-5", "claude-sonnet-5-5"], index=0,
+    #                      help="Haiku is fast and cheap; Sonnet for harder questions.")
+    model = "claude-haiku-5-5"
+    
     bot = get_bot(api_key, model)
     if bot.online:
-        st.success("Claude connected", icon="✅")
+        # st.success("Claude connected", icon="✅")
+        st.success("Online mode", icon="✅")
     else:
-        st.warning("Offline mode: no ANTHROPIC_API_KEY found, so answers come from the checked Q&A dataset only. "
-                   "Put the key in .streamlit/secrets.toml (or .env) and restart to let Claude answer any question.",
-                   icon="📴")
+        # st.warning("Offline mode: no ANTHROPIC_API_KEY found, so answers come from the checked Q&A dataset only. "
+        #            "Put the key in .streamlit/secrets.toml (or .env) and restart to let Claude answer any question.",
+        #            icon="📴")
+        st.warning("Offline mode: no ANTHROPIC_API_KEY found, so answers come from the checked Q&A dataset only. ",
+                    icon="📴")
+    st.caption(f"Model: {model}")
     st.metric("API cost this session", f"${bot.total_cost:.4f}")
-    st.divider()
-    st.markdown("**🚨 Emergency abroad?**")
-    st.caption("Call the emergency hotline in your Policy Schedule first. "
-               f"Head office: {config.INSURER_PHONES} · {config.INSURER_EMAIL}")
     st.divider()
     st.caption("Ask in **English, Tagalog or Taglish**. Answers explain the policy wording only; "
                "the insurer's claims team decides every claim.")
+    with st.expander("💡 Example questions"):
+        for i, ex in enumerate(EXAMPLES):
+            if st.button(ex, key=f"side_ex{i}", use_container_width=True):
+                ss.pending = ex
+                st.rerun()
     if st.button("Clear chat", use_container_width=True):
         ss.messages, ss.meta = [], []
         st.rerun()
 
+    st.markdown("**🚨 Emergency abroad?**")
+    st.caption(f"Call the 24-hour travel assistance hotline first: **{ASSISTANCE_HOTLINE}**. "
+               "For medical, dental and accident cases, not calling can lead to a denied claim. "
+               f"Head office: {config.INSURER_PHONES} · {config.INSURER_EMAIL}")
 st.title("🛡️ Travel Shield Policy Explainer")
-tab_chat, tab_claim, tab_insights = st.tabs(["💬 Ask about your policy", "📝 Claim Assistant", "📊 Insights"])
+# Remove Insights as not part of scope of the system
+# tab_chat, tab_claim, tab_insights = st.tabs(["💬 Ask about your policy", "📝 Claim Assistant", "📊 Insights"])
+tab_chat, tab_claim, tab_cov, tab_policy = st.tabs(["💬 Ask about your policy", "📝 Claim Assistant", "📋 Coverages", "📄 Policy"])
 
 # ----------------------------------------------------------------------------- chat
 MODE_BADGE = {"claude": "🤖 Claude", "offline": "📚 reference answer", "guardrail": "🛑 out of scope", "error": "⚠️ fallback"}
-EXAMPLES = [
-    "Nawala ng airline yung maleta ko, ano pwede ko i-claim?",
-    "Sagot ba ang COVID-19 kung ma-ospital ako sa Japan?",
-    "My flight was delayed 9 hours. What can I claim?",
-    "Covered ba ako pag nag-scuba diving ako?",
-    "Gaano katagal bago ko dapat i-file ang claim?",
-    "Is a pre-existing condition covered?",
-]
 
 
 def show_sources(meta):
@@ -102,40 +118,46 @@ def show_sources(meta):
 
 
 with tab_chat:
-    if not ss.messages:
-        st.info("Kumusta! Ask me anything about your Travel Shield coverage, in English, Tagalog or Taglish.", icon="👋")
-        cols = st.columns(3)
-        for i, ex in enumerate(EXAMPLES):
-            if cols[i % 3].button(ex, key=f"ex{i}", use_container_width=True):
-                ss.pending = ex
-                st.rerun()
-
-    for msg, meta in zip(ss.messages, ss.meta):
-        with st.chat_message(msg["role"], avatar="🛡️" if msg["role"] == "assistant" else None):
-            st.markdown(msg["content"])
-            if msg["role"] == "assistant":
-                show_sources(meta)
-
+    # The conversation is drawn into this container, which sits ABOVE the input box. The input is read
+    # first (so we know whether a question is coming) and the messages are written into the container
+    # afterwards, so the box always stays under the latest answer.
+    chat_area = st.container()
     prompt = st.chat_input("Itanong ang tungkol sa iyong policy / Ask about your policy...")
     if ss.pending and not prompt:
         prompt, ss.pending = ss.pending, None
-    if prompt:
-        history = list(ss.messages)
-        ss.messages.append({"role": "user", "content": prompt})
-        ss.meta.append(None)
-        with st.chat_message("user"):
-            st.markdown(prompt)
-        with st.chat_message("assistant", avatar="🛡️"):
-            answer = st.write_stream(bot.answer_stream(prompt, history))
-            result = bot.last_result.to_dict()
-            show_sources(result)
-            wants_claim = any(w in prompt.lower() for w in ("claim", "file", "reimburse", "i-claim", "mag-claim"))
-            if result["suggest_claim"] or (wants_claim and result["topic"] in config.TOPICS[:12]):
-                st.info("Ready to file? Open the **📝 Claim Assistant** tab: your description is already filled in.", icon="📝")
-                ss.claim_desc = prompt
-                ss.loss_types = suggest_loss_types(prompt, result["topic"])
-        ss.messages.append({"role": "assistant", "content": answer if isinstance(answer, str) else result["answer"]})
-        ss.meta.append(result)
+
+    with chat_area:
+        if not ss.messages and not prompt:
+            st.info("Kumusta! Ask me anything about your Travel Shield coverage, in English, Tagalog or Taglish.", icon="👋")
+            cols = st.columns(3)
+            for i, ex in enumerate(EXAMPLES):
+                if cols[i % 3].button(ex, key=f"ex{i}", use_container_width=True):
+                    ss.pending = ex
+                    st.rerun()
+
+        for msg, meta in zip(ss.messages, ss.meta):
+            with st.chat_message(msg["role"], avatar="🛡️" if msg["role"] == "assistant" else None):
+                st.markdown(msg["content"])
+                if msg["role"] == "assistant":
+                    show_sources(meta)
+
+        if prompt:
+            history = list(ss.messages)
+            ss.messages.append({"role": "user", "content": prompt})
+            ss.meta.append(None)
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            with st.chat_message("assistant", avatar="🛡️"):
+                answer = st.write_stream(bot.answer_stream(prompt, history))
+                result = bot.last_result.to_dict()
+                show_sources(result)
+                wants_claim = any(w in prompt.lower() for w in ("claim", "file", "reimburse", "i-claim", "mag-claim"))
+                if result["suggest_claim"] or (wants_claim and result["topic"] in config.TOPICS[:12]):
+                    st.info("Ready to file? Open the **📝 Claim Assistant** tab: your description is already filled in.", icon="📝")
+                    ss.claim_desc = prompt
+                    ss.loss_types = suggest_loss_types(prompt, result["topic"])
+            ss.messages.append({"role": "assistant", "content": result["answer"] or (answer if isinstance(answer, str) else "")})
+            ss.meta.append(result)
 
 # ----------------------------------------------------------------------------- claim assistant
 with tab_claim:
@@ -182,9 +204,12 @@ with tab_claim:
             st.rerun()
         loss_types = st.multiselect("Type of loss *", LOSS_TYPES, default=[t for t in ss.loss_types if t in LOSS_TYPES])
         loss_other = st.text_input("Others (please specify)") if "Others" in loss_types else ""
+        limits = limit_for_loss_types(loss_types)
         for lt in loss_types:
-            if lt in POLICY_TIPS:
-                st.caption(f"ℹ️ **{lt}:** {POLICY_TIPS[lt]}")
+            lim = next((x for x in limits if x["loss_type"] == lt), None)
+            tip = POLICY_TIPS.get(lt, "")
+            if lim or tip:
+                st.caption(f"ℹ️ **{lt}:** " + (f"limit {lim['limit_text']} ({lim['section']}). " if lim else "") + tip)
 
     with st.expander("4 · Details of injury, sickness or incident", expanded=True):
         c1, c2 = st.columns(2)
@@ -230,6 +255,11 @@ with tab_claim:
                            "amount": st.column_config.NumberColumn("Amount", min_value=0.0, format="%.2f")})
         receipts = receipts_df.fillna("").to_dict("records")
         st.metric("Total amount claimed", f"{total_claimed({'receipts': receipts}):,.2f}")
+        php_total = sum(float(r.get("amount") or 0) for r in receipts if r.get("currency") == "PHP")
+        cap = sum(x["max_php"] for x in limit_for_loss_types(loss_types))
+        if cap and php_total > cap:
+            st.warning(f"The PHP receipts total {php_total:,.2f}, above the PHP {cap:,.0f} maximum in your Schedule of Coverages "
+                       "for the selected type(s) of loss. You can still submit; the insurer pays at most the limit.", icon="⚠️")
         total_words = st.text_input("Total amount claimed in words (optional)")
         if len({r.get('currency') for r in receipts if float(r.get('amount') or 0) > 0}) > 1:
             st.caption("Mixed currencies: the insurer converts at the rate on the date of each expense (Currency, p. 41).")
@@ -318,27 +348,115 @@ with tab_claim:
                         st.error(f"Could not send the e-mail: {type(e).__name__}: {e}. Your PDF is ready to download above.")
 
 # ----------------------------------------------------------------------------- insights
-with tab_insights:
-    st.subheader("Model evaluation (held-out test set)")
-    mfile = config.RESULTS / "metrics.json"
-    if mfile.exists():
-        m = json.loads(mfile.read_text())
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Language ID accuracy", f"{m['language']['ml']['accuracy']:.0%}")
-        c2.metric("Topic accuracy (unseen items)", f"{m['topic']['logreg_weak']['accuracy']:.0%}")
-        c3.metric("Retrieval Hit@3 (unseen questions)", f"{m['retrieval']['unseen']['full']['hit@3']:.0%}")
-        c4.metric("Retrieval Hit@3 (FAQ paraphrases)", f"{m['retrieval']['paraphrase']['full']['hit@3']:.0%}")
-        for img in ["retrieval_ablation.png", "topic_by_language.png", "language_confusion.png"]:
-            p = config.CHARTS / img
-            if p.exists():
-                st.image(str(p), use_container_width=True)
+# with tab_insights:
+#     st.subheader("Model evaluation (held-out test set)")
+#     mfile = config.RESULTS / "metrics.json"
+#     if mfile.exists():
+#         m = json.loads(mfile.read_text())
+#         c1, c2, c3, c4 = st.columns(4)
+#         c1.metric("Language ID accuracy", f"{m['language']['ml']['accuracy']:.0%}")
+#         c2.metric("Topic accuracy (unseen items)", f"{m['topic']['logreg_weak']['accuracy']:.0%}")
+#         c3.metric("Retrieval Hit@3 (unseen questions)", f"{m['retrieval']['unseen']['full']['hit@3']:.0%}")
+#         c4.metric("Retrieval Hit@3 (FAQ paraphrases)", f"{m['retrieval']['paraphrase']['full']['hit@3']:.0%}")
+#         for img in ["retrieval_ablation.png", "topic_by_language.png", "language_confusion.png"]:
+#             p = config.CHARTS / img
+#             if p.exists():
+#                 st.image(str(p), use_container_width=True)
+#     else:
+#         st.info("Run `python scripts/evaluate.py` to generate the metrics.")
+#     st.subheader("This session")
+#     asked = [m for m in ss.meta if m]
+#     if asked:
+#         c1, c2 = st.columns(2)
+#         c1.bar_chart(pd.Series(Counter(config.TOPIC_LABELS[m["topic"]] for m in asked)), horizontal=True)
+#         c2.bar_chart(pd.Series(Counter(m["language"] for m in asked)))
+#     else:
+#         st.caption("Ask a few questions to see topics and languages here.")
+
+# ----------------------------------------------------------------------------- coverages
+with tab_cov:
+    st.subheader(" Coverage Limits")
+    st.caption("Maximum amounts per benefit, in Philippine Pesos, from the Certificate of Insurance. "
+               "These are limits, not guaranteed payouts: every claim is still subject to the policy's terms, "
+               "conditions and exclusions.")
+    sched = load_schedule()
+    search = st.text_input("Search a benefit", placeholder="e.g. baggage, dental, flight delay")
+    view = sched
+    if search.strip():
+        view = sched[sched["benefit"].str.contains(search.strip(), case=False, na=False)]
+    st.dataframe(
+        view[["benefit", "limit_text", "policy_section"]].rename(columns={
+            "benefit": "Benefit", "limit_text": "Sum insured (PHP)", "policy_section": "Policy section"}),
+        hide_index=True, use_container_width=True, height=min(38 * (len(view) + 1) + 4, 800))
+    if view.empty:
+        st.info("No benefit matches that search.")
+    st.info(f"🚨 Medical, dental or accident case abroad? Call the 24-hour assistance hotline first: "
+            f"**{ASSISTANCE_HOTLINE}**. Not calling can lead to a denied claim.")
+
+# ----------------------------------------------------------------------------- full policy
+import re as _re
+
+
+@st.cache_data(show_spinner=False)
+def policy_sections() -> list[dict]:
+    """Group the section-tagged chunks into sections (in page order) and merge them into readable text.
+    Chunks overlap by ~150 characters, so the repeated start of each chunk is trimmed."""
+    sections = []
+    for c in load_chunks():
+        if not sections or sections[-1]["section"] != c["section"]:
+            sections.append({"section": c["section"], "pages": [], "text": ""})
+        sec = sections[-1]
+        if c["page"] not in sec["pages"]:
+            sec["pages"].append(c["page"])
+        prev, nxt = sec["text"], c["text"]
+        cut = 0
+        for n in range(min(len(prev), len(nxt), 300), 20, -1):     # longest overlap of prev-end / next-start
+            if prev.endswith(nxt[:n]):
+                cut = n
+                break
+        sec["text"] = (prev + ("\n" if prev and not cut else "") + nxt[cut:]).strip()
+    return sections
+
+
+def page_label(pages):
+    return f"p. {pages[0]}" if len(pages) == 1 else f"pp. {pages[0]}-{pages[-1]}"
+
+
+def highlight(text: str, query: str) -> str:
+    safe = _re.sub(r"([*_`#>\[\]])", r"\\\1", text).replace("\n", "  \n")
+    for w in sorted({w for w in _re.findall(r"[A-Za-z]{3,}", query)}, key=len, reverse=True):
+        safe = _re.sub(rf"(?i)\b({_re.escape(w)}\w*)", r"**\1**", safe)
+    return safe
+
+
+with tab_policy:
+    st.subheader("Travel Shield Insurance Policy")
+    c1, c2 = st.columns([3, 1])
+    c1.caption("The full policy wording, including the COVID-19 Endorsement (47 pages). "
+               "Tip: for a plain-language answer, ask in the 💬 chat tab instead.")
+    if config.POLICY_PDF.exists():
+        c2.download_button("⬇️ Download full policy (PDF)", config.POLICY_PDF.read_bytes(),
+                           file_name="Travel-Shield-ePolicy.pdf", mime="application/pdf", use_container_width=True)
+    sections = policy_sections()
+    mode = st.radio("View", ["🔎 Search", "📚 Browse by section"], horizontal=True, label_visibility="collapsed")
+    if mode == "🔎 Search":
+        q = st.text_input("Search the policy (English, Tagalog or Taglish)",
+                          placeholder="e.g. baggage delay, pre-existing, nawala ang pasaporte")
+        if q.strip():
+            hits = bot.retriever.retrieve(q, k=8).chunks
+            if not hits:
+                st.info("No matching clause found. Try other words, or ask in the chat tab.")
+            for h in hits:
+                with st.container(border=True):
+                    st.markdown(f"**{h['section']}** · p. {h['page']}")
+                    st.markdown(highlight(h["text"], q))
+        else:
+            st.caption("Type a word or a question; the most relevant clauses appear here with their page numbers.")
     else:
-        st.info("Run `python scripts/evaluate.py` to generate the metrics.")
-    st.subheader("This session")
-    asked = [m for m in ss.meta if m]
-    if asked:
-        c1, c2 = st.columns(2)
-        c1.bar_chart(pd.Series(Counter(config.TOPIC_LABELS[m["topic"]] for m in asked)), horizontal=True)
-        c2.bar_chart(pd.Series(Counter(m["language"] for m in asked)))
-    else:
-        st.caption("Ask a few questions to see topics and languages here.")
+        labels = [f"{s['section']}  ({page_label(s['pages'])})" for s in sections]
+        pick = st.selectbox("Section", range(len(sections)), format_func=lambda i: labels[i])
+        sec = sections[pick]
+        st.markdown(f"#### {sec['section']}")
+        st.caption(page_label(sec["pages"]))
+        with st.container(border=True, height=520):
+            st.markdown(highlight(sec["text"], ""))
