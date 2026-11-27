@@ -78,8 +78,8 @@ with st.sidebar:
         #            icon="📴")
         st.warning("Offline mode: no ANTHROPIC_API_KEY found, so answers come from the checked Q&A dataset only. ",
                     icon="📴")
-    st.caption(f"Model: {model}")
-    st.metric("API cost this session", f"${bot.total_cost:.4f}")
+    # st.caption(f"Model: {model}")
+    # st.metric("API cost this session", f"${bot.total_cost:.4f}")
     st.divider()
     st.caption("Ask in **English, Tagalog or Taglish**. Answers explain the policy wording only; "
                "the insurer's claims team decides every claim.")
@@ -91,7 +91,7 @@ with st.sidebar:
     if st.button("Clear chat", use_container_width=True):
         ss.messages, ss.meta = [], []
         st.rerun()
-
+    st.divider()
     st.markdown("**🚨 Emergency abroad?**")
     st.caption(f"Call the 24-hour travel assistance hotline first: **{ASSISTANCE_HOTLINE}**. "
                "For medical, dental and accident cases, not calling can lead to a denied claim. "
